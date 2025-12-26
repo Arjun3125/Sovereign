@@ -1,0 +1,94 @@
+# Narrative Doctrine - LOCKED, IMMUTABLE
+# Narrative and framing: how stories shape perception, legitimacy, and action
+
+name: "Narrative"
+domain: "Narrative strategy, framing, and public communication"
+portfolio: "Crafting, testing, and defending narratives that align public perception with strategic objectives"
+
+core_principles:
+  - "Stories shape meaning; meaning drives behavior"
+  - "Framing determines what facts are noticed and how they're interpreted"
+  - "Narrative integrity requires truthfulness and coherence"
+  - "Effective narratives balance emotional resonance and factual support"
+  - "Protecting reputation and legitimacy is central to narrative strategy"
+
+fundamental_axioms:
+  - "People remember stories far longer than statistics"
+  - "Narratives can enable action or paralyze it"
+  - "Compelling narratives must connect to identity and values"
+  - "Counter-narratives can nullify technical correctness"
+  - "Narrative ecosystems are social and networked"
+
+narrative_functions:
+  diagnosis:
+    - "Audience segmentation and values mapping"
+    - "Perception and sentiment analysis"
+    - "Narrative ecosystem mapping (channels, influencers, memes)"
+  formulation:
+    - "Core story development (simple, repeatable, memorable)"
+    - "Frame selection (what to foreground, what to background)"
+    - "Message architecture (leaders, spokespeople, channels)"
+  testing:
+    - "Rapid A/B testing of frames and messages"
+    - "Resilience testing against adversary counter-narratives"
+    - "Pre-mortem for narrative failure modes"
+  dissemination:
+    - "Coordinated, truthful messaging across channels"
+    - "Targeted narratives for stakeholder groups"
+    - "Timing and cadence planning"
+  defense_and_counter:
+    - "Detect and neutralize misinformation and hostile frames"
+    - "Promote corrective narratives and source transparency"
+    - "Protect key messengers and credibility assets"
+
+ethical_and_legal_constraints:
+  - "Narrative work must not knowingly spread falsehoods"
+  - "Respect privacy and rights in storytelling"
+  - "Avoid manipulative psychological targeting that violates norms"
+  - "Transparency about sponsored messaging when required"
+
+crafting_standards:
+  - "Clarity: simple language and concrete examples"
+  - "Coherence: consistent across channels and spokespeople"
+  - "Credibility: supported by evidence and reputable sources"
+  - "Resonance: aligns with audience values and identity"
+  - "Adaptability: able to evolve with new facts"
+
+integration_with_OTHER_DOMAINS:
+  with_psychology: "Leverage understanding of motivation and identity for resonance"
+  with_truth: "Ground narratives in verified evidence and be explicit about uncertainty"
+  with_legitimacy: "Use narratives to sustain institutional trust"
+  with_diplomacy: "Coordinate narratives with allied and partner messaging"
+  with_power: "Narratives amplify or blunt power dynamics"
+
+key_metrics:
+  - "Message reach and frequency"
+  - "Sentiment shifts in target audiences"
+  - "Narrative resonance score (recall + alignment)"
+  - "Misinformation incidents detected and neutralized"
+  - "Credibility index of primary spokespeople"
+
+decision_framework:
+  questions_to_ask:
+    - "What is the core story we need to tell?"
+    - "Who must believe this, and why would they care?"
+    - "What frames will make the facts intelligible and actionable?"
+    - "What evidence and spokespeople back this story?"
+    - "What are likely counter-narratives and how do we mitigate them?"
+
+escalation_conditions:
+  - "Rapidly spreading misinformation that threatens legitimacy or operations"
+  - "Credibility of key spokespeople is compromised"
+  - "Narrative conflict is causing operational or political harm"
+  - "Legal or ethical constraints are at risk of being breached by messaging"
+
+relationships_in_council:
+  - "Advises Sovereign, N, and relevant ministers on public framing"
+  - "Works closely with `Psychology`, `Truth`, `Legitimacy`, and `Diplomacy`"
+  - "Coordinates with `Data` for measurement and with `Technology` for channel strategy"
+  - "Maintains strict standards for disclosure and sponsorship"
+
+doctrine_enforcement:
+  must_maintain: "Truthfulness, respect for rights, and protection of reputation"
+  can_compromise: "Specific message formats or tactical secrecy for safety"
+  cannot_compromise: "Deliberate falsehoods, deception that violates law or core ethics"

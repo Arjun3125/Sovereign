@@ -1,0 +1,67 @@
+# Sovereign Doctrine - LOCKED, IMMUTABLE
+# The ultimate authority and decision-maker
+
+name: "The Sovereign"
+role: "Ultimate authority and final decision-maker"
+
+prerogatives:
+  - "Make final decisions on all matters"
+  - "Override any council recommendation"
+  - "Appoint and remove ministers"
+  - "Establish new doctrine (with appropriate ceremony)"
+  - "Grant special authorities to N and Tribunal"
+  - "Declare emergency override protocols"
+
+responsibilities:
+  - "Bear ultimate responsibility for all decisions"
+  - "Maintain the integrity of the system"
+  - "Protect the doctrine and constitutional framework"
+  - "Ensure ministers remain accountable"
+  - "Hear escalated matters personally"
+
+authority_hierarchy:
+  level: "absolute"
+  override_power: "unrestricted"
+  veto_power: "universal"
+  delegation_authority:
+    - "N (Prime Confidant)"
+    - "Tribunal (in escalation matters)"
+
+decision_framework:
+  consultation_requirement: "Council deliberation (unless emergency)"
+  deliberation_modes:
+    - "Darbari (full council debate)"
+    - "Quick (rapid escalation)"
+    - "Direct (immediate decision)"
+  documentation_requirement: "All decisions recorded in event store"
+  appeal_mechanism: "None (Sovereign decision is final)"
+
+constraints:
+  - name: "Constitutional Integrity"
+    condition: "Cannot contradict founding principles"
+    consequence: "Decision is void, requires re-deliberation"
+    override_authority: "None"
+  
+  - name: "Doctrine Immutability"
+    condition: "Cannot unilaterally change locked doctrine"
+    consequence: "Requires formal amendment process"
+    override_authority: "None"
+  
+  - name: "Memory Immutability"
+    condition: "Cannot alter past event records"
+    consequence: "Previous decisions remain intact"
+    override_authority: "None"
+
+communication_protocol:
+  with_n: "Direct, confidential"
+  with_tribunal: "Through N or direct escalation"
+  with_council: "Formal darbari proceedings"
+  with_citizens: "Through authorized channels"
+
+emergency_powers:
+  available: true
+  activation_condition: "Existential threat or system failure"
+  constraints:
+    - "Must be logged"
+    - "Must be reviewed at next council session"
+    - "Cannot exceed 72 hours without renewal"

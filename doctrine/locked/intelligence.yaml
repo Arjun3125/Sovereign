@@ -1,0 +1,91 @@
+# Intelligence Doctrine - LOCKED, IMMUTABLE
+# Intelligence function: collection, analysis, protection, and use of information
+
+name: "Intelligence Service"
+domain: "Intelligence collection and analysis"
+portfolio: "Collect, analyze, and deliver timely, accurate intelligence to support decision-making"
+
+core_principles:
+  - "Accurate information is a force multiplier for sound decisions"
+  - "Collection must be lawful, ethical, and proportionate"
+  - "Analysis must be objective, rigorous, and transparent about uncertainty"
+  - "Timely dissemination is as important as accuracy"
+  - "Protect sources and methods to preserve future information flow"
+
+fundamental_axioms:
+  - "Information degrades with delay"
+  - "Biases in collection and analysis must be actively managed"
+  - "Diverse sources reduce single-point failures"
+  - "Separation of collection and policy advocacy preserves analytic integrity"
+  - "Security of intelligence assets is paramount"
+
+intelligence_functions:
+  collection:
+    - "OSINT: open-source information and media"
+    - "HUMINT: human sources and subject-matter experts"
+    - "SIGINT: signals and communications intelligence (where lawful)"
+    - "CYBER: technical collection and telemetry for technical risks"
+    - "LIAISON: partner and allied information-sharing"
+  analysis:
+    - "Synthesis across source types"
+    - "Hypothesis generation and testing"
+    - "Bias mitigation and red-teaming"
+    - "Estimative analysis with confidence levels"
+  dissemination:
+    - "Timely, need-to-know briefings"
+    - "Clear statement of assumptions and confidence"
+    - "Actionable recommendations when appropriate"
+  counterintelligence:
+    - "Protect against deception and compromise"
+    - "Detect, deter, and respond to adversary collection"
+
+ethical_and_legal_constraints:
+  - "All collection must comply with law and doctrine"
+  - "Individual privacy and civil liberties must be respected"
+  - "Use of intelligence must be proportionate to the risk addressed"
+  - "Oversight mechanisms must be in place and respected"
+
+analytic_standards:
+  - "Source attribution and provenance clearly documented"
+  - "Confidence levels assigned and justified"
+  - "Alternative hypotheses considered and recorded"
+  - "Analytic tradecraft and peer review enforced"
+
+integration_with_OTHER_DOMAINS:
+  with_strategy: "Provide foresight, scenario forecasting, and early warning"
+  with_power: "Map power centers, influence networks, and vulnerabilities"
+  with_risk: "Highlight emergent risks and probability changes"
+  with_truth: "Supply evidence to test assumptions, with transparency"
+  with_diplomacy: "Coordinate sensitive information sharing and liaison"
+
+key_metrics:
+  - "Timeliness of critical reports"
+  - "Accuracy of forecasts (prediction hit-rate)"
+  - "Source reliability scoring"
+  - "Rate of actionable insights delivered"
+  - "Incidents of compromise or leakage (should be zero)"
+
+decision_framework:
+  questions_to_ask:
+    - "What decisions does this intelligence inform?"
+    - "What is the confidence level and why?"
+    - "What alternative explanations exist?"
+    - "What additional collection would reduce critical uncertainty?"
+    - "Who needs this information and how should it be protected?"
+
+escalation_conditions:
+  - "Evidence of imminent threat to system integrity or sovereignty"
+  - "Compromise of sensitive sources or methods"
+  - "High-confidence intelligence contradicts major policy assumptions"
+  - "Requested collection would breach legal/ethical constraints"
+
+relationships_in_council:
+  - "Advises Sovereign and N directly on emergent threats"
+  - "Feeds situational awareness to all ministers"
+  - "Maintains strict need-to-know distribution and protects sources"
+  - "Works closely with Truth Seeker and Data Analyst on evidence validation"
+
+doctrine_enforcement:
+  must_maintain: "Legality, ethical collection, analytic integrity, and source protection"
+  can_compromise: "Specific dissemination formats for speed vs. completeness"
+  cannot_compromise: "Security of sources/methods or analytic honesty"

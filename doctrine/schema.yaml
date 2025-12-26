@@ -1,0 +1,104 @@
+# Doctrine Schema - Reference Structure
+# This file documents the expected structure for all doctrine files
+# It is optional and serves as a guide for creating and validating doctrines
+
+# CORE AUTHORITY DOCTRINES
+authority_doctrine:
+  type: "object"
+  properties:
+    name:
+      type: "string"
+      description: "Name of the authority entity"
+    role:
+      type: "string"
+      description: "Primary role and responsibility"
+    prerogatives:
+      type: "array"
+      items:
+        type: "string"
+      description: "Exclusive authorities and powers"
+    responsibilities:
+      type: "array"
+      items:
+        type: "string"
+      description: "Core responsibilities and obligations"
+    escalation_authority:
+      type: "array"
+      items:
+        type: "string"
+      description: "Areas where this entity can escalate decisions"
+
+# MINISTER DOCTRINES
+minister_doctrine:
+  type: "object"
+  properties:
+    name:
+      type: "string"
+      description: "Minister's title and portfolio"
+    domain:
+      type: "string"
+      description: "The specific domain of expertise"
+    principles:
+      type: "array"
+      items:
+        type: "string"
+      description: "Core principles guiding this domain"
+    axioms:
+      type: "array"
+      items:
+        type: "string"
+      description: "Fundamental truths in this domain"
+    frameworks:
+      type: "object"
+      description: "Key frameworks and methodologies"
+      properties:
+        primary:
+          type: "array"
+          items:
+            type: "string"
+        secondary:
+          type: "array"
+          items:
+            type: "string"
+    blind_spots:
+      type: "array"
+      items:
+        type: "string"
+      description: "Known limitations and areas of weakness"
+    integration_points:
+      type: "array"
+      items:
+        type: "string"
+      description: "How this domain integrates with others"
+    metrics:
+      type: "array"
+      items:
+        type: "string"
+      description: "Key metrics and success indicators"
+
+# COMMON STRUCTURES
+decision_framework:
+  type: "object"
+  properties:
+    criteria:
+      type: "array"
+      items:
+        type: "string"
+    evaluation_method:
+      type: "string"
+    escalation_conditions:
+      type: "array"
+      items:
+        type: "string"
+
+constraint:
+  type: "object"
+  properties:
+    name:
+      type: "string"
+    condition:
+      type: "string"
+    consequence:
+      type: "string"
+    override_authority:
+      type: "string"
