@@ -1,0 +1,28 @@
+title: "48 Laws of Power"
+author: "Robert Greene"
+description: "Understand power dynamics, leverage, and dominance hierarchies."
+
+domains:
+  - power
+  - psychology
+  - conflict
+  - manipulation
+  - influence
+
+tones:
+  - dark
+  - strategic
+  - cold
+  - competitive
+  - amoral
+
+modes:
+  - war
+  - standard
+
+priority:
+  war: 1.0
+  standard: 0.8
+  quick: 0.3
+
+notes: "Explicitly teaches power leverage without moral hedging. Core War Mode text."

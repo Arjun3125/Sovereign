@@ -1,0 +1,33 @@
+title: "The Art of Seduction"
+author: "Robert Greene"
+description: "Master the arts of charming, influencing, and reshaping desire."
+
+domains:
+  - power
+  - psychology
+  - narrative
+  - manipulation
+  - seduction
+
+tones:
+  - dark
+  - strategic
+  - interpersonal
+  - amoral
+
+shelves:
+  - power
+  - psychology
+  - narrative
+
+modes:
+  - war
+  - standard
+
+priority:
+  war: 1.0           # Maximum priority in War Mode
+  standard: 0.7      # Moderate in standard mode
+  quick: 0.2         # Lower in quick mode
+
+# Optional: book-specific notes
+notes: "Focuses on psychological mechanisms of attraction and influence without ethical prescriptions."

@@ -1,0 +1,11 @@
+book_id: "48_laws_of_power"
+title: "The 48 Laws of Power"
+author: "Robert Greene"
+domains:
+  - power
+  - influence
+default_ministers:
+  - power
+chapters:
+  - id: "law1"
+    title: "Law 1"

@@ -1,0 +1,26 @@
+title: "Thinking, Fast and Slow"
+author: "Daniel Kahneman"
+description: "Cognitive biases, decision-making, and human psychology."
+
+domains:
+  - psychology
+  - intelligence
+  - bias
+  - decision
+
+tones:
+  - strategic
+  - analytical
+  - objective
+
+modes:
+  - war
+  - standard
+  - quick
+
+priority:
+  war: 0.8
+  standard: 0.9
+  quick: 0.7
+
+notes: "Scientific foundation for understanding cognitive manipulation and bias exploitation."

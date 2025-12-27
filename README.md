@@ -85,6 +85,84 @@ verdict = tribunal.escalate(dispute)
 - Follow the immutable doctrine principles
 - Respect the sovereignty hierarchy
 
+
+
+## War Mode & Learning System (NEW)
+
+Cold Strategist now includes **War Mode** - a safe, abstract adversarial analysis system with persistent memory and adaptive learning.
+
+### War Mode Features
+
+- **Safe Analysis**: All moves are legal and reversible
+- **Abstract**: No real-world harm (fiction/games/negotiation context)
+- **Persistent Memory**: SQLite-backed event ledger
+- **Pattern Detection**: Identify recurring behaviors
+- **Adaptive N**: Adjusts advice based on learned patterns
+
+### Quick Start
+
+**Analyze an adversarial scenario:**
+\\ash
+python cold.py war --domain negotiation --arena career --stakes high
+\
+**Resolve outcome later:**
+\\ash
+python cold_outcome.py <event-id> --mode war
+\
+### Learning Flow
+
+1. **Analyze**: WarEngine produces verdict + EVENT_ID
+2. **Log**: Event saved to SQLite
+3. **Decide & Act**: Sovereign makes decision
+4. **Resolve**: Later, log actual outcome
+5. **Learn**: Patterns detected, N's calibration updated
+6. **Adapt**: Next similar decision uses learned insights
+
+### Documentation
+
+- [QUICKSTART.md](QUICKSTART.md) - Examples and usage guide
+- [ARCHITECTURE.md](ARCHITECTURE.md) - System design
+- [FLOW_DIAGRAM.md](FLOW_DIAGRAM.md) - Visual flow
+- [TECHNICAL_SPEC.md](TECHNICAL_SPEC.md) - Full specification
+- [cli/README.md](cli/README.md) - CLI reference
+
+### Example Scenario
+
+**Negotiation with tight deadline:**
+
+\\ash
+python cold.py war \
+  --domain negotiation \
+  --arena career \
+  --stakes high \
+  --constraints reversible minimal_collateral legal \
+  --analyze-patterns
+\
+**Output:**
+- War verdict with risk score and alternatives
+- Recommended posture (abort/force/delay/conditional)
+- DO NOT constraints
+- Next immediate step
+- EVENT_ID for later outcome logging
+- (If patterns exist) N's adjusted posture based on prior decisions
+
+**Days later, after negotiation concludes:**
+
+\\ash
+python cold_outcome.py a3f7c2e1-9b4d-4a2c-8f1d-2b5e...
+\
+**Enter outcome:**
+- Result: success/partial/failure
+- Actual damage incurred
+- Benefit gained
+- Lessons learned
+
+**System updates:**
+- Patterns re-detected with new outcome
+- N's calibrations recalculated
+- Next similar decision will use updated N
+
+
 ## Non-Negotiable Principles
 
 - ✓ Doctrine is locked and immutable
