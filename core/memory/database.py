@@ -453,6 +453,11 @@ class Database:
         )
         return [dict(row) for row in rows]
     
+    def get_all_overrides(self) -> List[Dict]:
+        """Get all overrides."""
+        rows = self.fetchall("SELECT * FROM overrides ORDER BY created_at DESC")
+        return [dict(row) for row in rows]
+
     def get_failed_overrides(self) -> List[Dict]:
         """Get overrides that failed."""
         rows = self.fetchall(
