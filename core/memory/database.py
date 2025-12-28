@@ -445,6 +445,11 @@ class Database:
             override_reason
         ))
     
+    def get_all_overrides(self) -> List[Dict]:
+        """Get all overrides."""
+        rows = self.fetchall("SELECT * FROM overrides ORDER BY created_at ASC")
+        return [dict(row) for row in rows]
+
     def get_overrides_by_domain(self, domain: str) -> List[Dict]:
         """Get all overrides in domain."""
         rows = self.fetchall(
