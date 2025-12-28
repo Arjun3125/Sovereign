@@ -222,7 +222,19 @@ class MemoryStore:
             List of OverrideRecord objects
         """
         overrides = []
-        # TODO: Load from database
+        db_overrides = self.db.get_all_overrides()
+
+        for row in db_overrides:
+            override = OverrideRecord(
+                event_id=row["event_id"],
+                domain=row["domain"],
+                counsel_posture=row["counsel_posture"],
+                actual_action=row["actual_action"],
+                override_reason=row["override_reason"]
+            )
+            override.outcome_result = row["outcome_result"]
+            overrides.append(override)
+
         return overrides
     
     # ========================================================================
