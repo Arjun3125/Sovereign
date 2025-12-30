@@ -9,7 +9,17 @@ Detects:
 Feeds validation result into N's posture adjustment.
 """
 
+from dataclasses import dataclass
+from typing import List
+
 from context.context_schema import DecisionContext, ValidationResult, Stakes, EmotionalLoad
+
+@dataclass
+class ValidationOutcome:
+    ok: bool
+    missing_fields: List[str]
+    contradictions: List[str]
+    reason: str
 
 
 class ContextValidator:
@@ -21,28 +31,47 @@ class ContextValidator:
     """
     
     def validate(self, ctx: DecisionContext) -> ValidationResult:
+        """Compatibility wrapper that returns the legacy enum.
+
+        New code should call `validate_structured` to get detailed
+        validation outcome including missing fields and contradictions.
         """
-        Validate context and return risk classification.
-        
-        Args:
-            ctx: Decision context to validate
-            
-        Returns:
-            ValidationResult enum
-        """
-        # High risk: existential stakes + irreversible consequences
-        if self._is_high_risk(ctx):
-            return ValidationResult.HIGH_RISK
-        
-        # Bias risk: high emotional load + time pressure
-        if self._is_bias_risk(ctx):
+        outcome = self.validate_structured(ctx)
+        if outcome.contradictions:
             return ValidationResult.BIAS_RISK
-        
-        # Insufficient: not enough data collected
-        if not ctx.is_validated():
+        if outcome.missing_fields:
             return ValidationResult.INSUFFICIENT_DATA
-        
         return ValidationResult.CLEAR
+
+    def validate_structured(self, ctx: DecisionContext) -> ValidationOutcome:
+        """Return a structured validation outcome.
+
+        Checks for missing required fields and simple contradictions.
+        """
+        missing = []
+        contradictions = []
+
+        # Required fields for minimal context
+        required = [
+            ("domain", ctx.domain),
+            ("stakes", ctx.stakes),
+            ("irreversibility", ctx.irreversibility),
+            ("emotional_load", ctx.emotional_load),
+            ("prior_patterns", ctx.prior_patterns),
+        ]
+
+        for name, val in required:
+            if not val:
+                missing.append(name)
+
+        # Simple contradiction check: low stakes but existential prior patterns
+        if ctx.stakes != Stakes.EXISTENTIAL and any("death" in (p or "").lower() for p in ctx.prior_patterns):
+            contradictions.append("prior_patterns_imply_higher_stakes")
+
+        reason = "ok" if not missing and not contradictions else "issues_found"
+        ok = not missing and not contradictions
+
+        return ValidationOutcome(ok=ok, missing_fields=missing, contradictions=contradictions, reason=reason)
     
     def _is_high_risk(self, ctx: DecisionContext) -> bool:
         """

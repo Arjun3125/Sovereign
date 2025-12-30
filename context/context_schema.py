@@ -33,6 +33,13 @@ class ValidationResult(str, Enum):
     INSUFFICIENT_DATA = "insufficient_data"
 
 
+class ContextStatus(str, Enum):
+    """Epistemic strength of a built context."""
+    COMPLETE = "complete"
+    PARTIAL = "partial"
+    INSUFFICIENT = "insufficient"
+
+
 @dataclass
 class DecisionContext:
     """
@@ -68,6 +75,8 @@ class DecisionContext:
     # Contextual confidence
     confidence: float = 0.0
     validation_result: Optional[ValidationResult] = None
+    # Epistemic status of the context (explicit, not implicit)
+    status: ContextStatus = ContextStatus.PARTIAL
     
     # Additional metadata
     stakeholders: List[str] = field(default_factory=list)
