@@ -9,7 +9,7 @@ Usage:
     python cold.py war --domain negotiation --stakes medium --arena career
 """
 
-from cli.main import main
+from cold_strategist.cli.main import main
 
 if __name__ == "__main__":
     main()

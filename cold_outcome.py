@@ -8,7 +8,7 @@ Usage:
     python cold_outcome.py <event_id> --mode war
 """
 
-from cli.main import outcome_main
+from cold_strategist.cli.main import outcome_main
 
 if __name__ == "__main__":
     outcome_main()
