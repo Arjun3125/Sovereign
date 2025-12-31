@@ -1,0 +1,23 @@
+- id: "art_of_seduction_1"
+  text: "Charm disarms resistance before desire forms."
+  pattern: "Lower pressure increases receptivity."
+  application_space:
+    - courtship
+    - influence
+    - negotiation
+  contraindications:
+    - coercion
+    - high-visibility confrontation
+  source:
+    book: "The Art of Seduction"
+    chapter: "The Art of Charm"
+    page_range: "112–118"
+  shelves:
+    - power
+    - psychology
+    - narrative
+  minister_affinity:
+    Psychology: 0.9
+    Power: 0.7
+  timeless: false
+  published_year: 1999

@@ -1,0 +1,21 @@
+{
+  "book_id": "art_of_war",
+  "chapter_index": 30,
+  "chapter_title": "1. Sun Tzu said: In war, the general receives his com-",
+  "principles": [],
+  "claims": [
+    "In war, the general receives his commands from the sovereign, collects his army and concentrates his forces."
+  ],
+  "rules": [
+    "When in difficult country, do not encamp.",
+    "In country where high roads intersect, join hands with your allies.",
+    "Do not linger in dangerously isolated positions.",
+    "In hemmed-in situations, you must resort to stratagem.",
+    "In desperate position, you must fight."
+  ],
+  "warnings": [
+    "There are roads which must not be followed, armies which must be not attacked, towns which must be besieged, positions which must not be contested, commands of the sovereign which must not be obeyed."
+  ],
+  "cross_references": [],
+  "source_hash": "39060b442ccfa89c66c4b2af6b4be6b272845a7c18433f4a48394feef2b3f698"
+}

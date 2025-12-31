@@ -1,0 +1,9 @@
+provider: ollama
+# Model used for fast mechanical ingest tasks (chunking/slicing)
+ingest_model: "llama3.1:8b"
+# Model used for heavy reasoning/synthesis tasks
+reasoning_model: "huihui_ai/deepseek-r1-abliterated:8b"
+# Backwards-compatible default model
+model: "llama3.1:8b"
+temperature: 0.2
+max_tokens: 2048

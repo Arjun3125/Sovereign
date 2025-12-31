@@ -1,0 +1,10 @@
+{
+  "book_id": "sample_book",
+  "pages": [
+    {
+      "page": 1,
+      "text": "The Art of Testing\r\n\r\nCHAPTER I\r\n\r\nThis is the first chapter. It discusses the value of testing. Always test your assumptions. Testing should be early and iterative.\r\n\r\nCHAPTER II\r\n\r\nA story: once upon a time a leader tried to wing it. It failed.\r\n\r\n"
+    }
+  ],
+  "artifact_id": "25747475-d427-55ce-b00f-eb73780a27c6"
+}

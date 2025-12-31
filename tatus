@@ -1,0 +1,42 @@
+ ARCHITECTURE.md                                    | 350 [31m---------------[m
+ COMPLETION_CHECKLIST.md                            | 293 [31m-------------[m
+ FLOW_DIAGRAM.md                                    | 270 [31m------------[m
+ IMPLEMENTATION_SUMMARY.md                          | 258 [31m-----------[m
+ QUICKSTART.md                                      | 391 [31m-----------------[m
+ README.md                                          | 172 [31m--------[m
+ SESSION_SUMMARY.md                                 | 306 [31m-------------[m
+ SYSTEM_OVERVIEW.md                                 | 466 [31m--------------------[m
+ TECHNICAL_SPEC.md                                  | 480 [31m---------------------[m
+ WAR_MODE_ARCHITECTURE.md                           | 379 [31m----------------[m
+ WAR_MODE_COMPLETION_CHECKLIST.md                   | 264 [31m------------[m
+ WAR_MODE_FINAL_STATUS.md                           | 253 [31m-----------[m
+ WAR_MODE_IMPLEMENTATION_SUMMARY.md                 | 304 [31m-------------[m
+ WAR_MODE_INTEGRATION.md                            | 165 [31m-------[m
+ WAR_MODE_RAG_IMPLEMENTATION.md                     | 418 [31m------------------[m
+ WAR_MODE_STATUS.md                                 | 255 [31m-----------[m
+ WAR_RAG_COMPLETION_STATUS.md                       | 364 [31m----------------[m
+ cli/__pycache__/__init__.cpython-312.pyc           | Bin [31m377[m -> [32m361[m bytes
+ cli/__pycache__/args.cpython-312.pyc               | Bin [31m3491[m -> [32m3863[m bytes
+ cli/__pycache__/main.cpython-312.pyc               | Bin [31m4890[m -> [32m4874[m bytes
+ cli/__pycache__/prompts.cpython-312.pyc            | Bin [31m5168[m -> [32m5279[m bytes
+ cli/__pycache__/render.cpython-312.pyc             | Bin [31m6181[m -> [32m6165[m bytes
+ cold.py                                            |  15 [31m-[m
+ cold_outcome.py                                    |  14 [31m-[m
+ context/context_schema.py                          |   9 [32m+[m
+ context/validation.py                              |  65 [32m++[m[31m-[m
+ .../ingest/__pycache__/extract_pdf.cpython-313.pyc | Bin [31m3330[m -> [32m3314[m bytes
+ .../__pycache__/structural_chunker.cpython-313.pyc | Bin [31m3240[m -> [32m7778[m bytes
+ core/knowledge/ingest/indexer.py                   |  43 [32m+[m[31m-[m
+ core/knowledge/ingest/semantic_slicer.py           |  98 [32m++++[m[31m-[m
+ core/knowledge/ingest/structural_chunker.py        | 147 [32m++++++[m[31m-[m
+ .../__pycache__/__init__.cpython-312.pyc           | Bin [31m310[m -> [32m294[m bytes
+ .../__pycache__/engine.cpython-312.pyc             | Bin [31m7023[m -> [32m7007[m bytes
+ docs                                               |   0
+ rag/books/48_laws_of_power/raw.txt                 |  33 [32m+[m[31m-[m
+ rag/books/art_of_seduction/raw.txt                 |  40 [32m+[m[31m-[m
+ rag/index.py                                       |  88 [32m++[m[31m--[m
+ rag/ingest.py                                      |  13 [32m+[m[31m-[m
+ rag/retrieve.py                                    | 180 [32m+++++++[m[31m-[m
+ utils/guards.py                                    |  79 [32m++[m[31m--[m
+ utils/logging.py                                   |  55 [32m+[m[31m--[m
+ 41 files changed, 688 insertions(+), 5579 deletions(-)

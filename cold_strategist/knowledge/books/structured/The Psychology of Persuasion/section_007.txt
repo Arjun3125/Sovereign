@@ -1,0 +1,925 @@
+Chapter 6
+AUTHORITY
+
+Chapter 6
+AUTHORITY
+Directed Deference
+Follow an expert.
+—VIRGIL
+S UPPOSE THAT WHILE LEAFING THROUGH THE NEWSPAPER, YOU notice
+an ad for volunteers to take part in a “study of memory” being done
+in the psychology department of a nearby university. Let’s suppose
+further that, finding the idea of such an experiment intriguing, you
+contact the director of the study, a Professor Stanley Milgram, and make
+arrangements to participate in an hour-long session. When you arrive
+at the laboratory suite, you meet two men. One is the researcher in
+charge of the experiment, as is clearly evidenced by the gray lab coat
+he wears and the clipboard he carries. The other is a volunteer like
+yourself who seems average in all respects.
+After initial greetings and pleasantries are exchanged, the researcher
+begins to explain the procedures to be followed. He says that the exper-
+iment is a study of how punishment affects learning and memory.
+Therefore, one participant will have the task of learning pairs of words
+in a long list until each pair can be recalled perfectly; this person is to
+be called the Learner. The other partici-pant’s job will be to test the
+Learner’s memory and to deliver increasingly strong electric shocks for
+every mistake; this person will be designated the Teacher.
+Naturally, you get a bit nervous at this news. And your apprehension
+increases when, after drawing lots with your partner, you find that you
+are assigned the Learner role. You hadn’t expected the possibility of
+pain as part of the study, so you briefly consider leaving. But no, you
+
+[PAGE 168]
+158 / Influence
+think, there’s plenty of time for that if need be and, besides, how strong
+a shock could it be?
+After you have had a chance to study the list of word pairs, the re-
+searcher straps you into a chair and, with the Teacher looking on, at-
+taches electrodes to your arm. More worried now about the effect of
+the shock, you inquire into its severity. The researcher’s response is
+hardly comforting; he says that although the shocks can be extremely
+painful, they will cause you “no permanent tissue damage.” With that,
+the researcher and the Teacher leave you alone and go to the next room,
+where the Teacher asks you the test questions through an intercom
+system and delivers electric punishment for every wrong response.
+As the test proceeds, you quickly recognize the pattern that the
+Teacher follows: He asks the question and waits for your answer over
+the intercom. Whenever you err, he announces the voltage of the shock
+you are about to receive and pulls a level to deliver the punishment.
+The most troubling thing is that with each error you make, the shock
+increases by 15 volts.
+The first part of the test progresses smoothly. The shocks are annoying
+but tolerable. Later on, though, as your mistakes accumulate and the
+shock voltages climb, the punishment begins to hurt enough to disrupt
+your concentration, which leads to more errors and ever more disruptive
+shocks. At the 75-, 90-, and 105-volt levels, the pain makes you grunt
+audibly. At 120 volts, you exclaim into the intercom that the shocks are
+really starting to hurt. You take one more punishment with a groan and
+decide that you can’t take much more pain. After the Teacher delivers
+the 150-volt shock, you shout back into the intercom, “That’s all! Get
+me out of here! Get me out of here, please! Let me out!”
+But instead of the assurance you expect from the Teacher that he and
+the researcher are coming to release you, the Teacher merely gives you
+the next test question to answer. Surprised and confused, you mumble
+the first answer to come into your head. It’s wrong, of course, and the
+Teacher delivers a 165-volt shock. You scream at the Teacher to stop,
+to let you out. But he responds only with the next test question—and
+with the next slashing shock when your frenzied answer is incorrect.
+You can’t hold down the panic any longer; the shocks are so strong
+now they make you writhe and shriek. You kick the wall, demand to
+be released, beg the Teacher to help you. But the test questions continue
+as before and so do the dreaded shocks—in searing jolts of 195, 210,
+225, 240, 255, 270, 285, and 300 volts. You realize that you can’t possibly
+answer the test correctly now, so you shout to the Teacher that you
+won’t answer his questions any longer. Nothing changes; the Teacher
+interprets your failure to respond as an incorrect response and sends
+another bolt. The ordeal continues in this way until, finally, the power
+
+[PAGE 169]
+Robert B. Cialdini Ph.D / 159
+of the shocks stuns you into near paralysis. You can no longer cry out,
+no longer struggle. You can only feel each terrible electric bite. Perhaps,
+you think, this total inactivity will cause the Teacher to stop. There can
+be no reason to continue this experiment. But he proceeds relentlessly,
+calling out the test questions, announcing the horrid shock levels (about
+400 volts now), and pulling the levers. What must this man be like? you
+wonder in confusion. Why doesn’t he help me? Why won’t he stop?
+For most of us, the above scenario reads like a bad dream. To recog-
+nize how nightmarish it is, though, we should understand that in most
+respects it is real. There was such an experiment—actually, a whole
+series—run by a psychology professor named Milgram in which parti-
+cipants in the Teacher role were willing to deliver continued, intense,
+and dangerous levels of shock to a kicking, screeching, pleading other
+person. Only one major aspect of the experiment was not genuine. No
+real shock was delivered; the Learner, the victim who repeatedly cried
+out in agony for mercy and release, was not a true subject but an actor
+who only pretended to be shocked. The actual purpose of Milgram’s
+study, then, had nothing to do with the effects of punishment on
+learning and memory. Rather, it involved an entirely different question:
+When it is their job, how much suffering will ordinary people be willing
+to inflict on an entirely innocent other person?
+The answer is most unsettling. Under circumstances mirroring pre-
+cisely the features of the “bad dream,” the typical Teacher was willing
+to deliver as much pain as was available to give. Rather than yield to
+the pleas of the victim, about two thirds of the subjects in Milgram’s
+experiment pulled every one of the thirty shock switches in front of
+them and continued to engage the last switch (450 volts) until the re-
+searcher ended the experiment. More alarming still, not one of the forty
+subjects in this study quit his job as Teacher when the victim first began
+to demand his release; nor later, when he began to beg for it; nor even
+later, when his reaction to each shock had become, in Milgram’s words,
+“definitely an agonized scream.” Not until the 300-volt shock had been
+sent and the victim had “shouted in desperation that he would no longer
+provide answers to the memory test” did anyone stop—and even then,
+it was a distinct minority who did.
+These results surprised everyone associated with the project, Milgram
+included. In fact, before the study began, he asked groups of colleagues,
+graduate students, and psychology majors at Yale University (where
+the experiment was performed) to read a copy of the experimental
+procedures and estimate how many subjects would go all the way to
+the last (450-volt) shock. Invariably, the answers fell in the 1 to 2 percent
+range. A separate group of thirty-nine psychiatrists predicted that only
+
+[PAGE 170]
+160 / Influence
+about one person in a thousand would be willing to continue to the
+end. No one, then, was prepared for the behavior patterns that the ex-
+periment actually produced.
+How can we explain those alarming patterns? Perhaps, as some have
+argued, it has to do with the fact that the subjects were all males who
+are known as a group for their aggressive tendencies, or that the subjects
+didn’t recognize the potential harm that such high shock voltages could
+cause, or that the subjects were a freakish collection of moral cretins
+who enjoyed the chance to inflict misery. But there is good evidence
+against each of these possibilities. First, the subjects’ sex was shown by
+a later experiment to be irrelevant to their willingness to give all the
+shocks to the victim; female Teachers were just as likely to do so as the
+males in Milgram’s initial study.
+The explanation that subjects weren’t aware of the potential physical
+danger to the victim was also examined in a subsequent experiment
+and found to be wanting. In that version, when the victim was instructed
+to announce that he had a heart condition and to declare that his heart
+was being affected by the shock—“That’s all. Get me out of here. I told
+you I had heart trouble. My heart’s starting to bother me. I refuse to go
+on. Let me out”—the results were the same as before; 65 percent of the
+subjects carried out their duties faithfully through the maximum shock.
+Finally, the explanation that Milgram’s subjects were a twisted, sad-
+istic bunch not at all representative of the average citizen has proven
+unsatisfactory as well. The people who answered Milgram’s newspaper
+ad to participate in his “memory” experiment represented a standard
+cross section of ages, occupations, and educational levels within our
+society. What’s more, later on, a battery of personality scales showed
+these people to be quite normal psychologically, with not a hint of
+psychosis as a group. They were, in fact, just like you and me; or, as
+Milgram likes to term it, they are you and me. If he is right that his
+studies implicate us in their grisly findings, the unanswered question
+becomes an uncomfortably personal one: What could make us do such
+things?
+Milgram is sure he knows the answer. It has to do, he says, with a
+deep-seated sense of duty to authority within us all. According to Mil-
+gram, the real culprit in the experiments was his subject’s inability to
+defy the wishes of the boss of the study—the lab-coated researcher who
+urged and, if need be, directed the subjects to perform their duties,
+despite the emotional and physical mayhem they were causing.
+The evidence supporting Milgram’s obedience to authority explana-
+tion is strong. First, it is clear that, without the researcher’s directives
+to continue, the subjects would have ended the experiment quickly.
+They hated what they were doing and agonized over their victim’s
+
+[PAGE 171]
+Robert B. Cialdini Ph.D / 161
+agony. They implored the researcher to let them stop. When he refused,
+they went on, but in the process they trembled, they perspired, they
+shook, they stammered protests and additional pleas for the victim’s
+release. Their fingernails dug into their own flesh; they bit their lips
+until they bled; they held their heads in their hands; some fell into fits
+of uncontrollable nervous laughter. As one outside observer to the ex-
+periment wrote:
+I observed a mature and initially poised businessman enter the
+laboratory smiling and confident. Within twenty minutes he was
+reduced to a twitching, stuttering wreck who was rapidly approach-
+ing a point of nervous collapse. He constantly pulled on his earlobe
+and twisted his hands. At one point he pushed his fist into his
+forehead and muttered: “Oh, God, let’s stop it.” And yet he con-
+tinued to respond to every word of the experimenter and obeyed
+1
+to the end.
+In addition to these observations, Milgram has provided even more
+convincing evidence for the obedience-to-authority interpretation of
+his subjects’ behavior. In a later study, for instance, he had the researcher
+and the victim switch scripts so that the researcher told the Teacher to
+stop delivering shocks to the victim, while the victim insisted bravely
+that the Teacher continue. The result couldn’t have been clearer; 100
+percent of the subjects refused to give one additional shock when it was
+merely the fellow subject who demanded it. The identical finding ap-
+peared in another version of the experiment in which the researcher
+and fellow subject switched roles so that it was the researcher who was
+strapped into the chair and the fellow subject who ordered the Teacher
+to continue—over the protests of the researcher. Again, not one subject
+touched another shock lever.
+The extreme degree to which subjects in Milgram’s situation were
+attentive to the wishes of authority was documented in yet another
+variation of the basic study. In this case, Milgram presented the
+Teacher with two researchers, who issued contradictory orders; one
+ordered the Teacher to terminate the shocks when the victim cried out
+for release, while the other maintained that the experiment should go
+on. These conflicting instructions reliably produced what may have
+been the project’s only humor: In tragicomic befuddlement and with
+eyes darting from one researcher to another, subjects would beseech
+the pair to agree on a single command they could follow: “Wait, wait.
+Which is it going to be? One says stop, one says go. Which is it!?” When
+the researchers remained at loggerheads, the subjects tried frantically
+to determine who was the bigger boss. Failing this route to obedience
+with the authority, every subject finally followed his better instincts and
+
+[PAGE 172]
+162 / Influence
+ended the shocks. As in the other experimental variations, such a result
+would hardly be expected had the subjects’ motivations involved some
+2
+form of sadism or neurotic aggressiveness.
+To Milgram’s mind, evidence of a chilling phenomenon emerges re-
+peatedly from his accumulated data: “It is the extreme willingness of
+adults to go to almost any lengths on the command of an authority that
+constitutes the chief finding of the study.” There are sobering implica-
+tions of this finding for those concerned about the ability of another
+form of authority—government—to extract frightening levels of obed-
+3
+ience from ordinary citizens. Furthermore, the finding tells us some-
+thing about the sheer strength of authority pressures in controlling our
+behavior. After witnessing Milgram’s subjects squirming and sweating
+and suffering at their task, could anyone doubt the power of the force
+that held them there?
+For those whose doubts remain, the story of S. Brian Willson might
+prove instructive. On September 1, 1987, to protest U.S. shipments of
+military equipment to Nicaragua, Mr. Willson and two other men
+stretched their bodies across the railroad tracks leading out of the
+Concord, California, Naval Weapons Station. The protesters were con-
+fident that their act would halt the scheduled train’s progress that day,
+as they had notified Navy and railroad officials of their intent three
+days before. But the civilian crew, which had been given orders not to
+stop, never even slowed the train, despite being able to see the protesters
+six hundred feet ahead. Although two of the men managed to scramble
+out of harm’s way, Mr. Willson was not quick enough to avoid being
+struck and having both legs severed below the knee. Because Navy
+medical corpsmen at the scene refused to treat him or allow him to be
+taken to the hospital in their ambulance, onlookers—including Mr.
+Willson’s wife and son—were left to try to stanch the flow of blood for
+forty-five minutes until a private ambulance arrived.
+Amazingly, Mr. Willson, who served four years in Vietnam, does not
+blame either the crewmen or the corpsmen for his misfortune; he points
+his finger, instead, at a system that constrained their actions through
+the pressure to obey: “They were just doing what I did in ’Nam. They
+were following orders that are part of an insane policy. They’re the fall
+guys.” Although the crew members shared Mr. Willson’s assessment
+of them as victims, they did not share his magnanimity. In what is
+perhaps the most remarkable aspect of the incident, the train crew filed
+suit against him, requesting punitive damages for the “humiliation,
+mental anguish, and physical stress” they suffered because he hadn’t
+allowed them to carry out their orders without cutting off his legs.
+Whenever we are faced with so potent a motivator of human action,
+
+[PAGE 173]
+Robert B. Cialdini Ph.D / 163
+it is natural to expect that good reasons exist for the motivation. In the
+case of obedience to authority, even a brief consideration of human social
+organization offers justification aplenty. A multilayered and widely
+accepted system of authority confers an immense advantage upon a
+society. It allows the development of sophisticated structures for re-
+source production, trade, defense, expansion, and social control that
+would otherwise be impossible. The other alternative, anarchy, is a state
+that is hardly known for its beneficial effects on cultural groups and
+one that the social philosopher Thomas Hobbes assures us would render
+life “solitary, poor, nasty, brutish, and short.” Consequently, we are
+trained from birth that obedience to proper authority is right and dis-
+obedience is wrong. The essential message fills the parental lessons,
+the schoolhouse rhymes, stories, and songs of our childhood and is
+carried forward in the legal, military, and political systems we encounter
+as adults. Notions of submission and loyalty to legitimate rule are ac-
+corded much value in each.
+Religious instruction contributes as well. The very first book of the
+Bible, for example, describes how failure to obey the ultimate authority
+produced the loss of paradise for Adam, Eve, and the rest of the human
+race. Should that particular metaphor prove too subtle, just a bit further
+into the Old Testament we can read—in what might be the closest bib-
+lical representation of the Milgram experiment—the respectful account
+of Abraham’s willingness to plunge a dagger through the heart of his
+young son, because God, without any explanation, ordered it. We learn
+it this story that the correctness of an action was not adjudged by such
+considerations as apparent senselessness, harmfulness, injustice, or
+usual moral standards, but by the mere command of a higher authority.
+Abraham’s tormented ordeal was a test of obedience, and he—like
+Milgram’s subjects, who perhaps had learned an early lesson from
+him—passed.
+Stories like those of Abraham and Milgram’s subjects can tell us much
+about the power of and value for obedience in our culture. In another
+sense, however, they may be misleading as to the way obedience typic-
+ally occurs. We rarely agonize to such a degree over the pros and cons
+of authority’s demands. In fact, our obedience frequently takes place
+in a click, whirr fashion, with little or no conscious deliberation. Inform-
+ation from a recognized authority can provide us a valuable shortcut
+for deciding how to act in a situation.
+After all, as Milgram himself suggests, conforming to the dictates of
+authority figures has always had genuine practical advantages for us.
+Early on, these people (for example, parents, teachers) knew more than
+we did, and we found that taking their advice proved beneficial—partly
+because of their greater wisdom and partly because they controlled our
+
+[PAGE 174]
+164 / Influence
+rewards and punishments. As adults, the same benefits persist for the
+same reasons, though the authority figures now appear as employers,
+judges, and government leaders. Because their positions speak of super-
+ior access to information and power, it makes great sense to comply
+with the wishes of properly constituted authorities. It makes so much
+sense, in fact, that we often do so when it makes no sense at all.
+This paradox is, of course, the same one that attends all major
+weapons of influence. In this instance, once we realize that obedience
+to authority is mostly rewarding, it is easy to allow ourselves the con-
+venience of automatic obedience. The simultaneous blessing and bane
+of such blind obedience is its mechanical character. We don’t have to
+think; therefore, we don’t. Although such mindless obedience leads us
+to appropriate action in the great majority of cases, there will be con-
+spicuous exceptions—because we are reacting rather than thinking.
+Let’s take an example from one facet of our lives where authority
+pressures are visible and strong: medicine. Health is enormously im-
+portant to us. Thus, physicians, who possess large amounts of know-
+ledge and influence in this vital area, hold the position of respected
+authorities. In addition, the medical establishment has a clearly terraced
+power and prestige structure. The various kinds of health workers well
+understand the level of their jobs in this structure; and they well under-
+stand, too, that the M.D. sits at the top. No one may overrule the doctor’s
+judgment in a case, except perhaps, another doctor of higher rank. As
+a consequence, a long-established tradition of automatic obedience to
+a doctor’s orders has developed among health-care staffs.
+The worrisome possibility arises, then, that when a physician makes
+a clear error, no one lower in the hierarchy will think to question
+it—precisely because, once a legitimate authority has given an order,
+subordinates stop thinking in the situation and start reacting. Mix this
+kind of click, whirr response into a complex hospital environment and
+mistakes are certain. Indeed a study done in the early 1980s by the U.S.
+Health Care Financing Administration showed that, for patient medic-
+ation alone, the average hospital had a 12 percent daily error rate. A
+decade later, things had not improved: According to a Harvard Univer-
+sity study, 10 percent of all cardiac arrests in hospitals are attributable
+to medication errors. Errors in the medicine patients receive can occur
+for a variety of reasons. However, a book entitled Medication Errors:
+Causes and Prevention by two Temple University pharmacology profess-
+ors, Michael Cohen and Neil Davis, attributes much of the problem to
+the mindless deference given the “boss” of the patient’s case: the attend-
+ing physician. According to Professor Cohen, “in case after case, patients,
+nurses, pharmacists, and other physicians do not question the prescrip-
+tion.” Take, for example, the strange case of the “rectal earache” reported
+
+[PAGE 175]
+Robert B. Cialdini Ph.D / 165
+by Cohen and Davis. A physician ordered ear drops to be administered
+to the right ear of a patient suffering pain and infection there. But instead
+of writing out completely the location “right ear” on the prescription,
+the doctor abbreviated it so that the instructions read “place in R ear.”
+Upon receiving the prescription, the duty nurse promptly put the re-
+quired number of ear drops into the patient’s anus.
+Obviously, rectal treatment of an earache made no sense. Yet neither
+the patient nor the nurse questioned it. The important lesson of this
+story is that in many situations where a legitimate authority has spoken,
+what would otherwise make sense is irrelevant. In these instances, we
+don’t consider the situation as a whole but attend and respond to only
+4
+one aspect of it.
+Wherever our behaviors are governed in such an unthinking manner,
+we can be confident that there will be compliance professionals trying
+to take advantage. We can stay within the field of medicine and see that
+advertisers have frequently harnessed the respect accorded to doctors
+in our culture by hiring actors to play the roles of doctors speaking on
+behalf of the product. My favorite example is a TV commercial featuring
+actor Robert Young counseling people against the dangers of caffeine
+and recommending caffeine-free Sanka Brand coffee. The commercial
+was highly successful, selling so much coffee that it was played for
+years in several versions. But why should this commercial prove so ef-
+fective? Why on earth would we take Robert Young’s word for the
+health consequences of decaffeinated coffee? Because—as the advertising
+agency that hired him knew perfectly well—he is associated in the
+minds of the American public with Marcus Welby, M.D., the role he
+played in an earlier long-running television series. Objectively it doesn’t
+make sense to be swayed by the comments of a man we know to be just
+an actor who used to play a doctor. But, as a practical matter, that man
+moved the Sanka.
+CONNOTATION, NOT CONTENT
+From the first time I saw it, the most intriguing feature for me in the
+Robert Young Sanka commercial was its ability to use the influence of
+the authority principle without ever providing a real authority. The
+appearance of authority was enough. This tells us something important
+about unthinking reactions to authority figures. When in a click, whirr
+mode, we are often as vulnerable to the symbols of authority as to the
+substance.
+There are several kinds of symbols that can reliably trigger our com-
+pliance in the absence of the genuine substance of authority. Con-
+sequently, they are employed extensively by those compliance profes-
+
+[PAGE 176]
+166 / Influence
+sionals who are short on substance. Con artists, for example, drape
+themselves with the titles, clothes, and trappings of authority. They
+love nothing more than to emerge elegantly dressed from a fine auto-
+mobile and to introduce themselves to their prospective “mark” as
+Doctor or Judge or Professor or Commissioner Someone. They under-
+stand that when they are so equipped, their chances for compliance are
+greatly increased. Each of these three types of symbols of authority has
+its own story and is worth a separate look.
+Titles
+Titles are simultaneously the most difficult and the easiest symbols of
+authority to acquire. To earn one normally takes years of work and
+achievement. Yet it is possible for somebody who has put in none of
+this effort to adopt the mere label and receive a kind of automatic defer-
+ence. As we have seen, TV-commercial actors and con artists do it suc-
+cessfully all the time.
+I recently talked with a friend—a faculty member at a well-known
+eastern university—who provided a telling illustration of how our ac-
+tions are frequently more influenced by a title than by the nature of the
+person claiming it. My friend travels quite a bit and often finds himself
+chatting with strangers in bars, restaurants, and airports. He says that
+he has learned through much experience never to use his title—profess-
+or—during these conversations. When he does, he reports, the tenor of
+the interaction changes immediately. People who have been spontaneous
+and interesting conversation partners for the prior half hour become
+respectful, accepting, and dull. His opinions that earlier might have
+produced a lively exchange now usually generate extended (and highly
+grammatical) statements of accord. Annoyed and slightly bewildered
+by the phenomenon—because, as he says, “I’m still the same guy they’ve
+been talking to for the past thirty minutes, right?”—my friend now
+regularly lies about his occupation in such situations.
+What a refreshing shift from the more typical pattern in which certain
+compliance practitioners lie about titles they don’t truly have. In either
+direction, however, such practiced dishonesty makes the same point
+about the sufficiency of a mere symbol of authority to influence behavi-
+or.
+I wonder whether my professor friend—who is physically somewhat
+short—would be so eager to hide his title if he knew that, besides
+making strangers more accommodating, it also makes them see him as
+taller. Studies investigating the way in which authority status affects
+perceptions of size have found that prestigious titles lead to height
+distortions. In one experiment conducted on five classes of Australian
+
+[PAGE 177]
+Robert B. Cialdini Ph.D / 167
+college students, a man was introduced as a visitor from Cambridge
+University in England. However, his status at Cambridge was repres-
+ented differently in each of the classes. To one class, he was presented
+as a student; to a second class, a demonstrator; to another, a lecturer;
+to yet another, a senior lecturer; to a fifth, a professor. After he left the
+room, each class was asked to estimate his height. It was found that
+with each increase in status, the same man grew in perceived height by
+an average of a half inch, so that as the “professor” he was seen as two
+5
+and a half inches taller than as the “student.”
+It is worth the time of a small detour to pursue this interesting con-
+nection between status and perceived size, since it shows up in a variety
+of ways. In judging the size of coins, for example, children most overes-
+timate the size of the more valuable coins. And adults are just as guilty
+of such distortions. In one study, college students drew cards that had
+monetary values printed on them ranging from $3.00 to –$3.00; they
+won or lost the amount shown on the cards they picked. Afterward,
+they were asked to rate the size of each card. Even though all cards
+were exactly the same size, those that had the more extreme values—pos-
+itive or negative—were seen as physically larger. Thus it is not neces-
+sarily the pleasantness of a thing that makes it seem bigger to us, it is
+6
+its importance.
+Because we see size and status as related, it is possible for certain in-
+dividuals to benefit by substituting the former for the latter. In some
+animal societies, where the status of a male is assigned on the basis of
+dominance, size is an important factor in determining which male will
+7
+achieve which status level in the group. Usually, in combat with a
+rival, the larger and more powerful male wins. To avoid the harmful
+effects to the group of such physical conflict, however, many species
+have adopted methods that frequently involve more form than fracas.
+The two males confront each other with showy aggression displays that
+invariably include size-enhancing tricks. Various mammals arch their
+backs and bristle their coats; fish extend their fins and puff themselves
+up with water; birds unfurl and flutter their wings. Very often, this ex-
+hibition alone is enough to send one of the histrionic warriors into re-
+treat, leaving the contested status position to his seemingly larger and
+stronger rival.
+Fur, fins, and feathers. Isn’t it interesting how these most delicate of
+parts can be exploited to give the impression of substance and weight?
+There are two lessons for us here. One is specific to the association
+between size and status. The connection of those two things can be
+profitably employed by individuals who are able to fake the first to
+gain the appearance of the second. This is precisely why con men, even
+
+[PAGE 178]
+168 / Influence
+those of average or slightly above-average height, commonly wear lifts
+in their shoes.
+The other lesson is more general: The outward signs of power and
+authority frequently may be counterfeited with the flimsiest of materials.
+Let’s return to the realm of titles for an example—an example that in-
+volves what, in several ways, is the scariest experiment I know. A group
+of researchers, composed of doctors and nurses with connections to
+three midwestern hospitals, became increasingly concerned with the
+extent of mechanical obedience to doctors’ orders on the part of nurses.
+It seemed to the researchers that even highly trained and skilled nurses
+were not using that training or skill sufficiently to check on a doctor’s
+judgment; instead, when confronted with a physician’s directives, they
+would simply defer.
+Earlier, we saw how this process accounted for the case of the rectally
+administered ear drops. But the midwestern researchers took things
+several steps further. First, they wanted to find out whether such cases
+were isolated incidents or representative of a widespread phenomenon.
+Second, they wanted to examine the problem in the context of a serious
+treatment error—the gross overprescription of an unauthorized drug
+to a hospital patient. Finally, they wanted to see what would happen
+if they physically removed the authority figure from the situation and
+substituted an unfamiliar voice on the phone, offering only the frailest
+evidence of authority—the claimed title “doctor.”
+To twenty-two separate nurses’ stations on various surgical, medical,
+pediatric, and psychiatric wards, one of the researchers made an
+identical phone call in which he identified himself as a hospital physician
+and directed the answering nurse to give twenty milligrams of a drug
+(Astrogen) to a specific ward patient. There were four excellent reasons
+for a nurse’s caution in response to this order: (1) The prescription was
+transmitted by phone, in direct violation of hospital policy. (2) The
+medication itself was unauthorized; Astrogen had not been cleared for
+use nor placed on the ward stock list. (3) The prescribed dosage was
+obviously and dangerously excessive. The medication containers clearly
+stated that the “maximum daily dose” was only ten milligrams, half of
+what had been ordered. (4) The directive was given by a man the nurse
+had never met, seen, or even talked with before on the phone. Yet, in
+95 percent of the instances, the nurses went straightaway to the ward
+medicine cabinet, where they secured the ordered dosage of Astrogen
+and started for the patient’s room to administer it. It was at this point
+that they were stopped by a secret observer, who revealed the nature
+of the experiment.
+The results are frightening, indeed. That 95 percent of regular staff
+nurses complied unhesitatingly with a patently improper instruction
+
+[PAGE 179]
+Robert B. Cialdini Ph.D / 169
+of this sort must give us all great reason for concern as potential hospital
+patients. Given the recent U.S. Health Care Financing Administration
+estimate of a 12 percent daily-medication error rate in American hospit-
+als, stays of longer than a week make it likely that we will be recipients
+of such an error. What the midwestern study shows is that the mistakes
+are hardly limited to trivial slips in the administration of harmless ear
+drops or the like, but extend to grave and dangerous blunders.
+In interpreting their unsettling findings, the researchers came to an
+instructive conclusion:
+In a real-life situation corresponding to the experimental one, there
+would, in theory, be two professional intelligences, the doctor’s
+and the nurse’s, working to ensure that a given procedure be un-
+dertaken in a manner beneficial to the patient or, at the very least,
+not detrimental to him. The experiment strongly suggests, how-
+ever, that one of these intelligences is, for all practical purposes,
+8
+nonfunctioning.
+It seems that, in the face of a physician’s directives, the nurses un-
+hooked their “professional intelligences” and moved to a click, whirr
+form of responding. None of their considerable medical training or
+knowledge was engaged in the decision of what to do. Instead, because
+obedience to legitimate authority had always been the most preferred
+and efficient action in their work setting, they had become willing to
+err on the side of automatic obedience. It is all the more instructive that
+they had traveled so far in this direction that their error had come not
+in response to genuine authority but to its most easily falsified sym-
+9
+bol—a bare title.
+Clothes
+A second kind of authority symbol that can trigger our mechanical
+compliance is clothing. Though more tangible than a title, the cloak of
+authority is every bit as fakable. Police bunco files bulge with records
+of con artists whose artistry includes the quick change. In chameleon
+style, they adopt the hospital white, priestly black, army green, or police
+blue that the situation requires for maximum advantage. Only too late
+do their victims realize that the garb of authority is hardly its guarantee.
+A series of studies by social psychologist Leonard Bickman gives an
+indication of how difficult it can be to resist requests that come from
+figures in authority attire. Bickman’s basic procedure was to ask pass-
+ersby on the street to comply with some sort of odd request (to pick up
+a discarded paper bag, to stand on the other side of a bus-stop sign). In
+half of the instances, the requester—a young man—was dressed in
+
+[PAGE 180]
+170 / Influence
+normal street clothes; the rest of the time, he was dressed in a security
+guard’s uniform. Regardless of the type of request, many more people
+obeyed the requester when he wore the guard costume.
+Especially revealing was one version of the experiment in which the
+requester stopped pedestrians and pointed to a man standing by a
+parking meter fifty feet away. The requester, whether dressed normally
+or as a security guard, always said the same thing to the pedestrian:
+“You see that guy over there by the meter? He’s overparked but doesn’t
+have any change. Give him a dime!” The requester then turned a corner
+and walked away so that by the time the pedestrian reached the meter,
+the requester was out of sight. The power of his uniform lasted, how-
+ever, even after he was long gone: Nearly all the pedestrians complied
+with his directive when he had worn the guard costume, but fewer than
+half did so when he had dressed normally. It is interesting to note that
+later on, Bickman found college students able to guess with considerable
+accuracy the percentage of compliance that had occurred in the experi-
+ment when the requester wore street clothes (50 percent vs. the actual
+42 percent); yet the students greatly underestimated the percentage of
+compliance when he was in uniform (63 percent vs. the actual 92 per-
+10
+cent).
+Less blatant in its connotation than a uniform, but nonetheless effect-
+ive, is another kind of attire that has traditionally bespoken authority
+status in our culture: the well-tailored business suit. It, too, can evoke
+a telling form of deference from total strangers. Research conducted in
+Texas, for instance, arranged for a thirty-one-year-old man to violate
+the law by crossing the street against the traffic light on a variety of
+occasions. In half of the cases, he was dressed in a freshly pressed
+business suit and tie; on the other occasions, he wore a work shirt and
+trousers. The researchers watched from a distance and counted the
+number of pedestrians waiting at the corner who followed the man
+across the street. Like the children of Hamelin who crowded after the
+Pied Piper, three and a half times as many people swept into traffic
+behind the suited jaywalker. In this case, though, the magic came not
+11
+from his pipe but his pinstripes.
+It is noteworthy that the two types of authority apparel shown by
+the above research to be influential—the guard uniform and business
+suit—are combined deftly by confidence men in a fraud called the bank-
+examiner scheme. The target of the swindle can be anyone, but elderly
+persons living alone are preferred. The con begins when a man dressed
+in a properly conservative three-piece business suit appears at the door
+of a likely victim. Everything about his clothing sends a message of
+propriety and respectability. The white shirt is starched; the wing-tip
+shoes glow deeply. His suit is not trendy but classic: The lapels are three
+
+[PAGE 181]
+Robert B. Cialdini Ph.D / 171
+inches wide—no more, no less; the cloth is heavy and substantial, even
+in July; the tones are muted, business blue, business gray, business
+black.
+He explains to his intended victim—perhaps a widow he secretly
+followed home from the bank a day or two earlier—that he is a profes-
+sional bank examiner who, in the course of auditing the books of her
+bank, has found some seeming irregularities. He thinks he has spotted
+the culprit, a bank officer who is regularly doctoring reports of transac-
+tions in certain accounts. He says that the widow’s account may be one
+of these, but he can’t be sure until he has hard evidence. Therefore, he
+has come to ask for her cooperation. Would she help out by withdrawing
+her savings so a team of examiners and responsible bank officials can
+trace the record of the transaction as it passes across the suspect’s desk?
+Often the appearance and presentation of the “bank examiner” are
+so impressive that the victim never thinks to check on their validity
+with even a simple phone call. Instead, she drives to the bank, with-
+draws all her money, and returns home with it to wait with the “exam-
+iner” for word on the success of the trap. When the message comes, it
+is delivered by a uniformed bank guard, who arrives after closing hours
+to announce that all is well—apparently the widow’s account was not
+one of those being tampered with. Greatly relieved, the “examiner”
+offers gracious thanks and, since the bank is now conveniently closed,
+instructs the guard to return the lady’s money to the vault, to save her
+the trouble of doing so the next day. With smiles and handshakes all
+around, the guard takes the funds and leaves the “examiner” to express
+a few more minutes of thanks before he, too, exits. Naturally, as the
+victim eventually discovers, the “guard” is no more a guard than the
+“examiner” is an examiner. What they are is a pair of bunco artists who
+have recognized the capacity of carefully counterfeited uniforms to
+click us into mesmerized compliance with “authority.”
+Trappings
+Aside from its function in uniforms, clothing can symbolize a more
+generalized type of authority when it serves an ornamental purpose.
+Finely styled and expensive clothes carry an aura of status and position,
+as do trappings such as jewelry and cars. The last of these status symbols
+is particularly interesting in the United States, where “the American
+love affair with the automobile” gives it unusual significance.
+According to the findings of a study done in the San Francisco Bay
+area, owners of prestige autos receive a special kind of deference from
+us. The experimenters discovered that motorists would wait significantly
+longer before honking their horns at a new, luxury car stopped in front
+
+[PAGE 182]
+172 / Influence
+of a green traffic light than at an older, economy model. The motorists
+had little patience with the economy-car driver: Nearly all sounded
+their horns, and the majority of these did so more than once; two simply
+rammed into his rear bumper. So intimidating was the aura of the
+prestige automobile, however, that 50 percent of the motorists waited
+12
+respectfully behind it, never touching their horns, until it drove on.
+Later on, the researchers asked college students what they would
+have done in such situations. Compared to the true findings of the ex-
+periment, the students consistently underestimated the time it would
+take them to honk at the luxury car. The male students were especially
+inaccurate, feeling that they would honk faster at the prestige- than the
+economy-car driver; of course, the study itself showed just the opposite.
+Note the similarity of this pattern to much other research on authority
+pressures. As in Milgram’s research, the midwestern hospital-nurses’
+study, and the security-guard-uniform experiment, people were unable
+to predict correctly how they or others would react to authority influ-
+ence. In each instance, the effect of such influence was grossly underes-
+timated. This property of authority status may account for much of its
+success as a compliance device. Not only does it work forcefully on us,
+but it also does so unexpectedly.
+HOW TO SAY NO
+One protective tactic we can use against authority status is to remove
+its element of surprise. Because we typically misperceive the profound
+impact of authority (and its symbols) on our actions, we are at the dis-
+advantage of being insufficiently cautious about its presence in compli-
+ance situations. A fundamental form of defense against this problem,
+therefore, is a heightened awareness of authority power. When this
+awareness is coupled with a recognition of how easily authority symbols
+can be faked, the benefit will be a properly guarded approach to situ-
+ations involving authority-influence attempts.
+Sounds simple, right? And in a way it is. A better understanding of
+the workings of authority influence should help us resist it. Yet there
+is a perverse complication—the familiar one inherent in all weapons of
+influence: We shouldn’t want to resist altogether, or even most of the
+time. Generally, authority figures know what they are talking about.
+Physicians, judges, corporate executives, legislative leaders, and the
+like have typically gained their positions because of superior knowledge
+and judgment. Thus, as a rule, their directives offer excellent counsel.
+The trick is to be able to recognize without much strain or vigilance
+when authority promptings are best followed and when they should
+be resisted.
+
+[PAGE 183]
+Robert B. Cialdini Ph.D / 173
+Posing two questions to ourselves can help enormously to accomplish
+this trick. The first is to ask, when we are confronted with what appears
+to be an authority figure’s influence attempt, “Is this authority truly an
+expert?” The question is helpful because it focuses our attention on a
+pair of crucial pieces of information: the authority’s credentials and the
+relevance of those credentials to the topic at hand. By orienting in this
+simple way toward the evidence for authority status, we can avoid the
+major pitfalls of automatic deference. An illustration or two is in order.
+Let’s examine the highly successful Robert Young Sanka-coffee
+commercial in this light. If, rather than responding to his “Marcus
+Welby, M.D.” association, people had focused on Mr. Young’s actual
+status as an authority, I am confident that the commercial would not
+have had so long and productive a run. Obviously, Robert Young does
+not possess a physician’s training or knowledge. We all know that.
+What he does possess, however, is a physician’s title, “M.D.” Now,
+clearly, it is an empty title, connected to him in our minds through the
+device of playacting. We all know that, too. But isn’t it fascinating how,
+when we are whirring along, what is obvious often doesn’t matter unless
+we pay specific attention to it?
+That is why the “Is this authority truly an expert?” question can be
+so valuable: It brings our attention to the obvious. It channels us effort-
+lessly away from a focus on possibly meaningless symbols to a consid-
+eration of genuine authority credentials. What’s more, the question
+impels us to distinguish between relevant authorities and irrelevant
+authorities. And this is a distinction that is easy to forget when the push
+of authority pressure is combined with the rush of modern life. The
+Texas pedestrians who bustled into city traffic behind a business-suited
+jaywalker offer a prime example. Even if the man had been the business
+authority his clothes suggested he might be, he was unlikely to be a
+greater authority on crossing the street than other people, including
+those who followed him into traffic.
+Still, they did follow, as if his label, “authority,” overwhelmed the
+vital difference between relevant and irrelevant forms. Had they
+bothered to ask themselves whether he represented a true expert in the
+situation, someone whose actions reflected superior knowledge there,
+I expect the result would have been quite different. The same process
+applies to Robert Young, a man who is not without expertise. He has
+fashioned a long career with many achievements in a difficult business.
+But his skills and knowledge are as an actor, not a doctor. When, in
+viewing the famous coffee commercial, we focus on his true credentials,
+we will realize quickly that he should be no more believed than any
+other successful actor who claims that Sanka is healthy.
+
+[PAGE 184]
+174 / Influence
+Suppose, though, we are confronted with an authority we determine
+is a relevant expert. Before submitting to authority influence, it would
+be wise to ask a second simple question: “How truthful can we expect
+the expert to be here?” Authorities, even the best informed, may not
+present their information honestly to us. Therefore we need to consider
+their trustworthiness in the situation. In fact, most of the time, we do.
+We allow ourselves to be much more swayed by experts who seem to
+be impartial than by those who have something to gain by convincing
+13
+us; and this has been shown by research to be true around the world.
+By wondering how an expert stands to benefit from our compliance,
+we give ourselves another safety net against undue and automatic in-
+fluence. Even knowledgeable authorities in a field will not persuade
+us until we are satisfied that their messages represent the facts faithfully.
+When asking ourselves about such a person’s trustworthiness, we
+should keep in mind a little tactic compliance practitioners often use
+to assure us of their sincerity: They will seem to argue to a degree against
+their own interests. Correctly done, this can be a subtly effective device
+for proving their honesty. Perhaps they will mention a small shortcom-
+ing in their position or product (“Oh, the disadvantages of Benson &
+Hedges”). Invariably, though, the drawback will be a secondary one
+that is easily overcome by more significant advantages—“Listerine, the
+taste you hate three times a day”; “Avis: We’re number two, but we try
+harder”; “L’Oréal, a bit more expensive and worth it.” By establishing
+their basic truthfulness on minor issues, the compliance professionals
+who use this ploy can then be more believable when stressing the im-
+14
+portant aspects of their argument.
+I have seen this approach used with devastating effect in a place that
+few of us recognize as a compliance setting: the restaurant. It is no secret
+that because of shamelessly low wages, servers in restaurants must
+supplement their earnings with tips. Leaving the sine qua non of good
+service aside, the most successful waiters and waitresses know certain
+tricks for increasing tips. They also know that the larger a customer’s
+bill, the larger the amount of money likely to come to them in a standard
+gratuity. In these two regards, then—building the size of the customer’s
+charge and building the percentage of that charge that is given as a
+tip—servers regularly act as compliance agents.
+Hoping to find out how they operate, I applied for waiter openings
+at several fairly expensive restaurants. Without experience, though, the
+best I could do was to land a busboy job that, as things turned out,
+provided me a propitious vantage point from which to watch and
+analyze the action. Before long, I realized what the other employees
+already knew—that the most successful waiter in the place was Vincent,
+
+[PAGE 185]
+Robert B. Cialdini Ph.D / 175
+who somehow arranged for patrons to order more and tip higher than
+for anyone else; in fact, the other servers were not even close to him in
+weekly earnings.
+So I began to linger in my duties around Vincent’s tables to observe
+his style. I quickly learned that his style was to have no single style. He
+had a repertoire of them, each ready to be called on under the appropri-
+ate circumstances. When the customers were a family, he was efferves-
+cent—even slightly clownish—directing his remarks as often to the
+children as to the adults. With a young couple on a date, he became
+formal and a bit imperious in an attempt to intimidate the young man
+(to whom he spoke exclusively) into ordering and tipping lavishly.
+With an older, married couple, he retained the formality but dropped
+the superior air in favor of a respectful orientation to both members of
+the couple. Should the patron be dining alone, Vincent selected a
+friendly demeanor—cordial, conversational, and warm.
+But Vincent reserved the trick of seeming to argue against his own
+interests for large parties of eight to twelve people. Here his technique
+was veined with genius. When it was time for the first person, normally
+a lady, to order, he went into his act. No matter what she selected,
+Vincent reacted identically: His brow furrowed, his hand hovered above
+his order pad, and after looking quickly over his shoulder for the
+manager, he leaned conspiratorially toward the table to report for all
+to hear, “I’m afraid that is not as good tonight as it normally is. Might
+I recommend instead the____or the____?” (Here Vincent suggested a
+pair of menu items that were fifty cents or so less expensive than the
+dish the patron had selected initially.) “They are both excellent tonight.”
+With this single maneuver, Vincent engaged several important prin-
+ciples of influence. First, even those who did not take his suggestions
+felt that Vincent had done them a favor by offering valuable information
+to help them order. Everyone felt grateful, and consequently the rule
+for reciprocity would work in his favor when it came time to decide on
+his gratuity. But besides hiking the percentage of his tip, Vincent’s
+maneuver also placed him in a favorable position to increase the size
+of the table’s order. It established him as an authority on the current
+stores of the house; he clearly knew what was and wasn’t good that
+night. Moreover—and this is where seeming to argue against his own
+interests came in—it proved him to be a trustworthy informant, because
+he recommended dishes that were slightly less expensive than originally
+ordered. Rather than trying to line his own pockets, he seemed to have
+the customers’ best interests at heart.
+To all appearances, he was at once knowledgeable and honest, a
+combination that gave him great credibility. And Vincent was quick to
+exploit the advantage of this credible image. When the party had fin-
+
+[PAGE 186]
+176 / Influence
+ished giving their food orders, he would say, “Very well, and would
+you like me to suggest or select some wine to go with your meals?” As
+I watched the scene repeated almost nightly, there was a notable con-
+sistency to the customers’ reactions—smiles, nods, and for the most
+part, general assent.
+Even from the distance of my vantage point, one could read their
+thoughts from their faces. “Sure,” they seemed to say, “you know what’s
+good here, and you’re obviously on our side. Tell us what to get.”
+Looking pleased, Vincent, who did know his vintages, would respond
+with some excellent (and costly) choices. He was similarly persuasive
+when it came time for dessert decisions. Patrons who otherwise would
+have passed up the dessert course or shared with a friend were swayed
+to partake fully by Vincent’s rapturous descriptions of the Baked Alaska
+and chocolate mousse. Who, after all, is more believable than a demon-
+strated expert of proven sincerity?
+By combining the factors of reciprocity and credible authority into a
+single, elegant maneuver, Vincent was able to inflate substantially both
+the percentage of his tip and the base charge on which it was figured.
+His proceeds from this trick were handsome, indeed. But notice that
+much of his profit came from an apparent lack of concern for personal
+profit. Seeming to argue against his financial interests served those in-
+terests extremely well.
+READER’S REPORT
+From a Young Businessman
+“About two years ago, I was trying to sell my old car because I’d already
+bought a new one. One day I passed a used-car lot with a sign reading,
+WE WILL SELL YOUR CAR FOR MORE. Just what I wanted, I thought; so I
+stopped in to talk with the owner. I told him I wanted to get about three
+thousand dollars for my old car, and he said he thought I should be
+asking for a lot more because it was worth at least thirty-five-hundred
+dollars. This came as a real surprise to me, because the way their con-
+signment system worked, the larger my asking price for the car, the
+less money was left over for them to keep after they sold it to somebody.
+Therefore, by telling me to ask for more than three thousand dollars,
+they were cutting off their own profits. Just like your Vincent-the-waiter
+example, they were seeming to argue against their own interests so I’d
+see them as trustworthy authorities; but I didn’t realize this until much
+later. Anyway, I went along with the owner’s idea that my car was
+worth more than I’d first thought, and I set my asking price at thirty-
+five-hundred dollars.
+“After they’d had my car on their lot for a couple of days, they called
+
+[PAGE 187]
+Robert B. Cialdini Ph.D / 177
+saying that someone was really interested in it, but that the price was
+a little too high. Would I be willing to drop my price by two hundred
+dollars to sell the car? Convinced that they had my interests at heart, I
+agreed. The next day they called back to say the the buyer’s financing
+had fallen through and that he couldn’t buy the car. In the next two
+weeks, I got two more calls from the dealership, each asking me to drop
+my price two hundred dollars to seal a sale to some customer. Both
+times I OK’d it because I still believed they were trustworthy. But each
+time, the alleged deal fell through. I was suspicious enough to call a
+friend whose family was in the car business. He said this was an old
+trick designed to get sellers like me to reduce their asking prices to super
+low levels, giving the dealership big profits when they finally sold the
+car.
+“So, I went over there and took my car. As I was leaving, they were
+still trying to persuade me to let them keep it because they had a ‘hot
+prospect’ who they were sure would buy it if I’d only knock off another
+two hundred dollars.”
+Once again in a Reader’s Report we can see the influence of the contrast
+principle combining with the principle of primary interest. In this case,
+after the thirty-five-hundred-dollar figure was set, each
+two-hundred-dollar nick seemed small by comparison.
+
+[PAGE 188]

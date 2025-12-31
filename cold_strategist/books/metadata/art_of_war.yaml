@@ -1,0 +1,27 @@
+title: "The Art of War"
+author: "Sun Tzu"
+description: "Ancient text on strategic conflict, deception, and tactical advantage."
+
+domains:
+  - conflict
+  - intelligence
+  - timing
+  - strategy
+  - war
+
+tones:
+  - dark
+  - strategic
+  - cold
+  - competitive
+
+modes:
+  - war
+  - standard
+
+priority:
+  war: 1.0
+  standard: 0.8
+  quick: 0.4
+
+notes: "Foundational strategic text. Direct application to competitive scenarios."

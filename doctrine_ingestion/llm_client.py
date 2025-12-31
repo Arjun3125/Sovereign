@@ -10,7 +10,7 @@ OLLAMA_URL = _base_url if _base_url.endswith("/api/generate") else _base_url.rst
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen2.5:7b")
 
 # Operational knobs
-TIMEOUT_SEC = 120
+TIMEOUT_SEC = 600  # 10 minutes
 RETRY_ONCE = True  # conservative single retry only
 
 

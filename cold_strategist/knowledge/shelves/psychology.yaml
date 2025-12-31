@@ -1,0 +1,10 @@
+minister: "Psychology"
+allowed_books:
+  - "art_of_seduction"
+  - "influence"
+  - "thinking_fast_and_slow"
+  - "games_people_play"
+
+rules:
+  - "No tactical instruction, only psychological dynamics"
+  - "Must surface bias and manipulation risk"

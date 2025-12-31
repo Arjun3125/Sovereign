@@ -1,0 +1,9 @@
+minister: "Power"
+allowed_books:
+  - "48_laws_of_power"
+  - "strategy_liddell_hart"
+  - "on_war"
+
+rules:
+  - "No moral framing"
+  - "Must assess optics and leverage cost"

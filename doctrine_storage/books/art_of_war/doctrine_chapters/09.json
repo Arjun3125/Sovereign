@@ -1,0 +1,22 @@
+{
+  "book_id": "art_of_war",
+  "chapter_index": 9,
+  "chapter_title": "6. Therefore the skillful leader subdues the enemy\u2019s",
+  "principles": [],
+  "claims": [
+    "The skillful leader subdues the enemy's town without fighting.",
+    "The skillful leader captures cities without laying siege to them.",
+    "The skillful leader overthrows kingdoms without lengthy operations in the field."
+  ],
+  "rules": [
+    "If our forces are ten to the enemy\u2019s one, we surround him.",
+    "If five to one, we attack him.",
+    "If twice as numerous, we divide our army into two.",
+    "If equally matched, we can offer battle.",
+    "If slightly inferior in numbers, we can avoid the enemy.",
+    "If quite unequal in every way, we can flee from him."
+  ],
+  "warnings": [],
+  "cross_references": [],
+  "source_hash": "62c23d745d0cfc8f8371381432beaca0efc6d5acd755e43338cfd3455b071c51"
+}

@@ -1,0 +1,8 @@
+minister: "Optionality"
+allowed_books:
+  - "antifragile"
+  - "skin_in_the_game"
+
+rules:
+  - "Prefer options over commitments"
+  - "Surface fragility and convexity"

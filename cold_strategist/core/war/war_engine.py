@@ -11,21 +11,21 @@ War Mode enhances Normal Mode by:
 
 from typing import Dict, Any, List, Optional
 from dataclasses import dataclass
-from core.war.war_policy import WarModePolicy, WarModeFilter, DEFAULT_WAR_POLICY
-from core.war.war_logger import WarModeLogger
-from core.knowledge.minister_retriever import MinisterRetriever
-from core.knowledge.synthesize.minister_synthesizer import MinisterSynthesizer
-from core.knowledge.war_aware_rag_retriever import WarAwareRAGRetriever
-from core.orchestrator.truth_audit import TruthAudit
-from core.orchestrator.war_escalation import WarEscalationEngine
-from core.memory.post_mortem import store_conflict_event
+from cold_strategist.core.war.war_policy import WarModePolicy, WarModeFilter, DEFAULT_WAR_POLICY
+from cold_strategist.core.war.war_logger import WarModeLogger
+from cold_strategist.core.knowledge.minister_retriever import MinisterRetriever
+from cold_strategist.core.knowledge.synthesize.minister_synthesizer import MinisterSynthesizer
+from cold_strategist.core.knowledge.war_aware_rag_retriever import WarAwareRAGRetriever
+from cold_strategist.core.orchestrator.truth_audit import TruthAudit
+from cold_strategist.core.orchestrator.war_escalation import WarEscalationEngine
+from cold_strategist.core.memory.post_mortem import store_conflict_event
 from datetime import datetime
-from core.orchestrator.reentry_engine import ReentryEngine, Signals
-from core.orchestrator.reentry_states import REENTRY_STATES
-from core.memory.memory_store import MemoryStore
-from core.memory.event_log import MemoryEvent
-from darbar.tribunal import Tribunal
-from darbar.n import N
+from cold_strategist.core.orchestrator.reentry_engine import ReentryEngine, Signals
+from cold_strategist.core.orchestrator.reentry_states import REENTRY_STATES
+from cold_strategist.core.memory.memory_store import MemoryStore
+from cold_strategist.core.memory.event_log import MemoryEvent
+from cold_strategist.darbar.tribunal import Tribunal
+from cold_strategist.darbar.n import N
 
 
 @dataclass
@@ -469,8 +469,6 @@ class WarEngine:
             lines.append("CRITICAL: Knowledge conflict exceeds safe synthesis. Tribunal available; Sovereign must consciously override to proceed.")
         
         return "\n".join(lines)
-    - N's bluntness adjusts based on war history
-    """
     
     def run(
         self,

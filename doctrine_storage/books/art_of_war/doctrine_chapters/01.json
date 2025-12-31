@@ -1,0 +1,16 @@
+{
+  "book_id": "art_of_war",
+  "chapter_index": 1,
+  "chapter_title": "1. Sun Tzu said: The art of war is of vital importance to",
+  "principles": [],
+  "claims": [
+    "The art of war is of vital importance to the State.",
+    "It is a matter of life and death, a road either to safety or to ruin."
+  ],
+  "rules": [
+    "The art of war is governed by five constant factors: The Moral Law, Heaven, Earth, The Commander, and Method and discipline."
+  ],
+  "warnings": [],
+  "cross_references": [],
+  "source_hash": "8ac954ed3aa383ed7958a229baba0850a1b3f84e49923070e6b864309e4e6399"
+}

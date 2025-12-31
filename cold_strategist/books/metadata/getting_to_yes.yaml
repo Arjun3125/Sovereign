@@ -1,0 +1,24 @@
+title: "Getting to Yes"
+author: "Fisher, Ury, Patton"
+description: "Negotiation principles and collaborative problem-solving."
+
+domains:
+  - diplomacy
+  - negotiation
+  - cooperation
+
+tones:
+  - collaborative
+  - pragmatic
+  - solution-focused
+
+modes:
+  - standard
+  - quick
+
+priority:
+  war: 0.2        # Low priority in War Mode (soft voice)
+  standard: 0.9
+  quick: 0.5
+
+notes: "Cooperation-focused. De-prioritized in War Mode unless alliances tactically important."

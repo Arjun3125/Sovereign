@@ -1,0 +1,6 @@
+REENTRY_STATES = {
+    "WAR_ACTIVE": 0,
+    "COOLDOWN": 1,
+    "STABILIZE": 2,
+    "STANDARD_READY": 3,
+}

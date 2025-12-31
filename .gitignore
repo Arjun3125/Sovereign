@@ -1,0 +1,43 @@
+# Ignore ingest transcripts containing PII
+*_transcript.txt
+
+# Optional: ignore ingest run outputs
+ingest_run_output.txt
+
+# Data & external files
+data/
+telemetry/
+memory/
+*.pdf
+*.db
+*.sqlite
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated embeddings (only if large)
+*.npy
+*.pickle
+*.joblib
