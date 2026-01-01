@@ -1,0 +1,27 @@
+# Test files created/used for layers B-J in this session
+
+tests/test_b1_no_duplicate_embeddings.py
+tests/test_b2_embedding_stability.py
+tests/test_c1_cross_reference_integrity.py
+tests/test_c2_assembly_reversibility.py
+tests/test_d1_query_result_stability.py
+tests/test_d2_threshold_enforcement.py
+tests/test_e1_jurisdiction_boundaries.py
+tests/test_e2_minister_isolation.py
+
+tests/test_f1_mandatory_escalation.py
+tests/test_f2_silence_validity.py
+
+tests/test_g1_temperature_determinism.py
+tests/test_g2_structured_output.py
+
+tests/test_h1_dry_run_no_mutation.py
+tests/test_h2_api_context_required.py
+
+tests/test_i1_partial_ingest_recovery.py
+tests/test_i2_invalid_doctrine_defense.py
+
+tests/test_j1_sovereign_authority_final.py
+tests/test_j2_regression_prevention.py
+
+# End of list
