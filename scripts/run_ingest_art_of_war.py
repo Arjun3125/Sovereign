@@ -24,7 +24,7 @@ def main():
     print(f"Loaded {len(pages)} pages; assembling book text ({len(book_text)} chars)")
 
     try:
-        from ingestion_v2.ingest_v2 import ingest_v2
+        from cold_strategist.ingest_v2.ingest_v2 import ingest_v2
     except Exception as e:
         print(f"Import error: {e}")
         return 3

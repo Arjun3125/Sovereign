@@ -1,104 +1,148 @@
-"""Prompt templates for Ingest V2.
+"""
+Prompts for Ingestion v2: Phase-1 and Phase-2.
 
-These strings are exact copies of the user's PROMPT SET for DOMAIN_CLASSIFICATION
-and MEMORY_EXTRACTION. They are intended to be passed to an LLM client when
-moving from dry-run to PHASE 1/2.
+This file provides canonical, unambiguous prompts for the two-pass compiler.
 """
 
-DOMAIN_CLASSIFICATION_SYSTEM = """
-You are a JSON generator.
+DOMAINS = [
+    "Strategy",
+    "Power",
+    "Conflict & Force",
+    "Deception",
+    "Psychology",
+    "Leadership",
+    "Organization & Discipline",
+    "Intelligence & Information",
+    "Timing",
+    "Risk & Survival",
+    "Resources & Logistics",
+    "Law & Order",
+    "Morality & Legitimacy",
+    "Diplomacy & Alliances",
+    "Adaptation & Change",
+]
 
-You must output a single valid JSON object.
-The first character of your response MUST be '{'.
-Do not include explanations.
-Do not include markdown.
-Do not include text outside JSON.
+
+def phase1_system() -> str:
+    """System prompt for Phase-1 (book structuring)."""
+    return """
+You are a book-structuring engine.
+
+Your ONLY task is to convert a complete book into canonical chapters.
+
+STRICT RULES:
+- Do NOT summarize.
+- Do NOT interpret.
+- Do NOT classify.
+- Do NOT extract principles.
+- Do NOT rewrite text.
+- Do NOT merge chapters.
+- Do NOT skip chapters.
+
+You MUST:
+- Identify EVERY chapter boundary.
+- Preserve ALL original wording.
+- Assign a chapter title (use the book’s own headings where possible).
+- Output each chapter as ONE continuous string.
+
+EVERY WORD from the input must appear in EXACTLY ONE chapter_text.
+No text may be omitted or duplicated.
+
+If the book contains commentary, translator notes, or explanations:
+- Include them inside the nearest logical chapter.
+- Do NOT create separate commentary chapters unless the book explicitly does so.
+
+If unsure about a boundary:
+- Prefer MORE chapters, not fewer.
+
+Output MUST be valid JSON and MUST follow the schema exactly.
 """
 
-DOMAIN_CLASSIFICATION_USER = """
-TASK: DOMAIN_CLASSIFICATION
 
-DOMAINS (fixed list — choose from these ONLY):
-- grand_strategy
-- power
-- optionality
-- psychology
-- diplomacy
-- conflict
-- truth
-- risk
-- timing
-- data_judgment
-- operations
-- technology
-- adaptation
-- legitimacy
-- narrative
+def phase1_user(book_text: str) -> str:
+    """User prompt for Phase-1 with the full book text."""
+    return f"""INPUT BOOK TEXT (FULL, UNABRIDGED):
 
-RULES:
-- Choose ALL domains that apply.
-- Overlap is allowed.
-- If no domain fits perfectly, choose the closest one.
-- NEVER invent new domains.
-- MUST return at least one domain.
-- Output MUST be valid JSON.
-- No extra text. No markdown.
+<<<BOOK_START>>>
+{book_text}
+<<<BOOK_END>>>
 
-CHAPTER_ID: {{chapter_id}}
-CHAPTER_TITLE: {{chapter_title}}
+Return ONLY valid JSON in this schema:
 
-CHAPTER_TEXT:
-{{chapter_text}}
-
-EXPECTED OUTPUT (STRICT)
-{
-  "chapter_id": "01",
-  "domains": ["strategy", "power"]
-}
-"""
-
-
-MEMORY_EXTRACTION_SYSTEM = """
-You are a JSON generator.
-
-You must output a single valid JSON object.
-The first character of your response MUST be '{'.
-Do not include explanations.
-Do not include markdown.
-Do not include text outside JSON.
-"""
-
-MEMORY_EXTRACTION_USER = """
-TASK: MEMORY_EXTRACTION
-
-DOMAIN: {{domain}}
-
-INSTRUCTIONS:
-- Extract ONLY what a person should REMEMBER after reading this chapter.
-- Focus strictly on the given domain.
-- Do NOT summarize the chapter.
-- Do NOT tell stories.
-- Do NOT invent.
-- Do NOT combine multiple ideas into one.
-- If multiple distinct memory items exist, list all of them.
-- If only one exists, list one.
-- If none exist for this domain, return an empty list.
-- Output MUST be valid JSON.
-- No extra text. No markdown.
-
-CHAPTER_ID: {{chapter_id}}
-CHAPTER_TITLE: {{chapter_title}}
-
-CHAPTER_TEXT:
-{{chapter_text}}
-
-EXPECTED OUTPUT (STRICT)
-{
-  "chapter_id": "01",
-  "domain": "deception",
-  "memory_items": [
-    "Victory depends on shaping the opponent’s perception before engagement.",
-    "Open strength provokes resistance; concealed intent enables control."
+{{
+  "book_title": "",
+  "author": null,
+  "chapters": [
+    {{
+      "chapter_index": 1,
+      "chapter_title": "",
+      "chapter_text": ""
+    }}
   ]
-}
+}}
+"""
+
+
+def phase2_system() -> str:
+    """System prompt for Phase-2 (doctrine extraction)."""
+    return """
+You are a doctrine extraction engine.
+
+Your task is to extract doctrine from ONE complete chapter of a book.
+
+STRICT RULES:
+- Use ONLY the provided chapter text.
+- Do NOT summarize the chapter.
+- Do NOT add external knowledge.
+- Do NOT merge or generalize ideas.
+- Do NOT return empty doctrine unless the chapter truly contains none.
+
+You MUST:
+- Select relevant domains from the allowed list.
+- Extract doctrine in ALL required fields.
+- Use clear, atomic sentences.
+- Return ONLY plain strings (no objects, no metadata).
+
+At minimum, the output MUST contain:
+- At least ONE domain
+- At least ONE principle OR rule
+- At least ONE claim OR warning
+
+If you violate the schema, the output will be rejected.
+Output MUST be valid JSON and MUST match the schema exactly.
+"""
+
+
+def phase2_user(chapter: dict) -> str:
+    """User prompt for Phase-2 with chapter data."""
+    ch_idx = chapter.get("chapter_index")
+    ch_title = chapter.get("chapter_title", "")
+    ch_text = chapter.get("chapter_text", "")
+
+    domains_str = "\n".join(f"- {d}" for d in DOMAINS)
+
+    return f"""ALLOWED DOMAINS:
+{domains_str}
+
+CHAPTER INPUT:
+
+Chapter Index: {ch_idx}
+Chapter Title: {ch_title}
+
+<<<CHAPTER_TEXT_START>>>
+{ch_text}
+<<<CHAPTER_TEXT_END>>>
+
+Return ONLY valid JSON using this schema:
+
+{{
+  "chapter_index": {ch_idx},
+  "chapter_title": "{ch_title}",
+  "domains": [],
+  "principles": [],
+  "rules": [],
+  "claims": [],
+  "warnings": [],
+  "cross_references": []
+}}
 """

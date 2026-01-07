@@ -1,71 +1,51 @@
 """
-Phase-2: Chapter → Doctrine (LLM)
+Phase-2: Each chapter → doctrine (LLM).
 
-This is the semantic compilation phase. Extracts doctrine with 15-domain classification.
+Per-chapter LLM call.
+Output: 15-domain classification, principles, rules, claims, warnings, cross-refs.
 """
-import sys
-import threading
-import time
+
 from .llm_client import call_llm, LLMError
-from .prompts_v2 import phase2_system, phase2_user
-
-
-def _show_chapter_progress(chapter_idx: int, stop_event):
-    """Show progress spinner for chapter processing."""
-    spinner = "|/-\\"
-    i = 0
-    last_print = 0
-    while not stop_event.is_set():
-        # Only update every 0.5 seconds to reduce output
-        if time.time() - last_print >= 0.5:
-            sys.stdout.write(f"\r[PHASE-2] Processing chapter {chapter_idx}... {spinner[i % len(spinner)]}")
-            sys.stdout.flush()
-            i += 1
-            last_print = time.time()
-        time.sleep(0.1)
-    sys.stdout.write("\r" + " " * 60 + "\r")  # Clear line
-    sys.stdout.flush()
+from .prompts import phase2_system, phase2_user
+from .validators import validate_phase2, ValidationError
 
 
 def phase2_doctrine(chapter: dict, model: str = None) -> dict:
     """
-    Extract doctrine from one chapter using LLM.
+    Phase-2: Extract doctrine from one chapter.
 
     Args:
-        chapter: Chapter dict with chapter_index, chapter_title, chapter_text
+        chapter: {
+            "chapter_index": int,
+            "chapter_title": str,
+            "chapter_text": str (entire chapter)
+        }
         model: LLM model name (default: env OLLAMA_MODEL)
 
     Returns:
         {
             "chapter_index": int,
             "chapter_title": str,
-            "domains": [str],  # 2-3 domains typically
-            "principles": [str],
-            "rules": [str],
-            "claims": [str],
-            "warnings": [str],
-            "cross_references": [int]
+            "domains": [list of domain strings],
+            "principles": [list of principle strings],
+            "rules": [list of rule strings],
+            "claims": [list of claim strings],
+            "warnings": [list of warning strings],
+            "cross_references": [list of chapter indices]
         }
 
     Raises:
         LLMError: If LLM call fails
+        ValidationError: If output schema invalid
     """
-    system = phase2_system()
-    user = phase2_user(chapter)
-    chapter_idx = chapter.get("chapter_index", "?")
+    system_prompt = phase2_system()
+    user_prompt = phase2_user(chapter)
+    full_prompt = system_prompt + "\n\n" + user_prompt
 
-    # Show progress spinner during LLM call
-    stop_event = threading.Event()
-    spinner_thread = threading.Thread(target=_show_chapter_progress, args=(chapter_idx, stop_event), daemon=True)
-    spinner_thread.start()
+    # Call LLM
+    result = call_llm(full_prompt, model)
 
-    try:
-        result = call_llm(system, user, model=model)
-        stop_event.set()
-        spinner_thread.join(timeout=1)
-        return result
-    except Exception as e:
-        stop_event.set()
-        spinner_thread.join(timeout=1)
-        raise LLMError(f"Phase-2 (doctrine extraction) failed for chapter {chapter_idx}: {e}")
+    # Validate
+    validate_phase2(result)
 
+    return result

@@ -1,4 +1,4 @@
-from query_engine.loader import load_book
+from cold_strategist.query.engine.loader import load_book
 from .detect import detect_conflicts
 from .report import format_report
 

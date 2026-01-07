@@ -5,7 +5,7 @@ Quick demo of the new end-to-end ingestion pipeline.
 """
 
 import os
-from ingestion_v2.ingest_v2 import ingest_v2
+from cold_strategist.ingest_v2.ingest_v2 import ingest_v2
 
 # Example: Art of War
 SAMPLE_CHAPTER = """

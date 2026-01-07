@@ -1,8 +1,12 @@
-"""Ingest v2: New ingestion model for Cold Strategist.
-
-Main entry point: ingest_book()
 """
-from .ingest_v2 import ingest_book
+Ingestion v2: Two-Pass Doctrine Compiler
 
-__all__ = ["ingest_book"]
+Phase-1: Whole book → canonical chapters (LLM)
+Phase-2: Each chapter → doctrine (15-domain extraction, LLM)
 
+Resume-safe, progress-tracked, schema-hardened.
+"""
+
+from .ingest_v2 import ingest_v2
+
+__all__ = ["ingest_v2"]

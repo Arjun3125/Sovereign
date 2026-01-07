@@ -178,7 +178,7 @@ ingestion_v2/
 ### Basic Usage
 
 ```python
-from ingestion_v2 import ingest_v2
+from cold_strategist.ingest_v2 import ingest_v2
 
 # Read book text
 with open("book.txt", "r", encoding="utf-8") as f:

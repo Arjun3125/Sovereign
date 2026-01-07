@@ -1,72 +1,50 @@
 """
-Phase-1: Whole Book → Canonical Chapters (LLM)
+Phase-1: Whole book → canonical chapters (LLM).
 
-This is the structural compilation phase. No doctrine, no interpretation.
-Only canonical chapter extraction.
+Single LLM call for entire book.
+Output: structured chapters with preserved text.
 """
-import sys
-import threading
-import time
+
+import os
 from .llm_client import call_llm, LLMError
-from .prompts_v2 import phase1_system, phase1_user
-
-
-def _show_progress_spinner(stop_event):
-    """Show a spinner while LLM is processing."""
-    spinner = "|/-\\"
-    i = 0
-    last_print = 0
-    while not stop_event.is_set():
-        # Only update every 0.5 seconds to reduce output
-        if time.time() - last_print >= 0.5:
-            sys.stdout.write(f"\r[PHASE-1] Processing... {spinner[i % len(spinner)]} (this may take 1-3 minutes)")
-            sys.stdout.flush()
-            i += 1
-            last_print = time.time()
-        time.sleep(0.1)
-    sys.stdout.write("\r" + " " * 70 + "\r")  # Clear line
-    sys.stdout.flush()
+from .prompts import phase1_system, phase1_user
+from .validators import validate_phase1, ValidationError
 
 
 def phase1_structure(book_text: str, model: str = None) -> dict:
     """
-    Extract canonical chapters from whole book using LLM.
+    Phase-1: Extract canonical chapters from entire book.
 
     Args:
-        book_text: Full book text as single string
+        book_text: Full book text (single string)
         model: LLM model name (default: env OLLAMA_MODEL)
 
     Returns:
         {
-            "book_title": str,
-            "author": str | null,
+            "book_title": "string",
+            "author": null,
             "chapters": [
                 {
-                    "chapter_index": int,
-                    "chapter_title": str,
-                    "chapter_text": str
-                }
+                    "chapter_index": 1,
+                    "chapter_title": "string",
+                    "chapter_text": "string"
+                },
+                ...
             ]
         }
 
     Raises:
         LLMError: If LLM call fails
+        ValidationError: If output schema invalid
     """
-    system = phase1_system()
-    user = phase1_user(book_text)
+    system_prompt = phase1_system()
+    user_prompt = phase1_user(book_text)
+    full_prompt = system_prompt + "\n\n" + user_prompt
 
-    # Show progress spinner during LLM call
-    stop_event = threading.Event()
-    spinner_thread = threading.Thread(target=_show_progress_spinner, args=(stop_event,), daemon=True)
-    spinner_thread.start()
+    # Call LLM
+    result = call_llm(full_prompt, model)
 
-    try:
-        result = call_llm(system, user, model=model)
-        stop_event.set()
-        spinner_thread.join(timeout=1)
-        return result
-    except Exception as e:
-        stop_event.set()
-        spinner_thread.join(timeout=1)
-        raise LLMError(f"Phase-1 (book structuring) failed: {e}")
+    # Validate
+    validate_phase1(result)
 
+    return result

@@ -1,4 +1,4 @@
-from cold_strategist.llm.ollama_client import OllamaClient
+from cold_strategist.core.llm.ollama_client import OllamaClient
 
 PROMPT = """Rephrase the following strategic principles into a single,
 clear, concise answer.

@@ -1,0 +1,56 @@
+[
+  {
+    "book_name": "01-11-2020-084536Surrounded by Idiots - Thomas Erikson",
+    "book_id": "01_11_2020_084536surrounded_by_idiots___thomas_erikson",
+    "status": "error",
+    "message": "LLM call failed: 404 Client Error: Not Found for url: http://localhost:11434/api/generate"
+  },
+  {
+    "book_name": "20150211-a5",
+    "book_id": "20150211_a5",
+    "status": "error",
+    "message": "LLM call failed: 404 Client Error: Not Found for url: http://localhost:11434/api/generate"
+  },
+  {
+    "book_name": "THE 48 LAWS OF POWER 06",
+    "book_id": "the_48_laws_of_power_06",
+    "status": "error",
+    "message": "LLM call failed: 404 Client Error: Not Found for url: http://localhost:11434/api/generate"
+  },
+  {
+    "book_name": "The Laws of Human Nature",
+    "book_id": "the_laws_of_human_nature",
+    "status": "error",
+    "message": "LLM call failed: 404 Client Error: Not Found for url: http://localhost:11434/api/generate"
+  },
+  {
+    "book_name": "The Psychology of Persuasion",
+    "book_id": "the_psychology_of_persuasion",
+    "status": "error",
+    "message": "LLM call failed: 404 Client Error: Not Found for url: http://localhost:11434/api/generate"
+  },
+  {
+    "book_name": "the-art-of-seduction-robert-greene",
+    "book_id": "the_art_of_seduction_robert_greene",
+    "status": "error",
+    "message": "LLM call failed: 404 Client Error: Not Found for url: http://localhost:11434/api/generate"
+  },
+  {
+    "book_name": "The-Art-of-Thinking-Clearly",
+    "book_id": "the_art_of_thinking_clearly",
+    "status": "error",
+    "message": "LLM call failed: 404 Client Error: Not Found for url: http://localhost:11434/api/generate"
+  },
+  {
+    "book_name": "the-psychology-of-money-by-morgan-housel 05",
+    "book_id": "the_psychology_of_money_by_morgan_housel_05",
+    "status": "error",
+    "message": "LLM call failed: 404 Client Error: Not Found for url: http://localhost:11434/api/generate"
+  },
+  {
+    "book_name": "The_Art_Of_War",
+    "book_id": "the_art_of_war",
+    "status": "error",
+    "message": "LLM call failed: 404 Client Error: Not Found for url: http://localhost:11434/api/generate"
+  }
+]
