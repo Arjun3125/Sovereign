@@ -1,8 +1,11 @@
 import json
 import pytest
 
-from cold_strategist.phase1.phase1_prompt import PROMPT, EXAMPLES, validate_response
-from cold_strategist.phase1.schema import Phase1Response
+from cold_strategist.decision import (
+    PROMPT,
+    validate_response,
+    Phase1Response,
+)
 
 
 def test_prompt_and_examples_present():

@@ -1,7 +1,9 @@
 import pytest
-from cold_strategist.phase1.llm_client import call_llm
-from cold_strategist.phase1.phase1_prompt import PROMPT, validate_response
-from cold_strategist.phase1.schema import Phase1Response
+from cold_strategist.decision import (
+    call_llm,
+    validate_response,
+    Phase1Response,
+)
 
 
 class TestOrchestratorPhase1Integration:

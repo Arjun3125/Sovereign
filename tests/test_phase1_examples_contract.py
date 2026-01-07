@@ -1,8 +1,7 @@
 import json
 import pytest
 
-from cold_strategist.phase1.phase1_prompt import EXAMPLES, validate_response
-from cold_strategist.phase1.schema import Phase1Response
+from cold_strategist.decision import EXAMPLES, validate_response, Phase1Response
 
 
 def test_all_examples_validate_and_conform():
