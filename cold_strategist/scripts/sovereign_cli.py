@@ -8,10 +8,10 @@ from pathlib import Path
 # Add sovereign to path
 sys.path.insert(0, str(Path(__file__).parent))
 
-from sovereign.embedding.embedding_gatekeeper import run_embedding
-from sovereign.retrieval.council_runner import run_council
-from sovereign.retrieval.debate_synthesizer import synthesize_debate, extract_disagreements
-from sovereign.retrieval.tribunal import tribunal_required, tribunal_verdict
+from cold_strategist.embedding.embedding_gatekeeper import run_embedding
+from cold_strategist.retrieval.council_runner import run_council
+from cold_strategist.retrieval.debate_synthesizer import synthesize_debate, extract_disagreements
+from cold_strategist.retrieval.tribunal import tribunal_required, tribunal_verdict
 
 def main():
     ap = argparse.ArgumentParser(description="Sovereign Council System")
