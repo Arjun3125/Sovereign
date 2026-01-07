@@ -1,172 +1,125 @@
-# Cold Strategist - Sovereign Advisory Council
+# Ingest V2 - New Ingestion Model
 
-A sophisticated decision-making system modeled after historical advisory councils, where diverse perspectives (Ministers) deliberate under the guidance of a Sovereign with the counsel of N (Prime Confidant).
+A complete ingestion pipeline for processing books and extracting structured knowledge.
 
-## Architecture
+## Overview
 
-### Core Components
+The ingest_v2 pipeline processes books through the following steps:
 
-- **Sovereign**: The ultimate decision-maker
-- **N (Prime Confidant)**: Trusted advisor and liaison
-- **Ministers**: Specialized perspectives on different aspects
-- **Darbari Council**: Structured deliberation forum
-- **Doctrine**: Immutable foundational principles
-
-### Directory Structure
-
-```
-cold_strategist/
-├── app/                 # Entry points
-├── core/                # Non-negotiable core systems
-├── darbar/              # Council logic and orchestration
-├── ministers/           # All specialized perspectives
-├── doctrine/            # Immutable doctrine files
-├── context/             # Context building (Layer C)
-├── debate/              # Darbari mode deliberation
-├── quick/               # Quick mode decision-making
-├── memory/              # Immutable event/outcome/pattern stores
-├── llm/                 # LLM as a tool (not the system)
-├── utils/               # Utilities and guards
-└── tests/               # Test suite
-```
-
-## Key Principles
-
-1. **Sovereignty**: The Sovereign makes final decisions
-2. **Doctrine**: Core principles are immutable and locked
-3. **Council**: Multiple perspectives deliberate in structured format
-4. **Memory**: All decisions and outcomes are recorded immutably
-5. **LLM as Tool**: Language models assist but don't drive decisions
-
-## Ministers
-
-Each minister provides perspective on a specific domain:
-
-- **Grand Strategist**: Long-term vision and strategy
-- **Power Analyst**: Power dynamics and influence
-- **Psychology Advisor**: Human behavior patterns
-- **Diplomacy Expert**: Negotiation and relationships
-- **Conflict Resolver**: Conflict analysis and resolution
-- **Risk Manager**: Risk assessment and mitigation
-- **Timing Expert**: Temporal analysis and timing
-- **Tech Advisor**: Technology feasibility
-- **Data Analyst**: Evidence and data analysis
-- **Adaptation Advisor**: Systems change and adaptation
-- **Discipline Enforcer**: Execution quality
-- **Legitimacy Guard**: Authority and trust
-- **Truth Seeker**: Truth-seeking and reality alignment
-- **Option Generator**: Strategic optionality
-- **Execution Controller**: Implementation planning
+1. **Text Extraction**: Reads PDF or text files
+2. **Chapter Building**: Splits text into chapters using heuristics
+3. **Domain Classification**: Classifies each chapter into domains (deterministic keyword-based)
+4. **Memory Extraction**: Extracts memory-grade items for each (chapter, domain) pair
+5. **Aggregation**: Combines all data into a structured book artifact
+6. **Validation**: Validates the structure against schema
+7. **Persistence**: Saves to YAML file in `data/ingest_v2/books/`
 
 ## Usage
 
-### Starting a Session
+### Command Line
 
-```python
-from app.session_runner import SessionRunner
+```bash
+# Basic usage
+python -m cold_strategist.ingest_v2.cli --pdf path/to/book.pdf --book-id my_book
 
-runner = SessionRunner()
-runner.execute()
+# With title and authors
+python -m cold_strategist.ingest_v2.cli \
+  --pdf books/my_book.pdf \
+  --book-id my_book \
+  --title "The Art of War" \
+  --authors "Sun Tzu"
 ```
 
-### Conducting Deliberation
+### Python API
 
 ```python
-from darbar.tribunal import Tribunal
+from cold_strategist.ingest_v2 import ingest_book
 
-tribunal = Tribunal()
-verdict = tribunal.escalate(dispute)
+result = ingest_book(
+    pdf_path="books/my_book.pdf",
+    book_id="my_book",
+    title="My Book Title",
+    authors=["Author Name"]
+)
+
+print(f"Saved to: {result['output_path']}")
 ```
 
-## Development
+## Output Structure
 
-- Tests are located in `/tests`
-- Use `unittest` framework for testing
-- Follow the immutable doctrine principles
-- Respect the sovereignty hierarchy
+The pipeline produces a YAML file at `data/ingest_v2/books/{book_id}.yaml` with the following structure:
 
+```yaml
+book_id: my_book
+title: My Book Title
+authors: []
+chapters:
+  - chapter_id: "1"
+    title: "Chapter 1"
+    domains:
+      - grand_strategy
+      - power
+    memory:
+      - domain: grand_strategy
+        memory_items:
+          - "Strategic principle 1"
+          - "Strategic principle 2"
+      - domain: power
+        memory_items:
+          - "Power principle 1"
+```
 
+## Components
 
-## War Mode & Learning System (NEW)
+- **pdf_reader.py**: Extracts text from PDFs (supports PyPDF2, pdfplumber, or .txt files)
+- **chapter_builder.py**: Splits text into chapters using heuristics
+- **domain_classifier.py**: Classifies chapters into domains (15 fixed domains)
+- **memory_extractor.py**: Extracts memory items using keyword matching
+- **book_aggregator.py**: Combines all data into final structure
+- **persist_book.py**: Saves to YAML with validation
+- **ingest.py**: Main orchestrator
 
-Cold Strategist now includes **War Mode** - a safe, abstract adversarial analysis system with persistent memory and adaptive learning.
+## Domains
 
-### War Mode Features
+The system uses 15 fixed domains:
 
-- **Safe Analysis**: All moves are legal and reversible
-- **Abstract**: No real-world harm (fiction/games/negotiation context)
-- **Persistent Memory**: SQLite-backed event ledger
-- **Pattern Detection**: Identify recurring behaviors
-- **Adaptive N**: Adjusts advice based on learned patterns
+1. grand_strategy
+2. power
+3. optionality
+4. psychology
+5. diplomacy
+6. conflict
+7. truth
+8. risk
+9. timing
+10. data_judgment
+11. operations
+12. technology
+13. adaptation
+14. legitimacy
+15. narrative
 
-### Quick Start
+## Requirements
 
-**Analyze an adversarial scenario:**
-\\ash
-python cold.py war --domain negotiation --arena career --stakes high
-\
-**Resolve outcome later:**
-\\ash
-python cold_outcome.py <event-id> --mode war
-\
-### Learning Flow
+- Python 3.7+
+- Optional: `PyPDF2` or `pdfplumber` for PDF parsing (falls back to .txt files if not available)
+- Optional: `pyyaml` for YAML output (falls back to JSON if not available)
 
-1. **Analyze**: WarEngine produces verdict + EVENT_ID
-2. **Log**: Event saved to SQLite
-3. **Decide & Act**: Sovereign makes decision
-4. **Resolve**: Later, log actual outcome
-5. **Learn**: Patterns detected, N's calibration updated
-6. **Adapt**: Next similar decision uses learned insights
+## Installation
 
-### Documentation
+```bash
+# Install optional dependencies for better PDF support
+pip install PyPDF2  # or pdfplumber
+pip install pyyaml
+```
 
-- [QUICKSTART.md](QUICKSTART.md) - Examples and usage guide
-- [ARCHITECTURE.md](ARCHITECTURE.md) - System design
-- [FLOW_DIAGRAM.md](FLOW_DIAGRAM.md) - Visual flow
-- [TECHNICAL_SPEC.md](TECHNICAL_SPEC.md) - Full specification
-- [cli/README.md](cli/README.md) - CLI reference
+## Status
 
-### Example Scenario
+✅ **Fully Operational**
 
-**Negotiation with tight deadline:**
+- All components implemented
+- Duplicate code issues fixed
+- CLI entry point available
+- Schema validation in place
+- Error handling and progress reporting
 
-\\ash
-python cold.py war \
-  --domain negotiation \
-  --arena career \
-  --stakes high \
-  --constraints reversible minimal_collateral legal \
-  --analyze-patterns
-\
-**Output:**
-- War verdict with risk score and alternatives
-- Recommended posture (abort/force/delay/conditional)
-- DO NOT constraints
-- Next immediate step
-- EVENT_ID for later outcome logging
-- (If patterns exist) N's adjusted posture based on prior decisions
-
-**Days later, after negotiation concludes:**
-
-\\ash
-python cold_outcome.py a3f7c2e1-9b4d-4a2c-8f1d-2b5e...
-\
-**Enter outcome:**
-- Result: success/partial/failure
-- Actual damage incurred
-- Benefit gained
-- Lessons learned
-
-**System updates:**
-- Patterns re-detected with new outcome
-- N's calibrations recalculated
-- Next similar decision will use updated N
-
-
-## Non-Negotiable Principles
-
-- ✓ Doctrine is locked and immutable
-- ✓ Memory stores are append-only
-- ✓ Sovereign authority is absolute
-- ✓ LLM is a tool, not the system
-- ✓ All decisions are recorded
