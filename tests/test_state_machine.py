@@ -4,7 +4,7 @@ Tests for the core state machine (Layer B).
 """
 
 import unittest
-from core.state_machine import StateMachine
+from core.state_machine import DarbarStateMachine
 
 
 class TestStateMachine(unittest.TestCase):
@@ -12,7 +12,7 @@ class TestStateMachine(unittest.TestCase):
 
     def setUp(self):
         """Set up test fixtures."""
-        self.machine = StateMachine()
+        self.machine = DarbarStateMachine()
 
     def test_initialization(self):
         """Test that state machine initializes correctly."""

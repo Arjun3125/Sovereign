@@ -17,7 +17,8 @@ War Mode is a posture filter that:
 - Logs all decisions with full audit trail
 """
 
-from typing import Callable, Optional, Any, Dict
+from typing import Callable, Optional, Any, Dict, List
+import hashlib
 from core.orchestrator.war_mode import WarModeEngine, WarContext
 from core.orchestrator.war_minister_selector import WarMinisterSelector
 
@@ -25,6 +26,22 @@ from core.orchestrator.war_minister_selector import WarMinisterSelector
 # Singleton War Mode Engine (persists across calls)
 _war_engine = WarModeEngine()
 _war_selector = WarMinisterSelector()
+
+def _simple_embed_fn(text: str) -> List[float]:
+    """
+    Simple deterministic embedding function for wiring purposes.
+    Returns a 384-dimensional vector based on MD5 hash of input.
+    """
+    # Use MD5 to get a consistent hash
+    hash_obj = hashlib.md5(text.encode())
+    digest = hash_obj.digest()
+
+    # Expand digest to fill 384 dims (common small embedding size)
+    # Repeatedly use the digest bytes
+    expanded = (digest * 24)[:384]
+
+    # Convert to floats between -1 and 1
+    return [((b / 255.0) * 2 - 1) for b in expanded]
 
 
 def route(mode: str) -> Callable:
@@ -52,14 +69,35 @@ def route(mode: str) -> Callable:
         from core.knowledge.synthesize.minister_synthesizer import MinisterSynthesizer
         from darbar.tribunal import Tribunal
         from darbar.n import N
+        from rag.index import VectorIndex
+        from llm.local_llm import LocalLLM
         
         # Initialize components (will be wired with real LLM + index in production)
         # For now, placeholder that will be configured at startup
         def normal_mode_runner(context=None, state=None, **kwargs):
-            # TODO: Wire actual retriever, synthesizer, LLM
+            # Wire actual retriever, synthesizer, LLM if not provided
+            retriever = kwargs.get("retriever")
+            synthesizer = kwargs.get("synthesizer")
+
+            if not retriever:
+                # Initialize default vector index and retriever
+                # In production, this index would be loaded from disk/DB
+                rag_index = VectorIndex(embed_fn=_simple_embed_fn)
+                retriever = MinisterRetriever(rag_index=rag_index, embed_fn=_simple_embed_fn)
+
+            if not synthesizer:
+                # Initialize local LLM and synthesizer
+                llm = LocalLLM()
+
+                # Wrap LLM generate to match expected signature for synthesizer
+                def llm_call(prompt: str) -> str:
+                    return llm.generate(prompt)
+
+                synthesizer = MinisterSynthesizer(llm_call=llm_call)
+
             engine = KnowledgeGroundedDebateEngine(
-                retriever=kwargs.get("retriever"),
-                synthesizer=kwargs.get("synthesizer"),
+                retriever=retriever,
+                synthesizer=synthesizer,
                 tribunal=Tribunal(),
                 n=N()
             )

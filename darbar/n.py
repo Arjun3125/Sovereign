@@ -23,7 +23,7 @@ class N:
 
     def frame_verdict(
         self,
-        positions: List[Dict[str, Any]],
+        positions: List[Any],
         tribunal_judgment: Optional[str],
         goal: str,
     ) -> str:
@@ -31,7 +31,7 @@ class N:
         Frame final verdict from council positions.
         
         Args:
-            positions: List of DebatePosition dicts (minister positions with advice)
+            positions: List of DebatePosition objects
             tribunal_judgment: Optional judgment from tribunal
             goal: User's stated goal
         
@@ -52,15 +52,15 @@ class N:
         if positions:
             lines.append("COUNCIL CONSENSUS:")
             for p in positions:
-                confidence_bar = "█" * int(p.get("confidence", 0.0) * 10) + "░" * (
-                    10 - int(p.get("confidence", 0.0) * 10)
+                confidence_bar = "█" * int(p.confidence * 10) + "░" * (
+                    10 - int(p.confidence * 10)
                 )
-                lines.append(f"\n{p.get('minister', 'unknown').upper()}")
-                lines.append(f"  Confidence: [{confidence_bar}] {p.get('confidence', 0.0):.0%}")
-                if p.get("advice"):
-                    lines.append(f"  Advice: {p['advice']}")
-                if p.get("risks"):
-                    lines.append(f"  Risks: {', '.join(p['risks'])}")
+                lines.append(f"\n{p.minister.upper()}")
+                lines.append(f"  Confidence: [{confidence_bar}] {p.confidence:.0%}")
+                if p.advice:
+                    lines.append(f"  Advice: {p.advice}")
+                if p.risks:
+                    lines.append(f"  Risks: {', '.join(p.risks)}")
 
         # Tribunal input
         if tribunal_judgment:
@@ -72,7 +72,7 @@ class N:
         # Citation summary
         all_citations = []
         for p in positions:
-            all_citations.extend(p.get("citations", []))
+            all_citations.extend(p.citations)
 
         if all_citations:
             lines.append("")
