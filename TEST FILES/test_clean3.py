@@ -2,7 +2,7 @@ import sys
 sys.path.insert(0, '.')
 import run_ingestion as r
 
-text = open('workspace/the-psychology-of-money-by-morgan-housel 05/00_raw_text.txt','r',encoding='utf-8').read()
+text = open('cold_strategist/workspace/the-psychology-of-money-by-morgan-housel 05/00_raw_text.txt','r',encoding='utf-8').read()
 
 # Test the cleaning with detailed output
 print("Testing clean_extracted_text function:")

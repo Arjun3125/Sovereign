@@ -6,7 +6,7 @@ sys.path.insert(0, r'c:\Users\naren\Sovereign')
 import run_ingestion as r
 
 # Read the raw text
-text = open(r'c:\Users\naren\Sovereign\workspace\the-psychology-of-money-by-morgan-housel 05\00_raw_text.txt', 'r', encoding='utf-8').read()
+text = open(r'c:\Users\naren\Sovereign\cold_strategist\workspace\the-psychology-of-money-by-morgan-housel 05\00_raw_text.txt', 'r', encoding='utf-8').read()
 
 print(f"Original: {len(text)} chars")
 print(f"First 100: '{text[:100]}'")

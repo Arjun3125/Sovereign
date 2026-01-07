@@ -56,7 +56,7 @@ def clean_extracted_text_debug(text: str) -> str:
     return text
 
 # Test it
-text = open('workspace/the-psychology-of-money-by-morgan-housel 05/00_raw_text.txt','r',encoding='utf-8').read()
+text = open('cold_strategist/workspace/the-psychology-of-money-by-morgan-housel 05/00_raw_text.txt','r',encoding='utf-8').read()
 cleaned = clean_extracted_text_debug(text)
 print(f"\nFinal output length: {len(cleaned)}")
 print(f"Final first 100: {repr(cleaned[:100])}")

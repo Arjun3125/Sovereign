@@ -1,6 +1,6 @@
 import re
 
-text = open('workspace/the-psychology-of-money-by-morgan-housel 05/00_raw_text.txt','r',encoding='utf-8').read()
+text = open('cold_strategist/workspace/the-psychology-of-money-by-morgan-housel 05/00_raw_text.txt','r',encoding='utf-8').read()
 
 # Test the detection
 lines = text.split('\n')[:100]
