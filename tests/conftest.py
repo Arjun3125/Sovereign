@@ -2,6 +2,7 @@
 Test Foundation & Assertion Helpers
 Implements rule-aware testing infrastructure
 """
+import os
 import pytest
 from typing import Any, List
 
@@ -121,3 +122,9 @@ def sample_principles():
 
 if __name__ == "__main__":
     print("Testing framework loaded. Run with: pytest tests/")
+
+
+def pytest_collection_modifyitems(config, items):
+    for item in items:
+        if "policy" in item.keywords:
+            os.environ["SOVEREIGN_POLICY_MODE"] = "1"

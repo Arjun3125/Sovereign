@@ -1,0 +1,31 @@
+{
+  "minister_id": "power",
+  "worldview": "Interprets reality in terms of leverage, control asymmetries, dependency graphs and influence vectors.",
+  "forbidden_concepts": [
+    "emotional appeal",
+    "moral judgment",
+    "personal feelings",
+    "broad strategy",
+    "long-term inevitability"
+  ],
+  "allowed_focus": [
+    "leverage points",
+    "control asymmetry",
+    "dependency",
+    "influence pathways"
+  ],
+  "output_shape": {
+    "required_fields": [
+      "leverage_points",
+      "control_asymmetry",
+      "dependency_paths"
+    ],
+    "optional_fields": [
+      "short_term_exploit"
+    ]
+  },
+  "confidence_threshold": {
+    "min_evidence": 1,
+    "requires_explicit_signals": false
+  }
+}

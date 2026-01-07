@@ -1,0 +1,32 @@
+[
+  {
+    "doctrine_id": "POWER_001",
+    "confidence": 0.85,
+    "domain": "PSYCHOLOGY",
+    "source": {
+      "book": "48_laws_of_power",
+      "chapter": "Law_1",
+      "page": 12
+    }
+  },
+  {
+    "doctrine_id": "PSYCHOLOGY_001",
+    "confidence": 0.82,
+    "domain": "PSYCHOLOGY",
+    "source": {
+      "book": "thinking_fast_slow",
+      "chapter": "Part_II",
+      "page": 278
+    }
+  },
+  {
+    "doctrine_id": "DIPLOMACY_001",
+    "confidence": 0.81,
+    "domain": "PSYCHOLOGY",
+    "source": {
+      "book": "getting_to_yes",
+      "chapter": "Chapter_5",
+      "page": 89
+    }
+  }
+]

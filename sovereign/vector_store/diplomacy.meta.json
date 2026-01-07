@@ -1,0 +1,12 @@
+[
+  {
+    "doctrine_id": "DIPLOMACY_001",
+    "confidence": 0.81,
+    "domain": "DIPLOMACY",
+    "source": {
+      "book": "getting_to_yes",
+      "chapter": "Chapter_5",
+      "page": 89
+    }
+  }
+]

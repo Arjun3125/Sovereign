@@ -1,0 +1,12 @@
+[
+  {
+    "doctrine_id": "CONFLICT_001",
+    "confidence": 0.88,
+    "domain": "CONFLICT",
+    "source": {
+      "book": "art_of_war",
+      "chapter": "Chapter_3",
+      "page": 45
+    }
+  }
+]

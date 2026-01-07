@@ -46,6 +46,3 @@ def build_chapters(raw_text: str) -> List[Dict]:
         chapters.append({"chapter_id": chap_id, "title": title.strip(), "text": chunk})
 
     return chapters
-"""Minimal scaffold for ingest v2: chapter building"""
-def build_chapters(text: str):
-    raise NotImplementedError("chapter builder not implemented")

@@ -1,0 +1,12 @@
+[
+  {
+    "doctrine_id": "POWER_001",
+    "confidence": 0.85,
+    "domain": "POWER",
+    "source": {
+      "book": "48_laws_of_power",
+      "chapter": "Law_1",
+      "page": 12
+    }
+  }
+]

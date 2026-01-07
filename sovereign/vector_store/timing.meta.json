@@ -1,0 +1,12 @@
+[
+  {
+    "doctrine_id": "STRATEGY_001",
+    "confidence": 0.79,
+    "domain": "TIMING",
+    "source": {
+      "book": "antifragile",
+      "chapter": "Book_III",
+      "page": 405
+    }
+  }
+]

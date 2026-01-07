@@ -1,0 +1,1046 @@
+{
+  "book_title": null,
+  "author": null,
+  "chapters": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "LAW 1: NEVER OUTSHINE THE MASTER",
+      "domains": [
+        "Deception",
+        "Power",
+        "Psychology"
+      ],
+      "principles": [
+        "Make those above you feel comfortably superior."
+      ],
+      "rules": [
+        "Do not go too far in displaying your talents or you might accomplish the opposite-inspire fear and insecurity.",
+        "Make your masters appear more brilliant than they are and you will attain the heights of power."
+      ],
+      "claims": [],
+      "warnings": [
+        "You have more to fear from friends than from enemies."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "LAW",
+      "domains": [
+        "Deception",
+        "Power"
+      ],
+      "principles": [
+        "Keep people off-balance and in the dark to gain an advantage.",
+        "Use reputation as a means of power and protect it at all costs.",
+        "Stand out and be conspicuous to draw attention."
+      ],
+      "rules": [
+        "Conceal your intentions until it's too late.",
+        "Say less than necessary to avoid saying something foolish.",
+        "Make others do the work for you, but take the credit.",
+        "Use bait to lure others into a trap.",
+        "Win through actions, not arguments."
+      ],
+      "claims": [
+        {
+          "claim": "Reputation is the cornerstone of power.",
+          "derived": true
+        },
+        {
+          "claim": "You can die from someone else's misery due to emotional contagion.",
+          "derived": true
+        },
+        {
+          "claim": "Keeping people dependent on you maintains your independence.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Avoid associating with unhappy and unlucky individuals.",
+        "Don't teach others enough so they can do without you.",
+        "Be cautious of the consequences of selective honesty and generosity."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "C003",
+      "domains": [
+        "Deception",
+        "Intelligence & Information",
+        "Organization & Discipline",
+        "Psychology",
+        "Risk & Survival",
+        "Timing"
+      ],
+      "principles": [
+        "Use spies to gather valuable information that will keep you a step ahead.",
+        "Play the spy yourself. In polite social encounters, learn to probe."
+      ],
+      "rules": [
+        "Crush your enemy totally.",
+        "Do not build fortresses to protect yourself-isolation is dangerous.",
+        "Know who you're dealing with-do not offend the wrong person.",
+        "Do not commit to anyone.",
+        "Play a sucker to catch a sucker-seem dumber than your mark."
+      ],
+      "claims": [
+        {
+          "claim": "A timely gift-a Trojan horse-will serve the same purpose.",
+          "derived": true
+        },
+        {
+          "claim": "When asking for help, appeal to people's self-interest, never to their mercy or gratitude.",
+          "derived": true
+        },
+        {
+          "claim": "You must learn when to leave. Create value through scarcity.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "If one ember is left alight, no matter how dimly it smolders, a fire will eventually break out.",
+        "The enemy will recover, and will seek revenge.",
+        "Too much circulation makes the price go down: The more you are seen and heard from, the more common you appear."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "THE PERFECT COURTIER",
+      "domains": [
+        "Organization & Discipline",
+        "Power",
+        "Timing"
+      ],
+      "principles": [
+        "Mastering the art of indirection and flattery can lead to success in a world where power and political dexterity are key.",
+        "Being bold and taking risks is often more effective than being timid or cautious."
+      ],
+      "rules": [
+        "Use others as scapegoats and cat's-paws to disguise your involvement in mistakes and nasty deeds.",
+        "Give people options that come out in your favor, making them feel they have control but are actually puppets."
+      ],
+      "claims": [
+        {
+          "claim": "People have an overwhelming desire to believe in something, and offering a new cause or faith can bring you untold power.",
+          "derived": true
+        },
+        {
+          "claim": "Everyone has a weakness or gap in their defenses, which can be turned to your advantage if discovered.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Acknowledging a petty problem gives it existence and credibility, making it stronger.",
+        "Showing contempt for something you cannot have is sometimes the best revenge."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Conflict & Force",
+        "Power"
+      ],
+      "principles": [
+        "Establish your own name and identity to gain power",
+        "Strike at the source of trouble to neutralize its influence"
+      ],
+      "rules": [
+        "Do not wait for troubles to multiply, do not try to negotiate with irredeemable individuals",
+        "Neutralize the influence of strong individuals who cause trouble"
+      ],
+      "claims": [
+        {
+          "claim": "Coercion creates a reaction that will eventually work against you",
+          "derived": true
+        },
+        {
+          "claim": "You must seduce others into wanting to move in your direction",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Ignoring the hearts and minds of others will lead them to hate you"
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "DISARM AND INFURIATE WITH THE MIRROR EFFECT",
+      "domains": [
+        "Deception"
+      ],
+      "principles": [],
+      "rules": [
+        "When you mirror your enemies, doing exactly as they do, they cannot figure out your strategy."
+      ],
+      "claims": [
+        {
+          "claim": "Few can resist the power of the Mirror Effect.",
+          "derived": true
+        },
+        {
+          "claim": "Making a show of one's weakness is actually a very effective strategy, subtle and deceptive, in the game of power.",
+          "derived": true
+        }
+      ],
+      "warnings": [],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "The Game of Power",
+      "domains": [
+        "Deception",
+        "Organization & Discipline",
+        "Power",
+        "Psychology",
+        "Timing"
+      ],
+      "principles": [
+        "There are no principles; there are only events."
+      ],
+      "rules": [
+        "Master your emotions to gain power.",
+        "Distance yourself from the present moment and think objectively about the past and future.",
+        "Play with appearances by wearing many masks and keeping a bag full of deceptive tricks."
+      ],
+      "claims": [
+        {
+          "claim": "Those who claim to be nonplayers may affect an air of naivete, but beware for it can be an effective means of deceit.",
+          "derived": true
+        },
+        {
+          "claim": "Genuinely innocent people may still be playing for power and are often horribly effective at the game.",
+          "derived": true
+        },
+        {
+          "claim": "The only means to gain one's ends with people are force and cunning.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Powerlessness will make you miserable.",
+        "Anger is the most destructive of emotional responses, for it clouds your vision and makes situations less controllable.",
+        "Love and affection can be potentially destructive, in that they blind you to the often self-serving interests of those whom you least suspect of playing a power game."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Deception",
+        "Power",
+        "Psychology",
+        "Timing"
+      ],
+      "principles": [
+        "Patience is a skill that must be learned and mastered.",
+        "Never discriminate as to whom you study and trust.",
+        "Never trust anyone completely and study everyone, including friends and loved ones."
+      ],
+      "rules": [
+        "Always make those above you feel comfortably superior (Law 1: Never Outshine the Master).",
+        "Do not go too far in displaying your talents or you might accomplish the opposite - inspire fear and insecurity.",
+        "Make your masters appear more brilliant than they are and you will attain the heights of power."
+      ],
+      "claims": [
+        {
+          "claim": "Power is a game, and in games you do not judge your opponents by their intentions but by the effect of their actions.",
+          "derived": true
+        },
+        {
+          "claim": "You must learn to inwardly laugh each time you hear someone's justifications for their actions.",
+          "derived": true
+        },
+        {
+          "claim": "Never waste valuable time or mental peace of mind on the affairs of others - that is too high a price to pay.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Power is endlessly seductive and deceptive in its own way.",
+        "It might be better to turn back if you use the book for entertainment, as it can lead to becoming lost in the labyrinth of power.",
+        "The gods of power frown on the frivolous; they give ultimate satisfaction only to those who study and reflect."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "The Keys to Power",
+      "domains": [
+        "Power"
+      ],
+      "principles": [
+        "Outshining the master can be a mistake when it comes to power.",
+        "Giving glory to the master is more important than providing financing."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Galileo's strategy of linking the Medicis' name with cosmic forces gave them infinitely more glory than making them patrons of a scientific gadget or discovery.",
+          "derived": true
+        },
+        {
+          "claim": "Scientists must serve masters who hold the purse strings and give them glory to avoid insecurity.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Showing off one's talents can stir up resentment, envy, and other manifestations of insecurity.",
+        "Outshining the master can lead to insecurity and make them feel inferior."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Law 15: Avoid Outshining Those Around You",
+      "domains": [
+        "Power"
+      ],
+      "principles": [],
+      "rules": [
+        "You can inadvertently outshine a master simply by being yourself.",
+        "Never take your position for granted and never let any favors you receive go to your head."
+      ],
+      "claims": [
+        {
+          "claim": "Outshining a master is fatal.",
+          "derived": true
+        },
+        {
+          "claim": "Superiority is odious, but the superiority of a subject over his prince is not only stupid, it is fatal.",
+          "derived": true
+        }
+      ],
+      "warnings": [],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Leadership",
+        "Organization & Discipline",
+        "Power"
+      ],
+      "principles": [
+        "A person's sense of gratitude can be a weakness, leading them to make decisions that benefit their benefactor rather than themselves.",
+        "Allowing someone to see power up close can lead to an insatiable desire for more power and control."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Michael III was betrayed by his friend Basilius, who used their friendship to gain power and ultimately kill the emperor.",
+          "derived": true
+        },
+        {
+          "claim": "The pattern of violent and bloody coups in Chinese history is a result of emperors being surrounded by enemies and having no one they can truly trust.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Do not underestimate the potential for betrayal from those you consider friends or allies.",
+        "Be cautious when granting power or favors to others, as it can create an expectation of reciprocation that may not be fulfilled."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Conflict & Force",
+        "Deception",
+        "Leadership",
+        "Organization & Discipline",
+        "Power",
+        "Psychology",
+        "Timing"
+      ],
+      "principles": [
+        "It is natural to want to employ your friends when you find yourself in times of need.",
+        "The key to power, then, is the ability to judge who is best able to further your interests in all situations."
+      ],
+      "rules": [
+        "Do not rely on friends for help; instead, use your enemies and transform them into reliable subjects.",
+        "Keep friends for friendship, but work with the skilled and competent."
+      ],
+      "claims": [
+        {
+          "claim": "Using or hiring friends will inevitably limit your power.",
+          "derived": true
+        },
+        {
+          "claim": "Skill and competence are far more important than friendly feelings in achieving success.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Ingratitude has a long and deep history; be wary of expecting gratitude from a friend.",
+        "The receipt of a favor can become oppressive, and the injury will come out slowly."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Power"
+      ],
+      "principles": [
+        "Conflict is key to power and growth.",
+        "A worthy opponent can help you grow stronger.",
+        "Never let the presence of enemies upset or distress you.",
+        "The man of power welcomes conflict, using enemies to enhance his reputation."
+      ],
+      "rules": [
+        "Never pick a fight with someone you are not sure you can defeat.",
+        "Use such enemies to define your cause more clearly to the public.",
+        "A sharply defined enemy is a far stronger argument for your side than all the words you could possibly put together."
+      ],
+      "claims": [
+        {
+          "claim": "Mao's strategy of constant conflict has several key components.",
+          "derived": true
+        },
+        {
+          "claim": "Without clear-cut enemies, his people would lose any sense of what Chinese Communism meant.",
+          "derived": true
+        },
+        {
+          "claim": "A friend can be used to greater effect than an enemy in certain situations.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Nothing is stable in the realm of power, and even the closest friends can be transformed into the worst of enemies.",
+        "You must never let your guard down when working with friends or using them as scapegoats."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "The Art of Seduction",
+      "domains": [
+        "Deception",
+        "Intelligence & Information"
+      ],
+      "principles": [
+        "To surrender to one's guidance, targets must be appropriately confused.",
+        "You have to scramble your signals - appear interested in another person (the decoy), then hint at being interested in the target, then feign indifference, on and on."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Men and women are very different, but when it comes to seduction they feel the same.",
+          "derived": true
+        },
+        {
+          "claim": "Deep down inside, targets often sense when they are being seduced, but they give in because they enjoy the feeling of being led along.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Do not be held a cheat, even though it is impossible to live today without being one. Let your greatest cunning lie in covering up what looks like cunning."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Deception",
+        "Power"
+      ],
+      "principles": [
+        "Conceal your intentions to gain power and influence.",
+        "Use deception and misdirection to achieve your goals."
+      ],
+      "rules": [
+        "Do not be open or honest about your true intentions.",
+        "Create a smoke screen of distractions to conceal your real purpose."
+      ],
+      "claims": [
+        {
+          "claim": "Most people are predictable and can be deceived by appearances.",
+          "derived": true
+        },
+        {
+          "claim": "Honesty is often seen as a blunt instrument that offends rather than inspires respect.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Do not underestimate the power of deception and misdirection.",
+        "Be cautious when dealing with individuals who appear overly sincere or honest."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 16,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Deception"
+      ],
+      "principles": [
+        "Create a familiar front to conceal true intentions",
+        "Use a smoke screen to distract and divert attention"
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "The Yellow Kid's con was successful due to his ability to create a convincing smoke screen",
+          "derived": true
+        },
+        {
+          "claim": "Geezil was unaware of the true nature of the boxing match and fell victim to the scam",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Be cautious of familiar fronts that may conceal ulterior motives",
+        "Distrust situations where attention is diverted from important details"
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 17,
+      "chapter_title": "OBSERVANCE OF THE LAW",
+      "domains": [
+        "Power",
+        "Timing"
+      ],
+      "principles": [
+        "A gentle and peaceful exterior can be a sign of great power and cunning."
+      ],
+      "rules": [
+        "When dealing with someone who is suspicious or wary, it's best to create a sense of calm and trust before striking."
+      ],
+      "claims": [
+        {
+          "claim": "Haile Selassie was able to unify Ethiopia by using his charm and obsequiousness to lure his rivals into traps.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Don't underestimate the power of a gentle and peaceful exterior, it can be a sign of great cunning and ambition."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 18,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Deception",
+        "Timing"
+      ],
+      "principles": [
+        "People can only focus on one thing at a time, making it difficult for them to imagine that the bland and harmless person they are dealing with is simultaneously setting up something else."
+      ],
+      "rules": [
+        "Use a bland and inconspicuous front to avoid raising suspicion.",
+        "Envelop your mark in the familiar, the banal, the harmless to conceal your intentions.",
+        "The grayer and more uniform the smoke in your smoke screen, the better it conceals your intentions."
+      ],
+      "claims": [
+        {
+          "claim": "A smoke screen is a weapon of great power that can be used to deceive and manipulate others without them noticing.",
+          "derived": true
+        },
+        {
+          "claim": "The best deceivers utilize a bland and inconspicuous front that calls no attention to themselves.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Do not underestimate the power of deception, as it can be used to devastating effect even by those who appear weak or harmless."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 19,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Deception",
+        "Psychology",
+        "Timing"
+      ],
+      "principles": [
+        "Conceal your purpose and hide your progress; do not disclose the extent of your designs until they cannot be opposed, until the combat is over.",
+        "Win the victory before you declare the war."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "No smoke screen, red herring, false sincerity, or any other diversionary device will succeed in concealing your intentions if you already have an established reputation for deception.",
+          "derived": true
+        },
+        {
+          "claim": "The world wants to be deceived.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "If you already have a reputation for deception, it is better to own up and appear the honest rogue, rather than persisting in playing naive and risking being seen as the rankest hypocrite.",
+        "Powerful people with bland exteriors can practice their deceptions in the same place throughout their lifetimes."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 20,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Deception",
+        "Organization & Discipline",
+        "Power"
+      ],
+      "principles": [
+        "The less you say, the more powerful and in control you appear.",
+        "Impressing people with words can make you seem common and out of control."
+      ],
+      "rules": [
+        "When trying to impress people, say less.",
+        "Avoid saying something foolish by being cautious with your words."
+      ],
+      "claims": [],
+      "warnings": [
+        "Saying too much can lead to saying something foolish."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 21,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Leadership",
+        "Organization & Discipline",
+        "Power"
+      ],
+      "principles": [
+        "The power of words can be a double-edged sword, capable of inspiring awe or causing offense.",
+        "A person's ability to control their words is a reflection of their self-control and worthiness of respect."
+      ],
+      "rules": [
+        "Those who squander their treasure of words will not accrue power.",
+        "It is better to say less and maintain a powerful aura than to speak too much and risk offending others."
+      ],
+      "claims": [
+        {
+          "claim": "Coriolanus's arrogance and inability to control his words led to his downfall.",
+          "derived": true
+        },
+        {
+          "claim": "The human tongue is a beast that few can master, and those who fail to tame it will suffer the consequences.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "The misuse of power and the failure to consider others' feelings can lead to severe consequences.",
+        "Those who seek to exploit their reputation for personal gain will ultimately be exposed and punished."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 22,
+      "chapter_title": "The King's Silence",
+      "domains": [
+        "Leadership"
+      ],
+      "principles": [
+        "A leader should not be swayed by the opinions of others, but rather make decisions based on their own judgment."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Louis XIV was a man of very few words.",
+          "derived": true
+        },
+        {
+          "claim": "He would often say 'I shall see' to indicate that he would make a decision without consulting others.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "A leader's silence can be misinterpreted as weakness or indecision."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 23,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Organization & Discipline",
+        "Power"
+      ],
+      "principles": [
+        "Effective communication can be a powerful tool for gaining influence and control."
+      ],
+      "rules": [
+        "Ministers should be mindful of their words and actions, as they can have significant consequences."
+      ],
+      "claims": [
+        {
+          "claim": "Louis's silence was a key factor in his ability to maintain power and control over those around him.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Saying foolish things can be more damaging than doing them, especially for ministers."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 24,
+      "chapter_title": "KEYS TO POWER",
+      "domains": [
+        "Deception",
+        "Intelligence & Information",
+        "Organization & Discipline",
+        "Power",
+        "Timing"
+      ],
+      "principles": [
+        "The less you say, the more profound and mysterious you appear.",
+        "Silence can make others uncomfortable and reveal valuable information about them and their weaknesses.",
+        "Saying less than necessary is not for kings and statesmen only; it's a strategy that can be employed in most areas of life."
+      ],
+      "rules": [
+        "Never start moving your own lips and teeth before subordinates do.",
+        "Be careful with sarcasm, as the momentary satisfaction gained will be outweighed by the price you pay."
+      ],
+      "claims": [
+        {
+          "claim": "Once words are out, you cannot take them back.",
+          "derived": true
+        },
+        {
+          "claim": "Reputation is the cornerstone of power; once it slips, you're vulnerable and will be attacked on all sides.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Silence can arouse suspicion and insecurity, especially in your superiors.",
+        "A vague or ambiguous comment can open you up to interpretations you hadn't bargained for."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 25,
+      "chapter_title": "Observation of the Law",
+      "domains": [
+        "Power",
+        "Psychology",
+        "Risk & Survival"
+      ],
+      "principles": [
+        "The power of reputation can be used to intimidate and influence others.",
+        "A strong reputation can put a vast army on the defensive, even force them into retreat without a single arrow being fired."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Chuko Liang's reputation as the 'Sleeping Dragon' was so powerful that it could be used to intimidate and influence others.",
+          "derived": true
+        },
+        {
+          "claim": "P. T. Barnum's reputation was ruined by Chuko Liang, but he was able to recover and establish a new reputation.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "The dangers of underestimating the power of reputation",
+        "The importance of maintaining a strong reputation in business"
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 26,
+      "chapter_title": "The Power of Reputation",
+      "domains": [
+        "Power",
+        "Psychology",
+        "Timing"
+      ],
+      "principles": [
+        "A good reputation can double your strength and send people scurrying away from you.",
+        "Reputation has the power to make or break a person's success.",
+        "Establishing a solid reputation takes time and effort, but it can create an aura of respect and fear."
+      ],
+      "rules": [
+        "Make your reputation simple and base it on one sterling quality.",
+        "Use someone else's good name to whitewash and elevate yours if you have stained your own reputation.",
+        "Protect your reputation strictly when establishing it, anticipating all attacks on it."
+      ],
+      "claims": [
+        {
+          "claim": "A person's reputation can precede them and inspire respect, making a lot of their work done for them before they arrive on the scene.",
+          "derived": true
+        },
+        {
+          "claim": "Reputation is a treasure to be carefully collected and hoarded, especially when first establishing it.",
+          "derived": true
+        },
+        {
+          "claim": "An attack on another man's reputation is a potent weapon, particularly when you have less power than he does.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "It is easier to cope with a bad conscience than with a bad reputation.",
+        "Outright slander and insult are too strong at this point; they are ugly, and may hurt you more than help you.",
+        "If you do not break your enemy's reputation dearly, you will ina"
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 27,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Deception",
+        "Leadership",
+        "Power"
+      ],
+      "principles": [
+        "Never go too far in attacks, for that will draw more attention to your own vengefulness than to the person you are slandering.",
+        "Use subtler tactics, such as satire and ridicule, to weaken your opponent while making yourself out as a charming rogue."
+      ],
+      "rules": [
+        "Court scandal. Do anything to make yourself seem larger than life and shine more brightly than those around you.",
+        "Make no distinction between kinds of attention - notoriety of any sort will bring you power."
+      ],
+      "claims": [
+        {
+          "claim": "Reputation is critical; there are no exceptions to this law.",
+          "derived": true
+        },
+        {
+          "claim": "Everything is judged by its appearance; what is unseen counts for nothing.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Never let others decide your reputation for you. Be the master of your fate, and also of your reputation."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 28,
+      "chapter_title": "The Art of Attracting Attention",
+      "domains": [
+        "Power"
+      ],
+      "principles": [
+        "To attract attention, one must create a crowd; as surely as the lodestone attracts iron.",
+        "Once people's eyes are on you, you have a special legitimacy.",
+        "Creating interest means creating a crowd."
+      ],
+      "rules": [
+        "Do something different and odd to create curiosity.",
+        "Welcome personal attacks and do not discriminate between different types of attention.",
+        "Court controversy, even scandal, to draw attention."
+      ],
+      "claims": [
+        {
+          "claim": "The quality of the attention is irrelevant; all kinds will work in your favor.",
+          "derived": true
+        },
+        {
+          "claim": "To avoid being a flash in the pan, you must not let attention veer toward other people at your expense.",
+          "derived": true
+        },
+        {
+          "claim": "Attention-whether negative or positive-is the main ingredient of success.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "The worst fate for a man who yearns fame, glory, and power is to be ignored.",
+        "To avoid being ignored, one must constantly seek attention and create controversy."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 29,
+      "chapter_title": "Create an Air of Mystery",
+      "domains": [
+        "Strategy"
+      ],
+      "principles": [
+        "Constantly renew attention by adapting and varying methods to court attention.",
+        "Use mystery to beguile, seduce, even frighten.",
+        "People feel superior to the person whose actions they can predict."
+      ],
+      "rules": [
+        "Do not show all your cards.",
+        "Never make it too clear what you are doing or about to do."
+      ],
+      "claims": [
+        {
+          "claim": "An air of mystery heightens presence and creates anticipation.",
+          "derived": true
+        },
+        {
+          "claim": "Mystery invites constant interpretation, never tires the public's attention.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "The public will grow tired if you don't constantly renew attention.",
+        "People will take you for granted and move on to a newer star."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 30,
+      "chapter_title": "The Power of Mystery",
+      "domains": [
+        "Deception",
+        "Power"
+      ],
+      "principles": [
+        "Creating an air of mystery can make you more powerful and attractive to others.",
+        "Mystery is a powerful tool for leaders, artists, and con artists alike."
+      ],
+      "rules": [
+        "To create an aura of mystery, be subtle and inconsistent in your words and actions.",
+        "Avoid being too obvious or predictable, as this can make you seem boring or uninteresting."
+      ],
+      "claims": [
+        {
+          "claim": "An air of mystery can make the mediocre appear intelligent and profound.",
+          "derived": true
+        },
+        {
+          "claim": "Mystery can draw attention to you and create an intimidating presence.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Don't let your air of mystery be slowly transformed into a reputation for deceit.",
+        "Be careful not to overdo it, as excessive mystery can lead to suspicion and mistrust."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 31,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Deception",
+        "Intelligence & Information",
+        "Leadership",
+        "Power",
+        "Timing"
+      ],
+      "principles": [
+        "Never appear overly greedy for attention, then, for it signals insecurity, and insecurity drives power away.",
+        "Understand that there are times when it is not in your interest to be the center of attention."
+      ],
+      "rules": [
+        "When in the presence of a king or queen, for instance, or the equivalent thereof, bow and retreat to the shadows; never compete."
+      ],
+      "claims": [
+        {
+          "claim": "Never do yourself what others can do for you.",
+          "derived": true
+        },
+        {
+          "claim": "The tortoise was not afraid and stayed where he was, so the elephant stepped on him, but could not crush him.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "When Tesla met Edison in New York, the famous inventor hired him on the spot. Tesla worked eighteen-hour days, finding ways to improve the primitive Edison dynamos.",
+        "Tesla's obsession was to create an alternating-current system (AC) of electricity. Edison believed in the direct-current system (DC), and not only refused to support Tesla's research but later did all he could to sabotage him."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 32,
+      "chapter_title": "KEYS TO POWER",
+      "domains": [
+        "Intelligence & Information",
+        "Power"
+      ],
+      "principles": [
+        "To accomplish great things, one must not be afraid to take advantage of others' work and ideas.",
+        "One should learn to use the knowledge and wisdom of the past to gain power and recognition."
+      ],
+      "rules": [
+        "Do not try to do everything on your own; instead, find people with skills and creativity you lack and hire them or take their work as your own.",
+        "Use the past as a storehouse of knowledge and wisdom to gain an advantage over others."
+      ],
+      "claims": [
+        {
+          "claim": "The credit for an invention or creation is as important as the invention itself.",
+          "derived": true
+        },
+        {
+          "claim": "One must be vigilant and ruthless in protecting one's creations from being stolen by others.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Do not be naive and think that you can succeed on your own without taking advantage of others' work and ideas.",
+        "Be aware that there are always vultures circling around, waiting to take advantage of your hard work and creativity."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 33,
+      "chapter_title": "Law 8: Make Other People Come to You - Use Bait If Necessary",
+      "domains": [
+        "Deception",
+        "Power"
+      ],
+      "principles": [
+        "The essence of power is the ability to keep the initiative, to get others to react to your moves, to keep your opponent and those around you on the defensive."
+      ],
+      "rules": [
+        "Do not force the other person to act; make them come to you instead.",
+        "Use bait if necessary to lure people into a trap or situation that benefits you."
+      ],
+      "claims": [
+        {
+          "claim": "An aggressive leader who initiates bold moves will eventually collapse due to their inability to see more than a couple of moves ahead and the unforeseen consequences of their actions.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Do not be greedy when taking credit for work done by others, as this can lead to accusations of deception.",
+        "Be careful not to jeopardize your standing in the short term by hogging the limelight."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 34,
+      "chapter_title": "C034",
+      "domains": [
+        "Organization & Discipline",
+        "Psychology"
+      ],
+      "principles": [
+        "Mastering one's emotions is crucial for effective decision-making."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Anger can lead to poor decision-making and negative consequences.",
+          "derived": true
+        },
+        {
+          "claim": "Emotional control is essential for personal growth and development.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Allowing anger to influence your actions can have severe repercussions."
+      ],
+      "cross_references": []
+    }
+  ]
+}

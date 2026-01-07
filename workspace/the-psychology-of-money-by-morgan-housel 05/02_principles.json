@@ -1,0 +1,1066 @@
+{
+  "book_title": null,
+  "author": null,
+  "chapters": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Introduction: The Greatest Show On Earth",
+      "domains": [
+        "Power"
+      ],
+      "principles": [
+        "A genius is the man who can do the average thing when everyone else around him is losing his mind."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "The world is full of obvious things which nobody by any chance ever observes.",
+          "derived": true
+        },
+        {
+          "claim": "You'll change.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Nothing's free."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Organization & Discipline",
+        "Psychology"
+      ],
+      "principles": [
+        "Behavioral skills are more important than formal education when it comes to financial success.",
+        "Financial success is not a hard science, but rather a soft skill that involves emotional and nuanced decision-making."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Ronald Read's financial success was due to his behavioral skills, not his intelligence or education.",
+          "derived": true
+        },
+        {
+          "claim": "Richard Fuscone's financial failure was due to his greed and lack of self-control.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Being overly confident in one's financial abilities can lead to disaster.",
+        "The importance of soft skills like emotional regulation and decision-making cannot be overstated when it comes to personal finance."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Psychology"
+      ],
+      "principles": [
+        "People's experiences with money shape their beliefs and behaviors.",
+        "Investment decisions are heavily anchored to personal history, especially early life experiences.",
+        "Risk tolerance depends on personal history, not intelligence or education."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "You can't understand the psychology of money by studying finance alone.",
+          "derived": true
+        },
+        {
+          "claim": "The power of fear and uncertainty can't be recreated through studying or open-mindedness.",
+          "derived": true
+        },
+        {
+          "claim": "Spreadsheets can model historic frequency of big stock market declines, but not the emotional impact.",
+          "derived": true
+        }
+      ],
+      "warnings": [],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "C004",
+      "domains": [
+        "Psychology"
+      ],
+      "principles": [
+        "People's views on money are shaped by their individual experiences and environments."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Different groups of people have varying views on what matters, what's worth it, and what's likely to happen next.",
+          "derived": true
+        },
+        {
+          "claim": "A view about money that one group finds outrageous can make perfect sense to another.",
+          "derived": true
+        }
+      ],
+      "warnings": [],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Power",
+        "Timing"
+      ],
+      "principles": [
+        "Every financial decision a person makes, makes sense to them in that moment and checks the boxes they need to check.",
+        "People make financial decisions based on their own unique experiences and perspectives."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Buying lottery tickets is still a bad idea even if people understand why others do it.",
+          "derived": true
+        },
+        {
+          "claim": "Many people are bad at saving and investing for retirement because the concept of being entitled to retirement is relatively new.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Don't assume that everyone has the same opportunities or experiences as you.",
+        "Be careful not to judge others based on your own unique perspective."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Risk & Survival"
+      ],
+      "principles": [
+        "The world is too complex to allow 100% of your actions to dictate 100% of your outcomes.",
+        "Luck and risk are both driven by the same thing: you are one person in a game with seven billion other people and infinite moving parts."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Bill Gates' success was largely due to luck, rather than skill or hard work.",
+          "derived": true
+        },
+        {
+          "claim": "The default stance is often to implicitly ignore luck as a factor of success.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Attributing success to luck can be demoralizing to accept.",
+        "Judging others' failures as being caused by bad decisions, while attributing one's own failures to risk, is a flawed narrative."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Power",
+        "Psychology",
+        "Risk & Survival",
+        "Timing"
+      ],
+      "principles": [
+        "Luck and risk are doppelgangers.",
+        "The line between bold and reckless can be thin.",
+        "Not all success is due to hard work, and not all poverty is due to laziness."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Rajat Gupta's insider trading led to $17 million in profits.",
+          "derived": true
+        },
+        {
+          "claim": "Bernie Madoff swindled investors for two decades before his crime was revealed.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Assuming that 100% of outcomes can be attributed to effort and decisions is a mistake.",
+        "Not having enough wealth can lead to danger and risk-taking behaviors."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Power",
+        "Risk & Survival"
+      ],
+      "principles": [
+        "Knowing when to stop taking risks that might harm valuable things is crucial.",
+        "Having 'enough' is not too little, it's realizing that an insatiable appetite for more will push you to the point of regret.",
+        "The hardest financial skill is getting the goal post to stop moving."
+      ],
+      "rules": [
+        "Don't get too attached to anything - your reputation, accomplishments, or any of it. It's only troubling if you're so attached that you'd risk harming valuable things for more.",
+        "Risking what you have and need for something you don't have and don't need is foolish."
+      ],
+      "claims": [
+        {
+          "claim": "The inability to deny a potential dollar will eventually catch up to you.",
+          "derived": true
+        },
+        {
+          "claim": "Social comparison is the problem here, as people compare their income to others and feel like they're not enough.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Trying to keep up with other people's wealth can lead to regret and harm valuable things.",
+        "The game of trying to keep up with other people's wealth works similarly to a Las Vegas casino - the only way to win is to exit as soon as you enter."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Power",
+        "Timing"
+      ],
+      "principles": [
+        "Small changes can lead to significant results when compounded over time.",
+        "Growth and accumulation can be exponential, leading to extraordinary outcomes."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Warren Buffett's success is not solely due to his investing acumen, but rather his ability to compound wealth over a long period of time.",
+          "derived": true
+        },
+        {
+          "claim": "A small starting base can lead to tremendous results if it compounds and grows over time.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Underestimating the potential for growth and accumulation can lead to missed opportunities and poor decision-making."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "C011",
+      "domains": [
+        "Deception",
+        "Timing"
+      ],
+      "principles": [
+        "Compounding works over time, leading to significant growth in wealth."
+      ],
+      "rules": [
+        "Small changes in growth assumptions can lead to large differences in outcomes."
+      ],
+      "claims": [
+        {
+          "claim": "Warren Buffett's financial success is largely due to his ability to maintain a long-term investment strategy.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Linear thinking can be misleading when dealing with exponential growth."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "C012",
+      "domains": [
+        "Strategy"
+      ],
+      "principles": [
+        "Compound growth can lead to exponential increases in value, making it difficult to predict and plan for."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "The power of compounding is often overlooked due to its counterintuitive nature.",
+          "derived": true
+        },
+        {
+          "claim": "Ignoring the potential of compounding can lead to disappointing trades and bad strategies.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Don't underestimate the impact of compounding on long-term growth and success."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Organization & Discipline",
+        "Timing"
+      ],
+      "principles": [
+        "Compounding returns over time can lead to significant wealth accumulation."
+      ],
+      "rules": [
+        "Focusing on earning consistent, repeatable returns is more important than seeking high returns that may not be sustainable."
+      ],
+      "claims": [
+        {
+          "claim": "Earning huge returns that cannot be held onto can lead to tragic financial consequences.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Investors should prioritize frugality and paranoia in order to stay wealthy, rather than just getting wealthy."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Power",
+        "Psychology",
+        "Risk & Survival",
+        "Timing"
+      ],
+      "principles": [
+        "Survival is key with money.",
+        "Getting and keeping wealth are two different skills.",
+        "Humility and fear of losing what you've made are essential for keeping wealth.",
+        "Longevity is more important than big returns.",
+        "Compounding works wonders when sustained uninterrupted over time."
+      ],
+      "rules": [
+        "Avoid ruin at all costs.",
+        "Plan on the plan not going according to plan.",
+        "Embrace room for error and uncertainty in your financial life.",
+        "Raise the odds of success by increasing your chances of survival."
+      ],
+      "claims": [
+        {
+          "claim": "Few gains are so great that they're worth wiping yourself out over.",
+          "derived": true
+        },
+        {
+          "claim": "Compounding only works if you can give an asset years and years to grow.",
+          "derived": true
+        },
+        {
+          "claim": "Getting money requires taking risks, being optimistic, and putting yourself out there.",
+          "derived": true
+        },
+        {
+          "claim": "Keeping money requires the opposite of taking risk: humility, fear, frugality, and acceptance that some of what you've made is attributable to luck.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Don't get carried away with debt.",
+        "Don't panic and sell during recessions.",
+        "Don't sully your business reputation.",
+        "Don't rely on others' money or attach yourself to one strategy, worldview, or passing trend."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 16,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Conflict & Force",
+        "Power",
+        "Risk & Survival",
+        "Timing"
+      ],
+      "principles": [
+        "Optimism can be both paranoid and optimistic at the same time.",
+        "Sensible optimism is a belief that the odds are in your favor, and over time things will balance out to a good outcome even if what happens in between is filled with misery.",
+        "The idea that something can gain over the long run while being a basket case in the short run is not intuitive but it's how a lot of things work in life."
+      ],
+      "rules": [
+        "You need short-term paranoia to keep you alive long enough to exploit long-term optimism.",
+        "Getting wealthy made him feel like staying wealthy was inevitable, and that he was invincible.",
+        "It's an expensive disease, everywhereto everybody."
+      ],
+      "claims": [
+        {
+          "claim": "The average person can lose roughly half the synaptic connections they had in their brain at age two as inefficient and redundant neural pathways are cleared out.",
+          "derived": true
+        },
+        {
+          "claim": "Destruction in the face of progress is not only possible but an efficient way to get rid of excess.",
+          "derived": true
+        },
+        {
+          "claim": "Most public companies are duds, a few do well, and a handful become extraordinary winners that account for the majority of the stock market's returns.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Seeing things as black or white takes less effort than accepting nuance.",
+        "You underestimate how normal it is for a lot of things to fail which causes you to overreact when they do.",
+        "Most of our attention goes to things that are huge, profitable, famous, or influential which are the result of a failed event - an outlying one-in-thousands or millions event."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 17,
+      "chapter_title": "The Importance of Controlling Your Time",
+      "domains": [],
+      "principles": [
+        {
+          "name": "Aligning money towards a life that lets you do what you want, when you want, with whom you want, where you want, for as long as you want has incredible return."
+        },
+        {
+          "name": "Controlling your time is a key happiness influencer"
+        }
+      ],
+      "rules": [
+        {
+          "name": "Don't try to get people to do something; instead, let them feel like they made the choice themselves."
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "text": "The United States is the richest nation in the history of the world. But there's little evidence that its citizens are, on average, happier today than they were in the 1950s, when wealth and income were much lower— even at the median level adjusted for inflation."
+          },
+          "derived": true
+        },
+        {
+          "claim": {
+            "text": "The global average was 39%. Fifty-ﬁve percent of Americans said they felt “a lot of stress” the previous day. For the rest of the world, 35% said the same."
+          },
+          "derived": true
+        }
+      ],
+      "warnings": [
+        {
+          "text": "We've used our greater wealth to buy bigger and better stuff. But we've simultaneously given up more control over our time. At best, those things can cancel each other out."
+        },
+        {
+          "text": "The median American home increased from 983 square feet in 1950 to 2,436 square feet in 2018. The average new American home now has more bathrooms than occupants."
+        }
+      ],
+      "cross_references": [
+        {
+          "reference": "Chapter 15"
+        },
+        {
+          "reference": "Chapter 20"
+        }
+      ]
+    },
+    {
+      "chapter_index": 18,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Organization & Discipline",
+        "Power",
+        "Timing"
+      ],
+      "principles": [
+        "Controlling your time is the highest dividend money pays.",
+        "Humility, kindness, and empathy will bring you more respect than horse power ever will."
+      ],
+      "rules": [
+        "Don't spend money on things that don't add value to your financial assets.",
+        "Spend money you have, not money you don't have."
+      ],
+      "claims": [
+        {
+          "claim": "Wealth is what you don't see.",
+          "derived": true
+        },
+        {
+          "claim": "Building wealth has little to do with your income or investment returns, and lots to do with your savings rate.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Don't judge others' success by what they show you.",
+        "Be careful how you seek respect and admiration from others."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 19,
+      "chapter_title": "C019",
+      "domains": [
+        "Organization & Discipline",
+        "Timing"
+      ],
+      "principles": [
+        "Becoming more eﬃcient with energy use is largely in our control.",
+        "The decision to buy a lighter car or ride a bike is up to you and has a 100% chance of improving eﬃciency.",
+        "Personal savings and frugality—ﬁnance’s conservation and eﬃciency—are parts of the money equation that are more in your control and have a 100% chance of being eﬀective in the future as they are today.",
+        "The value of wealth is relative to what you need.",
+        "Learning to be happy with less money creates a gap between what you have and what you want—similar to the gap you get from growing your paycheck, but easier and more in your control.",
+        "Saving is a hedge against life’s inevitable ability to surprise the hell out of you at the worst possible moment.",
+        "Savings without a spending goal gives you options and ﬂexibility, the ability to wait and the opportunity to pounce.",
+        "Having more control over your time and options is becoming one of the most valuable currencies in the world."
+      ],
+      "rules": [
+        "Investment returns can make you rich. But whether an investing strategy will work, and how long it will work for, and whether markets will cooperate, is always in doubt.",
+        "There are professional investors who grind 80 hours a week to add at least a tenth of a percentage point to their returns when there are two or three full percentage points of lifestyle bloat in their finances that can be exploited with less eﬀort."
+      ],
+      "claims": [
+        {
+          "claim": "Saving money is more in your control than you might think.",
+          "derived": true
+        },
+        {
+          "claim": "Savings can be created by spending less.",
+          "derived": true
+        },
+        {
+          "claim": "You don’t need a specific reason to save.",
+          "derived": true
+        },
+        {
+          "claim": "Saving does not require a goal of purchasing something specific.",
+          "derived": true
+        },
+        {
+          "claim": "The intangible benefits of money are harder to wrap your head around, so they tend to go unnoticed.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "If you view building wealth as something that will require more money or investment returns, you may become as pessimistic as the energy doomers were in the 1970s.",
+        "The path forward looks hard and out of your control if you view it that way.",
+        "You should not aim to be coldly rational."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 20,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Power",
+        "Risk & Survival"
+      ],
+      "principles": [
+        "Aim to be reasonable instead of rational when making financial decisions.",
+        "Minimize future regret by considering the social component of investing."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Fevers play a role in helping the body fight infection.",
+          "derived": true
+        },
+        {
+          "claim": "Fever is not an accidental nuisance, but rather a beneficial response to infection.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Treating fever with drugs like Tylenol can be counterproductive and mask underlying infections.",
+        "Using leverage or margin to supercharge retirement accounts can lead to catastrophic losses if not managed carefully."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 21,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Conflict & Force",
+        "Power",
+        "Psychology"
+      ],
+      "principles": [],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Investing is not a hard science.",
+          "derived": true
+        },
+        {
+          "claim": "The future is inherently uncertain and unpredictable.",
+          "derived": true
+        },
+        {
+          "claim": "History should not be relied upon as a guide to the future.",
+          "derived": true
+        },
+        {
+          "claim": "Surprises are an inherent part of economic history.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Over-reliance on past data can lead to overconfidence and anchoring biases.",
+        "Failing to admit mistakes and learn from surprises can hinder progress.",
+        "The world is difficult to anticipate, and the future may not look anything like the past."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 22,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Conflict & Force",
+        "Deception",
+        "Power"
+      ],
+      "principles": [],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "The world is surprising.",
+          "derived": true
+        },
+        {
+          "claim": "History can be a misleading guide to the future of the economy and stock market because it doesn't account for structural changes that are relevant today.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Don't use past surprises as a guide to future boundaries.",
+        "Be prepared for unprecedented events, which will have an impact on the economy and stock market."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 23,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Risk & Survival",
+        "Timing"
+      ],
+      "principles": [
+        "Margin of safety is essential for navigating a world governed by odds, not certainties.",
+        "It's better to aim low and have room for error than to take excessive risk and potentially wipe out."
+      ],
+      "rules": [
+        "Have enough money to withstand any swing of bad luck.",
+        "Don't bet too heavily even when the odds seem in your favor.",
+        "Plan on your plan not going according to plan."
+      ],
+      "claims": [
+        {
+          "claim": "The future may be worse than a third lower than the past, but no margin of safety offers a 100% guarantee.",
+          "derived": true
+        },
+        {
+          "claim": "You can be risk-loving and yet completely averse to ruin.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "History is littered with good ideas taken too far, which are indistinguishable from bad ideas.",
+        "The biggest gains occur infrequently, either because they don't happen often or because they take time to compound."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 24,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Resources & Logistics",
+        "Risk & Survival"
+      ],
+      "principles": [
+        "Avoiding single points of failure is crucial for long-term success.",
+        "It's essential to save for things you can't possibly predict or comprehend, like unexpected expenses or financial shocks."
+      ],
+      "rules": [
+        "Hate everything that can break will eventually break.",
+        "If many things rely on one thing working, and that thing breaks, you are counting the days to catastrophe."
+      ],
+      "claims": [
+        {
+          "claim": "You can't prepare for what you can't envision.",
+          "derived": true
+        },
+        {
+          "claim": "Avoiding single points of failure is almost impossible to plan for.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Don't rely on a sole reliance on a paycheck to fund short-term spending needs, with no savings to create a gap between what you think your expenses are and what they might be in the future."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 25,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Conflict & Force",
+        "Power",
+        "Psychology"
+      ],
+      "principles": [
+        "Avoid extreme ends of financial planning",
+        "Balance every point in your life to avoid future regret and encourage endurance",
+        "Accept the reality of changing your mind and move on as soon as possible"
+      ],
+      "rules": [
+        "Pay the price for success, which includes volatility, fear, doubt, uncertainty, and regret",
+        "Don't try to get a reward without paying the price, as it rarely ends well"
+      ],
+      "claims": [
+        {
+          "claim": "Compounding works best when you can give a plan years or decades to grow",
+          "derived": true
+        },
+        {
+          "claim": "The price of admission for successful investing is volatility, fear, doubt, uncertainty, and regret",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Don't be overconfident in your abilities",
+        "Be aware that the price of success may not be obvious until you've experienced it first-hand"
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 26,
+      "chapter_title": "The Price of Investing Success",
+      "domains": [
+        "Risk & Survival",
+        "Timing"
+      ],
+      "principles": [
+        "Investors should pay attention to their own goals and time horizons when making investment decisions.",
+        "Market returns are never free and always demand a price, which can be viewed as a fee or admission cost."
+      ],
+      "rules": [
+        "Avoid taking cues from other investors who may have different goals and time horizons than you.",
+        "Be aware that short-term traders can drive up market prices and create bubbles."
+      ],
+      "claims": [
+        {
+          "claim": "Investors often innocently take cues from other investors who are playing a different game than they are.",
+          "derived": true
+        },
+        {
+          "claim": "The notion that assets have one rational price in a world where investors have different goals and time horizons has done incalculable damage.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Bubbles can be socially devastating and ruin lives.",
+        "Investors should not view market volatility as a fine, but rather as an admission fee worth paying for potential returns."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 27,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Power",
+        "Timing"
+      ],
+      "principles": [
+        "People's investment decisions are often driven by short-term gains rather than long-term value.",
+        "Rational people can see the world through different lenses than others, leading to differing investment goals and behaviors."
+      ],
+      "rules": [
+        "Investors should identify their own time horizon and not be swayed by the actions of others playing a different game.",
+        "Short-term traders operate in a realm where long-term investing rules are ignored, as they are irrelevant to their game."
+      ],
+      "claims": [
+        {
+          "claim": "Optimism is the best bet for most people, as the world tends to get better for most people most of the time.",
+          "derived": true
+        },
+        {
+          "claim": "Pessimism holds a special place in our hearts and is often viewed as being smarter than optimism.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Bubbles can do damage when long-term investors playing one game start taking cues from short-term traders playing another.",
+        "Investors should be aware that others may have different goals, worries, and aspirations that influence their investment decisions."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 28,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Adaptation & Change",
+        "Conflict & Force",
+        "Deception",
+        "Diplomacy & Alliances",
+        "Intelligence & Information",
+        "Law & Order",
+        "Leadership",
+        "Morality & Legitimacy",
+        "Organization & Discipline",
+        "Power",
+        "Psychology",
+        "Resources & Logistics",
+        "Risk & Survival",
+        "Timing"
+      ],
+      "principles": [
+        "Pessimism is often more persuasive than optimism.",
+        "Financial pessimism can be easy and common due to the ubiquity of money.",
+        "Markets adapt in hard-to-predict ways, making it difficult to extrapolate present trends.",
+        "Progress happens too slowly to notice, but setbacks happen too quickly to ignore."
+      ],
+      "rules": [
+        "Do not take pessimistic views too far.",
+        "Be aware of the asymmetry between positive and negative expectations or experiences.",
+        "Consider how markets work and adapt in hard-to-predict ways."
+      ],
+      "claims": [
+        {
+          "claim": "The world has been getting better over time.",
+          "derived": true
+        },
+        {
+          "claim": "Humans can make significant progress in various areas, including economic growth, medical breakthroughs, and social equality.",
+          "derived": true
+        },
+        {
+          "claim": "Optimism is often seen as naive or insensitive, while pessimism is considered more plausible and persuasive.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Do not ignore the potential for problems to correct themselves and people to adapt.",
+        "Be cautious of extrapolating present trends without accounting for market adaptation.",
+        "Avoid taking a straight-line approach to forecasting, as markets can change rapidly."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 29,
+      "chapter_title": "The Power of Stories",
+      "domains": [
+        "Risk & Survival",
+        "Timing"
+      ],
+      "principles": [
+        "Compounding growth takes time, while destruction can happen quickly and suddenly.",
+        "Expecting great outcomes can lead to disappointment, while expecting bad outcomes can lead to pleasant surprises."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "The story we tell ourselves about the economy has a significant impact on our economic reality.",
+          "derived": true
+        },
+        {
+          "claim": "Narrative damage can be a powerful force that affects economies and businesses.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Be aware of appealing fictions, which are stories we desperately want to believe but may not be true.",
+        "Don't underestimate the power of stories in shaping our perceptions and decisions."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 30,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Conflict & Force",
+        "Power",
+        "Timing"
+      ],
+      "principles": [
+        "The path of least resistance is often toward believing anything, especially when a good solution is not readily available.",
+        "People are more addicted to prophecies and astrological conjurations than ever before or since.",
+        "Incentives are a powerful motivator, and we should always remember how they influence our own financial goals and outlooks."
+      ],
+      "rules": [
+        "When stakes are high, room for error should be wide.",
+        "The bigger the gap between what you want to be true and what you need to be true to have an acceptable outcome, the more you are protecting yourself from falling victim to an appealing financial fiction."
+      ],
+      "claims": [
+        {
+          "claim": "Investing is one of the only fields that offers daily opportunities for extreme rewards.",
+          "derived": true
+        },
+        {
+          "claim": "There is no greater force in finance than room for error, and the higher the stakes, the wider it should be.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "The biggest risk is that you want something to be true so badly that the range of your forecast is not even in the same ballpark as reality.",
+        "When thinking about room for error in a forecast, it's tempting to think that potential outcomes range from being just right enough to being very, very right."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 31,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Organization & Discipline",
+        "Psychology"
+      ],
+      "principles": [
+        "The illusion of control is more persuasive than the reality of uncertainty.",
+        "We need to believe we live in a predictable, controllable world, so we turn to authoritative-sounding people who promise to satisfy that need.",
+        "Wanting to believe we are in control is an emotional itch that needs to be scratched, rather than an analytical problem to be calculated and solved."
+      ],
+      "rules": [
+        "Don't confuse fields of precision with fields of uncertainty.",
+        "Respect the power of luck and risk, and you'll have a better chance of focusing on things you can actually control."
+      ],
+      "claims": [
+        {
+          "claim": "The outcome of a start-up depends as much on the achievements of its competitors and changes in the market as on its own efforts.",
+          "derived": true
+        },
+        {
+          "claim": "The ability to do what you want, when you want, with whom you want, for as long as you want to, pays the highest dividend that exists in finance.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Don't give advice about what to do with your money without considering the plans and skills of others who may affect your outcomes.",
+        "Luck and risk are both real and hard to identify, so be careful when judging yourself and others."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 32,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Power",
+        "Risk & Survival",
+        "Timing"
+      ],
+      "principles": [
+        "Saving for the future is a hedge against life's uncertainties.",
+        "Defining the cost of success and being ready to pay it.",
+        "Worshiping room for error as a conservative hedge.",
+        "Avoiding extreme financial decisions that may lead to regret.",
+        "Liking risk because it pays off over time, but being paranoid of ruinous risk."
+      ],
+      "rules": [
+        "Save for things that are impossible to predict or define.",
+        "Defining the game you're playing and making sure your actions aren't influenced by people playing a different game.",
+        "Respecting the mess and acknowledging that smart, informed, and reasonable people can disagree in finance."
+      ],
+      "claims": [
+        {
+          "claim": "Independence is a personal financial goal.",
+          "derived": true
+        },
+        {
+          "claim": "Saving rate is driven by ability to keep lifestyle expectations from running away.",
+          "derived": true
+        },
+        {
+          "claim": "Owning one's house outright is the best money decision ever made.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Uncertainty, doubt, and regret are common costs in the finance world.",
+        "Most financial costs don't have visible price tags."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 33,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Conflict & Force",
+        "Power"
+      ],
+      "principles": [
+        "The first rule of compounding is to never interrupt it unnecessarily.",
+        "Every investor should pick a strategy that has the highest odds of successfully meeting their goals."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Investing in low-cost index funds will provide the highest odds of long-term success for most investors.",
+          "derived": true
+        },
+        {
+          "claim": "There is little correlation between investment effort and investment results.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Trying to beat the market should be hard; the odds of success should be low.",
+        "The majority of those trying to beat the market will fail to do so."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 34,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Conflict & Force",
+        "Power"
+      ],
+      "principles": [
+        "Encouraging thrift and saving to fund war efforts can quickly turn into actively promoting spending.",
+        "Low interest rates can stimulate consumption and economic growth."
+      ],
+      "rules": [
+        "Keeping short-term interest rates low can help finance the war effort without increasing costs.",
+        "Consumer credit expansion can fuel economic growth, but also increases household debt."
+      ],
+      "claims": [
+        {
+          "claim": "The post-war era saw a significant increase in consumer spending and economic growth.",
+          "derived": true
+        },
+        {
+          "claim": "Household debt grew fivefold from 1947 to 1957 due to the combination of new consumption culture, debt products, and government-subsidized interest rates.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Rapidly increasing household debt can have severe consequences for individuals and society as a whole.",
+        "The ease of access to credit can lead to overconsumption and decreased savings rates."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 35,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Conflict & Force",
+        "Power",
+        "Timing"
+      ],
+      "principles": [],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "The economy works better for some people than others.",
+          "derived": true
+        },
+        {
+          "claim": "Success is not as meritocratic as it used to be.",
+          "derived": true
+        },
+        {
+          "claim": "When success is granted, it's rewarded with higher gains than in previous eras.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Sharp inequality has become a force over the last 35 years.",
+        "The economy has shifted away from people's expectations set after the war: that there's a broad middle class without systematic inequality."
+      ],
+      "cross_references": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "doctrine_id": "TRUTH_001",
+    "confidence": 0.9,
+    "domain": "TRUTH",
+    "source": {
+      "book": "the_beginning_of_wisdom",
+      "chapter": "Preface",
+      "page": 1
+    }
+  }
+]

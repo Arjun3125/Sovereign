@@ -1,0 +1,22 @@
+[
+  {
+    "doctrine_id": "STRATEGY_001",
+    "confidence": 0.79,
+    "domain": "OPTIONALITY",
+    "source": {
+      "book": "antifragile",
+      "chapter": "Book_III",
+      "page": 405
+    }
+  },
+  {
+    "doctrine_id": "RISK_001",
+    "confidence": 0.84,
+    "domain": "OPTIONALITY",
+    "source": {
+      "book": "antifragile",
+      "chapter": "Book_II",
+      "page": 285
+    }
+  }
+]

@@ -2,8 +2,10 @@
 
 Provides the fixed domain list expected by the prompt set.
 """
+from typing import List
 
-DOMAIN_LIST = [
+# Fixed domain list matching the prompts (15 domains)
+DOMAIN_LIST: List[str] = [
     "grand_strategy",
     "power",
     "optionality",
@@ -19,17 +21,6 @@ DOMAIN_LIST = [
     "adaptation",
     "legitimacy",
     "narrative",
-]
-"""Schemas and domain list for ingest_v2."""
-from typing import List
-
-# Fixed domain list used by domain_classifier
-DOMAIN_LIST: List[str] = [
-    "power",
-    "strategy",
-    "diplomacy",
-    "economy",
-    "timing",
 ]
 
 # Minimal JSON/YAML schema placeholders (for validation-only)

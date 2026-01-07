@@ -1,0 +1,12 @@
+[
+  {
+    "doctrine_id": "RISK_001",
+    "confidence": 0.84,
+    "domain": "RISK",
+    "source": {
+      "book": "antifragile",
+      "chapter": "Book_II",
+      "page": 285
+    }
+  }
+]

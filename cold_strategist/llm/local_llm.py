@@ -15,7 +15,8 @@ class LocalLLM(LLMInterface):
         Args:
             model_name: Name of the model to use
         """
-        self.model_name = model_name
+        # Default to Claude Haiku 4.5 for local clients
+        self.model_name = model_name or "claude/haiku-4.5"
 
     def generate(self, prompt: str, context: dict = None) -> str:
         """Generate a response using local LLM."""

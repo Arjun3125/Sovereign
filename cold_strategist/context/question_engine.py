@@ -7,7 +7,7 @@ Stops when context is sufficient.
 """
 
 from typing import Optional
-from context.context_schema import DecisionContext, Stakes, EmotionalLoad
+from cold_strategist.context.context_schema import DecisionContext, Stakes, EmotionalLoad
 
 
 class QuestionEngine:

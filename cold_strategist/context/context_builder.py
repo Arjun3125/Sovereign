@@ -6,9 +6,11 @@ Short. Deterministic. Code-first.
 No philosophy. No ministers yet.
 """
 
-from typing import Optional
-from context.context_schema import DecisionContext, Stakes, EmotionalLoad, ValidationResult
-from context.question_engine import QuestionEngine
+from typing import Optional, Dict, Any, List
+from cold_strategist.context.context_schema import DecisionContext, Stakes, EmotionalLoad, ValidationResult
+from cold_strategist.context.question_engine import QuestionEngine
+from cold_strategist.core.gatekeeper import Gatekeeper
+import uuid
 
 
 class ContextBuilder:
@@ -73,6 +75,86 @@ class ContextBuilder:
             Next question string, or None if context complete
         """
         return self.qe.generate(ctx)
+
+    def propose_question(self, ctx: DecisionContext, decision_id: Optional[str] = None, active_required_fields: Optional[Dict[str, List[str]]] = None, active_ministers: Optional[List[str]] = None, context_state: Optional[Dict[str, Any]] = None) -> Optional[str]:
+        """
+        Propose the next question but enforce Gatekeeper rules.
+
+        If `decision_id` is None, behaves like `next_question`.
+        """
+        question = self.qe.generate(ctx)
+        if not question:
+            return None
+
+        # If no decision_id provided, return question directly
+        if decision_id is None:
+            return question
+
+        # Build minimal context_state if not provided
+        if context_state is None:
+            context_state = self._build_minimal_context_state(ctx)
+
+        # Map question to a canonical field path
+        field = self._map_question_to_field(question)
+        if field is None:
+            return "INSUFFICIENT CONTEXT — NO FURTHER PROGRESS POSSIBLE"
+
+        # Determine requester: prefer first active minister that requires this field
+        requester = None
+        if active_required_fields:
+            for m, reqs in active_required_fields.items():
+                if field in reqs and (not active_ministers or m in active_ministers):
+                    requester = m
+                    break
+
+        if requester is None:
+            requester = "ContextBuilder"
+
+        g = Gatekeeper(decision_id)
+        request = {
+            "requester": requester,
+            "requested_field": field,
+            "reason": question,
+            "decision_id": decision_id,
+            "context_snapshot": context_state,
+        }
+
+        verdict = g.can_ask(request, context_state, active_required_fields or {}, active_ministers or [])
+        if verdict.get("status") == "ALLOWED":
+            return question
+        else:
+            # Record rejection and terminate per rules
+            g.record_rejection(request, verdict.get("reason", "REJECTED"))
+            return "INSUFFICIENT CONTEXT — NO FURTHER PROGRESS POSSIBLE"
+
+    def _map_question_to_field(self, question: str) -> Optional[str]:
+        q = question.lower()
+        if "what kind of situation" in q:
+            return "identity.domain"
+        if "worst realistic outcome" in q or "how bad" in q:
+            return "risk_profile.hard_loss_cap_percent"
+        if "can this be undone" in q or "lasting damage" in q:
+            return "constraints.irreversibility"
+        if "what emotion is strongest" in q:
+            return "meta.emotional_state"
+        if "faced something structurally similar" in q:
+            return "meta.prior_patterns"
+        return None
+
+    def _build_minimal_context_state(self, ctx: DecisionContext) -> Dict[str, Any]:
+        # Build a minimal canonical context dict as required by Gatekeeper
+        return {
+            "identity": {},
+            "objectives": {},
+            "constraints": {},
+            "risk_profile": {},
+            "time_horizon": {},
+            "resources": {},
+            "environment": {},
+            "forbidden_moves": {},
+            "confidence_map": {"overall_context_confidence": ctx.confidence, "unstable_fields": []},
+            "meta": {}
+        }
     
     def update_context(
         self, 

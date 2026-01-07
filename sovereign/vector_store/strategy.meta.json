@@ -1,0 +1,22 @@
+[
+  {
+    "doctrine_id": "STRATEGY_001",
+    "confidence": 0.79,
+    "domain": "STRATEGY",
+    "source": {
+      "book": "antifragile",
+      "chapter": "Book_III",
+      "page": 405
+    }
+  },
+  {
+    "doctrine_id": "CONFLICT_001",
+    "confidence": 0.88,
+    "domain": "STRATEGY",
+    "source": {
+      "book": "art_of_war",
+      "chapter": "Chapter_3",
+      "page": 45
+    }
+  }
+]
