@@ -1,0 +1,847 @@
+{
+  "book_title": null,
+  "author": null,
+  "chapters": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "The Psychology of Compliance",
+      "domains": [
+        "Intelligence & Information",
+        "Organization & Discipline",
+        "Psychology"
+      ],
+      "principles": [
+        "Consistency",
+        "Reciprocation",
+        "Social Proof",
+        "Authority",
+        "Liking",
+        "Scarcity"
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "The law of survival of the fittest assures that compliance professionals know what works and what doesn’t.",
+          "derived": true
+        },
+        {
+          "claim": "Compliance practitioners have a rich vein of information about compliance available to them.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "In modern life, automatic influence will become more prevalent, making it increasingly important for society to understand how and why it happens."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "WEAPONS OF INFLUENCE",
+      "domains": [
+        "Intelligence & Information",
+        "Organization & Discipline",
+        "Psychology"
+      ],
+      "principles": [
+        "The use of trigger features can activate automatic responses in humans, just like in animals.",
+        "Providing a reason for a request can increase compliance."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Humans have preprogrammed tapes that can be triggered by specific stimuli, leading to automatic responses.",
+          "derived": true
+        },
+        {
+          "claim": "The effectiveness of a request can be increased by adding the word 'because' without providing any new information.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Be aware of the potential for automatic responses to be triggered by specific stimuli, which can lead to inappropriate behavior.",
+        "Do not rely solely on reasons or justifications when making requests, as they may not be effective in all cases."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "C003",
+      "domains": [
+        "Psychology"
+      ],
+      "principles": [
+        "Humans rely on shortcuts, such as stereotypes and trigger features, to navigate complex situations.",
+        "Automatic behavior patterns can be exploited by others who understand how they work."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Price alone can determine the quality of an item.",
+          "derived": true
+        },
+        {
+          "claim": "Expensive = good is a common stereotype used to guide buying decisions.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Relying solely on shortcuts and stereotypes can lead to inappropriate behavior in certain situations.",
+        "Humans are vulnerable to exploitation by others who understand how their automatic behavior patterns work."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "C004",
+      "domains": [
+        "Psychology",
+        "Timing"
+      ],
+      "principles": [
+        "The power of automatic influence can be triggered by exploiting psychological principles or stereotypes.",
+        "The contrast principle affects human perception, making us see differences between two things presented one after another."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Exploiters can commission the power of weapons of automatic influence for use against their targets while exerting little personal force.",
+          "derived": true
+        },
+        {
+          "claim": "The victims themselves tend to see their compliance as determined by the action of natural forces rather than by the designs of the person who profits from that compliance.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Be aware of the 'expensive = good' stereotype, which can be exploited to influence people's purchasing decisions.",
+        "Be cautious of the contrast principle, which can make us see differences between two things presented one after another."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "The Contrast Principle",
+      "domains": [
+        "Strategy"
+      ],
+      "principles": [
+        "The contrast principle: The price of an item seems higher or lower, depending on the price of a previously presented item."
+      ],
+      "rules": [
+        "Sell the expensive item first to take advantage of the contrast principle.",
+        "Presenting an inexpensive product first and following it with an expensive one will cause the expensive item to seem even more costly."
+      ],
+      "claims": [],
+      "warnings": [
+        "Failing to use the contrast principle can lead to losing influence or causing the principle to work actively against you."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "The Rule for Reciprocation",
+      "domains": [
+        "Timing"
+      ],
+      "principles": [
+        "The rule for reciprocation is a powerful adaptive mechanism of human beings.",
+        "A widely shared and strongly held feeling of future obligation can produce social advances."
+      ],
+      "rules": [
+        "The rule for reciprocation states that when someone has provided us with something, we feel obligated to provide them with something in return.",
+        "This obligation can be triggered by a small favor or a large one, and it can last for a long time."
+      ],
+      "claims": [
+        {
+          "claim": "Human societies derive a significant competitive advantage from the reciprocity rule.",
+          "derived": true
+        },
+        {
+          "claim": "The need to reciprocate can transcend great cultural differences, long distances, acute famine, and immediate self-interest.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Those who take without giving in return are viewed negatively and may be considered moochers or ingrates.",
+        "Individuals who recognize the reciprocity rule as a source of influence can exploit it to gain compliance from others."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "The Power of Reciprocation",
+      "domains": [
+        "Power",
+        "Timing"
+      ],
+      "principles": [
+        "The rule for reciprocation is strong enough to overcome factors of dislike for the requester."
+      ],
+      "rules": [
+        "The benefactor-before-beggar strategy: giving a gift before asking for a contribution can be effective in soliciting donations.",
+        "Logrolling and the exchange of favors between politicians can be an effective way to get legislation passed."
+      ],
+      "claims": [
+        {
+          "claim": "The Hare Krishna Society's fund-raising tactic using the benefactor-before-beggar strategy has been wildly successful.",
+          "derived": true
+        },
+        {
+          "claim": "The power of reciprocation is strong enough that people will often go out of their way to avoid giving a gift or favor, rather than violating the rule.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Be aware of solicitors who may try to use the benefactor-before-beggar strategy on you in public places.",
+        "The power of reciprocation can be used for both good and bad purposes, so be cautious when engaging in reciprocal behavior."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "The Rule of Reciprocity",
+      "domains": [
+        "Psychology"
+      ],
+      "principles": [
+        "People tend to return a favor when they have received one, even if it was uninvited."
+      ],
+      "rules": [
+        "The reciprocity rule: We should provide to others the kind of actions they have provided us.",
+        "Uninvited first favors can create an obligation and trigger a feeling of indebtedness."
+      ],
+      "claims": [
+        {
+          "claim": "The power of reciprocity is such that by first doing us a favor, strange, disliked, or unwelcome others can enhance the chance that we will comply with one of their requests.",
+          "derived": true
+        },
+        {
+          "claim": "Reciprocal relationships confer an extraordinary advantage upon cultures that foster them.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Be cautious of uninvited favors and gifts, as they can create obligations and influence our decisions."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "The Rule Can Trigger Unfair Exchanges",
+      "domains": [
+        "Power"
+      ],
+      "principles": [
+        "The reciprocity rule demands that one sort of action be reciprocated with a similar sort of action."
+      ],
+      "rules": [
+        "A favor is to be met with another favor; it is not to be met with neglect, and certainly not with attack.",
+        "Considerable flexibility is allowed within the similar-action boundaries."
+      ],
+      "claims": [
+        {
+          "claim": "The reciprocity rule can produce meaningfully large differences in the sizes of the exchanged favors under the right circumstances.",
+          "derived": true
+        },
+        {
+          "claim": "A small initial favor can produce a sense of obligation to agree to a substantially larger return favor.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "The reciprocity rule can be used to bring about decidedly unequal results, allowing one person to exploit another for profit.",
+        "There is a strong cultural pressure to reciprocate a gift, even an unwanted one; but there is no such pressure to purchase an unwanted commercial product."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Reciprocal Concessions",
+      "domains": [
+        "Psychology",
+        "Risk & Survival",
+        "Timing"
+      ],
+      "principles": [
+        "The reciprocity rule states that a person who acts in a certain way toward us is entitled to a similar return action.",
+        "The obligation to reciprocate a concession encourages the creation of socially desirable arrangements by ensuring that anyone seeking to start such an arrangement will not be exploited."
+      ],
+      "rules": [
+        "The rejection-then-retreat technique: make a larger request, then after refusal, make a smaller request that you were really interested in all along.",
+        "To use the reciprocity rule effectively, present a concession as a retreat from a larger request."
+      ],
+      "claims": [
+        {
+          "claim": "People will often give back more than they have received in the name of reciprocity to relieve themselves of the psychological burden of debt.",
+          "derived": true
+        },
+        {
+          "claim": "The risk of still other kinds of losses may also persuade people to decline certain gifts and benefits.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "A person who violates the reciprocity rule by accepting without attempting to return the good acts of others is actively disliked by the social group.",
+        "Failing to conform to the dictates of the reciprocity rule can lead to external shame and a heavy psychological cost."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "The Rejection-Then-Retreat Technique",
+      "domains": [
+        "Deception"
+      ],
+      "principles": [
+        "Appearing to make a concession can be an effective way to gain compliance.",
+        "A larger initial request followed by a smaller request can increase the likelihood of compliance."
+      ],
+      "rules": [
+        "The rejection-then-retreat technique should not be used with extreme demands that are seen as unreasonable, as this can backfire and damage credibility.",
+        "The initial request should be exaggerated enough to allow for a series of reciprocal concessions, but not so outlandish as to be seen as illegitimate from the start."
+      ],
+      "claims": [
+        {
+          "claim": "This technique is effective in gaining compliance with substantial requests.",
+          "derived": true
+        },
+        {
+          "claim": "Using this technique can triple the percentage of compliance compared to making a single request.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Be aware that using this technique can damage credibility if not used carefully, and may backfire if the initial request is seen as unreasonable."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "The Rejection-Then-Retreat Technique",
+      "domains": [
+        "Power",
+        "Psychology",
+        "Risk & Survival",
+        "Timing"
+      ],
+      "principles": [
+        "Perceptual contrast principle: The tendency of a man to spend more money on a sweater following his purchase of a suit than before.",
+        "Reciprocity rule: The force of reciprocity and the contrast principle can present a fearsomely powerful force."
+      ],
+      "rules": [
+        "The rejection-then-retreat sequence is a tactic that makes use of the contrast principle by making the smaller request look even smaller by comparison with the larger one.",
+        "If you agree to the initial request, you will have gotten twice the amount from someone else you would have settled for."
+      ],
+      "claims": [
+        {
+          "claim": "The decision to break into the Watergate offices was a stupid idea that led to the ruin of Richard Nixon's presidency.",
+          "derived": true
+        },
+        {
+          "claim": "Intelligent men can do something so very, very foolish if they are influenced by the rejection-then-retreat technique.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Be aware of the rejection-then-retreat technique and its potential consequences.",
+        "Don't be fooled by initial extreme requests that seem to be concessions."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "The Rejection-Then-Retreat Technique",
+      "domains": [
+        "Psychology"
+      ],
+      "principles": [
+        "Making a concession during an interaction with another person can stimulate a return concession.",
+        "A person who feels responsible for the terms of a contract will be more likely to live up to that contract."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "The rejection-then-retreat technique is effective in getting people to agree to and fulfill requests.",
+          "derived": true
+        },
+        {
+          "claim": "Making a concession can increase feelings of responsibility and satisfaction with an agreement.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Using the rejection-then-retreat technique may lead to resentment if not used carefully, but research suggests this is rare."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "How to Say No",
+      "domains": [
+        "Strategy"
+      ],
+      "principles": [
+        "To engage in an arrangement with another, it should be recognized for what it fundamentally is, not for what it is represented to be."
+      ],
+      "rules": [
+        "The rule of reciprocation states that favors are to be met with favors; it does not require that tricks be met with favors."
+      ],
+      "claims": [
+        {
+          "claim": "People who are satisfied with a given arrangement are more likely to be willing to agree to further such arrangements.",
+          "derived": true
+        },
+        {
+          "claim": "A policy of blanket rejection is ill advised, as authentically generous individuals and those trying to play fairly by the reciprocity rule will become insulted and isolated.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "When presented with an initial favor or concession, it may be difficult to know whether it is honest or a device designed to stimulate compliance with a larger return favor.",
+        "If the primary motive of a visit or offer is to sell something, it should be recognized as such and not as a gift."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Commitment and Consistency",
+      "domains": [
+        "Organization & Discipline",
+        "Psychology",
+        "Timing"
+      ],
+      "principles": [
+        "The desire for consistency is a central motivator of human behavior.",
+        "Once we have made a choice or taken a stand, we will encounter personal and interpersonal pressures to behave consistently with that commitment."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "We fool ourselves from time to time in order to keep our thoughts and beliefs consistent with what we have already done or decided.",
+          "derived": true
+        },
+        {
+          "claim": "The drive to be (and look) consistent constitutes a highly potent weapon of social influence, often causing us to act in ways that are clearly contrary to our own best interests.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "We should be aware of the power of the consistency principle and its potential to lead us astray.",
+        "The desire for consistency can cause us to do what we ordinarily would not want to do, even if it goes against our own best interests."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 16,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Psychology"
+      ],
+      "principles": [
+        "Consistency is a powerful motive that drives human behavior.",
+        "People tend to value consistency and see it as a desirable trait."
+      ],
+      "rules": [
+        "When people are asked to watch something, they are more likely to take action if they feel responsible for its safety.",
+        "Consistency can be a shortcut through the density of modern life, but it can also lead to disastrous consequences when applied unthinkingly."
+      ],
+      "claims": [
+        {
+          "claim": "Good personal consistency is highly valued in our culture and provides us with a reasonable and gainful orientation to the world.",
+          "derived": true
+        },
+        {
+          "claim": "Automatic consistency can supply a safe hiding place from troubling realizations and harsh consequences of thought.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Blind consistency can be disastrous when applied unthinkingly, leading to erratic and disjointed lives.",
+        "The allure of automatic consistency can lead people to evade the rigors of continuing thought and avoid uncomfortable truths."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 17,
+      "chapter_title": "Influence",
+      "domains": [
+        "Timing"
+      ],
+      "principles": [
+        "The need for consistency can be exploited by those who would prefer that we not think too much in response to their requests for our compliance."
+      ],
+      "rules": [
+        "When faced with a dilemma, consider the underlying motivations and needs of all parties involved.",
+        "Be aware of the potential for automatic consistency to lead to unthinking reactions and exploitation."
+      ],
+      "claims": [
+        {
+          "claim": "The toy manufacturers' strategy of undersupplying popular toys before Christmas and then running ads again after Christmas is an example of exploiting the need for consistency in parents to buy more toys.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Be cautious of situations where others are trying to manipulate your behavior through the use of psychological tactics, such as exploiting the need for consistency."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 18,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Power",
+        "Psychology"
+      ],
+      "principles": [
+        "Commitment is a powerful force that can direct human action.",
+        "Once a stand is taken, there is a natural tendency to behave in ways that are stubbornly consistent with the stand."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "If I can get you to make a commitment (that is, to take a stand, to go on record), I will have set the stage for your automatic and ill-considered consistency with that earlier commitment.",
+          "derived": true
+        },
+        {
+          "claim": "The Chinese were very effective in getting Americans to inform on one another, in striking contrast to the behavior of American POWs in World War II.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Once you have publicly stated that all is well, it becomes much easier for the solicitor to corner you into aiding those for whom all is not well.",
+        "If all this sounds a bit farfetched, consider the findings of consumer researcher Daniel Howard..."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 19,
+      "chapter_title": "The Power of Commitment",
+      "domains": [
+        "Power"
+      ],
+      "principles": [
+        "Small commitments can lead to larger compliance with related requests.",
+        "People are more likely to comply with a request if they have already made a small commitment to a similar cause."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "The foot-in-the-door technique is an effective way to gain eventual compliance with related larger requests.",
+          "derived": true
+        },
+        {
+          "claim": "Signing a petition or making a small commitment can change a person's self-image and make them more willing to perform larger favors.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Be careful about agreeing to trivial requests, as they can increase compliance with similar, much larger requests.",
+        "Small commitments can have unintended consequences on a person's self-image and behavior."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 20,
+      "chapter_title": "Chapter 20",
+      "domains": [
+        "Psychology"
+      ],
+      "principles": [
+        "People's behavior reflects their true feelings and beliefs.",
+        "Self-image is influenced by one's actions and the perceptions of others."
+      ],
+      "rules": [
+        "Written statements can be used to persuade others and shape one's own attitudes.",
+        "The act of writing down a statement makes it more difficult to deny or forget."
+      ],
+      "claims": [
+        {
+          "claim": "The Chinese Communist Party successfully indoctrinated prisoners by manipulating their perceptions and actions.",
+          "derived": true
+        },
+        {
+          "claim": "Commitments, even small ones, can lead to further behavior and attitude changes.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "The use of subtle coercion and manipulation can be effective in shaping attitudes and behaviors."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 21,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Psychology"
+      ],
+      "principles": [
+        "Public commitments tend to be lasting commitments.",
+        "People try to avoid the look of inconsistency."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Written statements can commit people to their own beliefs and actions.",
+          "derived": true
+        },
+        {
+          "claim": "The more public a stand, the more reluctant we will be to change it.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Avoid making commitments that may limit your future options or contradict your values."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 22,
+      "chapter_title": "{chapter_title}",
+      "domains": [
+        "Psychology"
+      ],
+      "principles": [
+        "Public commitment can increase the effectiveness of a decision",
+        "Written commitments are more effective than verbal ones due to increased effort required",
+        "The more effort that goes into a commitment, the greater its ability to influence attitudes"
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Making a public promise can help individuals overcome bad habits and achieve goals",
+          "derived": true
+        },
+        {
+          "claim": "Requiring written commitments from others can increase their motivation and adherence to decisions",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "The use of public commitment and written promises should be used judiciously, as they can also lead to negative consequences if not managed properly"
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 23,
+      "chapter_title": "The Persistence of Hazing Practices",
+      "domains": [
+        "Power"
+      ],
+      "principles": [
+        "Groups will resist all attempts to eliminate initiation rituals that are crucial to their survival and strength."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Initiation ceremonies can increase the commitment and loyalty of new members to a group.",
+          "derived": true
+        },
+        {
+          "claim": "The severity of an initiation ceremony can heighten the newcomer's commitment to the group.",
+          "derived": true
+        },
+        {
+          "claim": "Groups will oppose all attempts to eliminate this crucial link to their future strength.",
+          "derived": true
+        }
+      ],
+      "warnings": [],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 25,
+      "chapter_title": "The Power of Commitment",
+      "domains": [
+        "Psychology",
+        "Timing"
+      ],
+      "principles": [
+        "People are more likely to take personal responsibility for their actions when they have been induced to make a commitment."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "A strong, clear threat may be effective in the short term, but it will not achieve long-term commitment.",
+          "derived": true
+        },
+        {
+          "claim": "Using a reason that is just strong enough to get someone to behave correctly most of the time can lead to inner change and lasting commitment.",
+          "derived": true
+        }
+      ],
+      "warnings": [],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 26,
+      "chapter_title": "C026",
+      "domains": [
+        "Psychology",
+        "Timing"
+      ],
+      "principles": [
+        "People tend to comply with requests that are framed as a favor or an obligation rather than as a request.",
+        "Once people have made a commitment, they will often go to great lengths to justify it and maintain their self-image."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Lowballing is a tactic used to make people feel pleased with a poor choice by offering them an advantage that induces a favorable purchase decision.",
+          "derived": true
+        },
+        {
+          "claim": "The sequence of lowballing is the same: An advantage is offered, then removed after the decision has been made but before the bargain is sealed.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Be aware of the tactics used to manipulate people into making commitments they may later regret.",
+        "Once a commitment is made, it can be difficult to change one's mind and maintain a consistent self-image."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 27,
+      "chapter_title": "How to Say No",
+      "domains": [
+        "Intelligence & Information",
+        "Timing"
+      ],
+      "principles": [
+        "The principle of consistency can be used for good or bad, but a foolish, rigid consistency is the hobgoblin of little minds."
+      ],
+      "rules": [
+        "Know when automatic consistency is likely to lead to a poor choice.",
+        "Be aware of signals that indicate you are trapped into complying with a request you know you don't want to perform."
+      ],
+      "claims": [
+        {
+          "claim": "Consistency is generally good, but a foolish, rigid consistency can be detrimental.",
+          "derived": true
+        },
+        {
+          "claim": "The need to be consistent with what we have already said can snare us into making poor choices.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Be wary of the tendency to be automatically and unthinkingly consistent.",
+        "Don't stop to think through every new action before performing it, or you will never accomplish anything significant."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 28,
+      "chapter_title": "C028",
+      "domains": [
+        "Intelligence & Information",
+        "Power"
+      ],
+      "principles": [
+        "Foolish consistency can lead to mistakes and poor decision-making.",
+        "It's essential to distinguish between genuine reasons and justifications for a decision."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Stomachs can serve as an indicator of whether we're doing something that feels wrong or right.",
+          "derived": true
+        },
+        {
+          "claim": "The heart of hearts is the place where our true feelings and intentions reside, unaffected by rationalizations.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Failing to recognize foolish consistency can lead to prolonged mistakes and poor relationships.",
+        "Ignoring the signals from our heart of hearts can result in continued suffering and regret."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 29,
+      "chapter_title": "Social Proof",
+      "domains": [
+        "Psychology"
+      ],
+      "principles": [
+        "The principle of social proof states that one means we use to determine what is correct is to find out what other people think is correct."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "Canned laughter works on us because it provides a shortcut for determining how to behave, and we tend to view a behavior as more correct in a given situation to the degree that we see others performing it.",
+          "derived": true
+        },
+        {
+          "claim": "We can be fooled by partial or fake evidence when responding to social proof in a mindless and reflexive fashion.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "The tendency to see an action as more appropriate when others are doing it normally works quite well, but makes one who uses the shortcut vulnerable to the attacks of profiteers who lie in wait along its path.",
+        "We should be cautious not to respond to social proof in a way that ignores our own judgment and critical thinking."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 30,
+      "chapter_title": "The Power of Social Proof",
+      "domains": [
+        "Psychology"
+      ],
+      "principles": [
+        "People are persuaded more by the actions of others than by any proof we can offer.",
+        "Social evidence can be used to influence behavior and attitudes."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "The use of social proof can lead to automatic reactions and decisions, rather than thoughtful consideration.",
+          "derived": true
+        },
+        {
+          "claim": "Television executives exploit our preference for shortcuts and tendency to react automatically on the basis of partial evidence.",
+          "derived": true
+        },
+        {
+          "claim": "Advertisers use social proof to convince people that a product is good by saying that many others think so.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Be aware of the influence of social proof in your own behavior and decision-making.",
+        "Don't assume that an action is correct just because others are doing it."
+      ],
+      "cross_references": []
+    },
+    {
+      "chapter_index": 31,
+      "chapter_title": "C031",
+      "domains": [
+        "Psychology"
+      ],
+      "principles": [
+        "Commitment to a belief system can lead to high levels of dedication and resistance to external pressures.",
+        "People may prioritize their own beliefs over social, economic, and legal pressures."
+      ],
+      "rules": [],
+      "claims": [
+        {
+          "claim": "The cult's leaders, Dr. Armstrong and Mrs. Keech, were convinced that they had the truth and were willing to withstand enormous pressures to maintain their convictions.",
+          "derived": true
+        },
+        {
+          "claim": "The group's members took irrevocable steps in anticipation of their departure from Earth, including quitting jobs, neglecting studies, and giving away personal belongings.",
+          "derived": true
+        }
+      ],
+      "warnings": [
+        "Groups with strong beliefs may become isolated and secretive, avoiding public exposure and recruitment efforts.",
+        "Individuals who are convinced of the validity of their creed may prioritize it over other aspects of their lives."
+      ],
+      "cross_references": []
+    }
+  ]
+}

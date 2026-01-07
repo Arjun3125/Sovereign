@@ -1,0 +1,341 @@
+{
+  "last_completed_window": 30,
+  "boundaries": [
+    {
+      "type": "chapter_start",
+      "title": "Introduction: The Greatest Show On Earth",
+      "page": null,
+      "char_offset": 0,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Postscript: A Brief History of Why the U.S. Consumer Thinks the Way They Do",
+      "page": null,
+      "char_offset": 1234,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Chapter 1: What I Learned After the Financial Crisis",
+      "page": null,
+      "char_offset": 8500,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Chapter 2: The Psychology of Money",
+      "page": null,
+      "char_offset": 17500,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "shouldexpectthemtorespondtoﬁnancialinformationthesameway.",
+      "page": null,
+      "char_offset": 17000,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Lotterytickets.Americansspendmoreonthemthanmovies, videogames, music, sportingevents, andbookscombined.",
+      "page": null,
+      "char_offset": 25300,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Bill Gates' Luck and Risk",
+      "page": null,
+      "char_offset": 25500,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Chapter 7",
+      "page": null,
+      "char_offset": 34000,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Lessons from one field can often teach us something important about unrelated fields.",
+      "page": null,
+      "char_offset": 42500,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "The amazing thing here is how big something can grow from a relatively small change in conditions.",
+      "page": null,
+      "char_offset": 51000,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "That’s the cycle.",
+      "page": null,
+      "char_offset": 53150,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "The big takeaway from ice ages is that you don’t need tremendous force to create tremendous results.",
+      "page": null,
+      "char_offset": 55300,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "It can be logic-defying that you underestimate what’s possible, where growth comes from, and what it can lead to.",
+      "page": null,
+      "char_offset": 57450,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "And so it is with money.",
+      "page": null,
+      "char_offset": 59600,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Chapter 6",
+      "page": null,
+      "char_offset": 59500,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "But do you know what happened during this period?",
+      "page": null,
+      "char_offset": 68000,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "y. Acatastrophic loss. And one that 4 in 10 public companies experience overtime.",
+      "page": null,
+      "char_offset": 76500,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Another story about the paradox of fast cars in the next chapter.",
+      "page": null,
+      "char_offset": 93500,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Chapter 7",
+      "page": null,
+      "char_offset": 102000,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "alwhenmakingﬁnancialdecisions.Aimtojustbeprettyreasonable.",
+      "page": null,
+      "char_offset": 110500,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "1.",
+      "page": null,
+      "char_offset": 119000,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Some of the best examples of smart financial behavior can be found in an unlikely place: Las Vegas casinos.",
+      "page": null,
+      "char_offset": 127500,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Chapter 20",
+      "page": null,
+      "char_offset": 136000,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "The End of History Illusion",
+      "page": null,
+      "char_offset": 144500,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "The End of History Illusion",
+      "page": null,
+      "char_offset": 153000,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Chapter 1",
+      "page": null,
+      "char_offset": 161500,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Chapter 20",
+      "page": null,
+      "char_offset": 170000,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "The Investing Newsletter Industry Has Known This for Years",
+      "page": null,
+      "char_offset": 178500,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "The Wright Brothers’questtobuildtheﬁrstplanehasafascinatingtwist.",
+      "page": null,
+      "char_offset": 187000,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Chapter 16",
+      "page": null,
+      "char_offset": 195500,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "This chapter isabit of a summary; afew short and actionable lessons that can help you make better financial decisions.",
+      "page": null,
+      "char_offset": 204000,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "How Doctors Die",
+      "page": null,
+      "char_offset": 212500,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "1. August, 1945.",
+      "page": null,
+      "char_offset": 221000,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "4. Gains are shared more equally than ever before.",
+      "page": null,
+      "char_offset": 229500,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "6. Things start cracking.",
+      "page": null,
+      "char_offset": 238000,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "1J.Pressler, “Former Merrill Lynch Executive Forcedto Declare Bankruptcy Justto Keepa$14Million Roof Over His Head, ”New Yorkmagazine(April9, 2010) .",
+      "page": null,
+      "char_offset": 246500,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "2Ibid.",
+      "page": null,
+      "char_offset": 247311,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "3L.Thomas Jr. , “The Taleofthe$8Million‘Bargain’Housein Greenwich, ”The New York Times(January25, 2014) .",
+      "page": null,
+      "char_offset": 248123,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "4U.Malmendier,S.Nagel, “Depression Babies:Do Macroeconomic Experiences Aﬀect Risk-Taking? ”(August2007) .",
+      "page": null,
+      "char_offset": 248934,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "5“Howlargeare401(k) s? ”Investment Company Institute(December2019) .",
+      "page": null,
+      "char_offset": 249745,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "6R.Butler, “Retirement Pay Often Is Scanty, ”The New York Times(August14, 1955) .",
+      "page": null,
+      "char_offset": 250556,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "7“Highereducationinthe United States, ”Wikipedia.",
+      "page": null,
+      "char_offset": 251367,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "8K.Bancalari, “Privatecollegetuitionisrisingfasterthaninﬂation. . . . again, ”USAToday(June9, 2017) .",
+      "page": null,
+      "char_offset": 252178,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "9“How Many People Die Rock Climbing? ”The Rockulus.",
+      "page": null,
+      "char_offset": 253000,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "10A.T.Vanderbilt II,Fortune’s Children:The Fallofthe Houseof Vanderbilt(William Morrow Paperbacks, 2012) .",
+      "page": null,
+      "char_offset": 253811,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "11R.Kinnel, “Mindthe Gap2019, ”Morningstar(August15, 2019) .",
+      "page": null,
+      "char_offset": 254622,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "12M.Desmond. “Accounting Tricks Catch Up With GE, ”Forbes(August4, 2009) .",
+      "page": null,
+      "char_offset": 255433,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "The Psychology of Money",
+      "page": null,
+      "char_offset": 255000,
+      "confidence": 1.0
+    }
+  ]
+}

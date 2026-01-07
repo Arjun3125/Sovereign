@@ -1,0 +1,82 @@
+{
+  "last_completed_window": 9,
+  "boundaries": [
+    {
+      "type": "chapter_start",
+      "title": "Foreword",
+      "page": null,
+      "char_offset": 0,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Introduction",
+      "page": null,
+      "char_offset": 0,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Communication Happens on the Listener’s Terms",
+      "page": null,
+      "char_offset": 8500,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "It’s Been Going On for a While",
+      "page": null,
+      "char_offset": 17000,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "An Introduction to the System",
+      "page": 3,
+      "char_offset": 25500,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": null,
+      "page": null,
+      "char_offset": 34000,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Let Me Tell You How Things Really Are",
+      "page": null,
+      "char_offset": 42500,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Yellow Behavior",
+      "page": null,
+      "char_offset": 51000,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Green Behavior",
+      "page": null,
+      "char_offset": 59500,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Some Simple Basics",
+      "page": null,
+      "char_offset": 68000,
+      "confidence": 1.0
+    },
+    {
+      "type": "chapter_start",
+      "title": "Blue Behavior",
+      "page": null,
+      "char_offset": 76500,
+      "confidence": 1.0
+    }
+  ]
+}
