@@ -3,7 +3,7 @@
 import sys
 sys.path.insert(0, r'c:\Users\naren\Sovereign')
 
-from cold_strategist.ingest_v2.pdf_reader import extract_text
+from cold_strategist.ingest.core.pdf_reader import extract_text
 import run_ingestion as r
 
 # Extract directly from PDF
