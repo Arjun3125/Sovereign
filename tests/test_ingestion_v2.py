@@ -14,11 +14,11 @@ import os
 import tempfile
 from unittest.mock import patch, MagicMock
 
-from cold_strategist.ingest.core.validators import validate_phase1, validate_phase2, ValidationError
-from cold_strategist.ingest.core.progress import Progress
-from cold_strategist.ingest.core.phase1_structure import phase1_structure
-from cold_strategist.ingest.core.phase2_doctrine import phase2_doctrine
-from cold_strategist.ingest.core.ingest_v2 import ingest_v2
+from cold_strategist.ingest_v2.validators import validate_phase1, validate_phase2, ValidationError
+from cold_strategist.ingest_v2.progress import Progress
+from cold_strategist.ingest_v2.phase1_structure import phase1_structure
+from cold_strategist.ingest_v2.phase2_doctrine import phase2_doctrine
+from cold_strategist.ingest_v2.ingest_v2 import ingest_v2
 
 
 class TestPhase1Validation:
