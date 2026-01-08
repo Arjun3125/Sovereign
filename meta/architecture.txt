@@ -1,0 +1,1105 @@
+├── +
+├── .github
+│   └── workflows
+│       ├── ci.yml
+│       └── policy-tests.yml
+├── .gitignore
+├── .pytest_cache
+│   ├── .gitignore
+│   ├── CACHEDIR.TAG
+│   ├── README.md
+│   └── v
+│       └── cache
+│           ├── lastfailed
+│           ├── nodeids
+│           └── stepwise
+├── books
+│   ├── 01-11-2020-084536Surrounded by Idiots - Thomas Erikson.pdf
+│   ├── 20150211-a5.pdf
+│   ├── metadata
+│   │   ├── 48_laws_of_power.yaml
+│   │   ├── art_of_seduction.yaml
+│   │   ├── art_of_war.yaml
+│   │   ├── getting_to_yes.yaml
+│   │   └── thinking_fast_and_slow.yaml
+│   ├── THE 48 LAWS OF POWER 06.pdf
+│   ├── The Laws of Human Nature.pdf
+│   ├── The Psychology of Persuasion.pdf
+│   ├── the-art-of-seduction-robert-greene.pdf
+│   ├── The-Art-of-Thinking-Clearly.pdf
+│   ├── the-psychology-of-money-by-morgan-housel 05.pdf
+│   └── The_Art_Of_War.pdf
+├── cold_strategist
+│   ├── +
+│   ├── __init__.py
+│   ├── access_control
+│   ├── app
+│   │   ├── main.py
+│   │   └── session_runner.py
+│   ├── arbitration
+│   ├── books
+│   │   ├── metadata
+│   │   │   ├── 48_laws_of_power.yaml
+│   │   │   ├── art_of_seduction.yaml
+│   │   │   ├── art_of_war.yaml
+│   │   │   ├── getting_to_yes.yaml
+│   │   │   └── thinking_fast_and_slow.yaml
+│   │   └── principles
+│   │       └── art_of_seduction.yaml
+│   ├── cli
+│   │   ├── __init__.py
+│   │   ├── args.py
+│   │   ├── dashboards.py
+│   │   ├── main.py
+│   │   ├── prompts.py
+│   │   ├── render.py
+│   │   ├── source_commands.py
+│   │   └── source_inspector.py
+│   ├── cold.py
+│   ├── cold_outcome.py
+│   ├── config
+│   │   ├── __init__.py
+│   │   ├── domains.py
+│   │   ├── llm.yaml
+│   │   ├── ministers.py
+│   │   └── thresholds.py
+│   ├── context
+│   │   ├── context_builder.py
+│   │   ├── context_schema.py
+│   │   ├── question_engine.py
+│   │   ├── salience.py
+│   │   └── validation.py
+│   ├── core
+│   │   ├── __init__.py
+│   │   ├── activation.py
+│   │   ├── analytics
+│   │   │   ├── book_reports.py
+│   │   │   ├── book_scorer.py
+│   │   │   └── book_tracker.py
+│   │   ├── authority.py
+│   │   ├── clarification
+│   │   │   ├── analytics.py
+│   │   │   ├── answer_updater.py
+│   │   │   ├── impact.py
+│   │   │   ├── llm_questioner.py
+│   │   │   ├── loop.py
+│   │   │   ├── question_planner.py
+│   │   │   ├── quick.py
+│   │   │   └── triggers.py
+│   │   ├── darbar.py
+│   │   ├── dashboard
+│   │   │   ├── __init__.py
+│   │   │   ├── emotional_outcome.py
+│   │   │   ├── minister_reliability.py
+│   │   │   ├── override_heatmap.py
+│   │   │   ├── patterns_dashboard.py
+│   │   │   ├── rag_influence.py
+│   │   │   ├── trajectory_drift.py
+│   │   │   └── war_usage_dashboard.py
+│   │   ├── debate
+│   │   │   ├── contention_rules.py
+│   │   │   ├── contradiction_detector.py
+│   │   │   ├── convergence.py
+│   │   │   ├── debate_schema.py
+│   │   │   ├── disagreement.py
+│   │   │   ├── resolution.py
+│   │   │   ├── speaking_order.py
+│   │   │   └── verdict_formatter.py
+│   │   ├── decision
+│   │   ├── decision_engine.py
+│   │   ├── disagreement.py
+│   │   ├── final_validator.py
+│   │   ├── gatekeeper.py
+│   │   ├── guards
+│   │   │   └── goal_guard.py
+│   │   ├── ingest
+│   │   │   ├── extract_pdf.py
+│   │   │   ├── ingest_books.py
+│   │   │   ├── minister_affinity.py
+│   │   │   ├── minister_affinity_tagger.py
+│   │   │   ├── persist_chunks.py
+│   │   │   ├── principle_extractor.py
+│   │   │   ├── report.py
+│   │   │   ├── semantic_slicer.py
+│   │   │   ├── structural_chunker.py
+│   │   │   ├── utils.py
+│   │   │   └── validate.py
+│   │   ├── interactive.py
+│   │   ├── knowledge
+│   │   │   ├── book_metadata_loader.py
+│   │   │   ├── ingest
+│   │   │   │   ├── chunker.py
+│   │   │   │   ├── indexer.py
+│   │   │   │   ├── loader.py
+│   │   │   │   ├── metadata_binder.py
+│   │   │   │   ├── tagger.py
+│   │   │   │   └── two_pass_chunker.py
+│   │   │   ├── minister_binding.py
+│   │   │   ├── minister_retriever.py
+│   │   │   ├── registry.py
+│   │   │   ├── schema.py
+│   │   │   ├── synthesis.py
+│   │   │   ├── synthesize
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── minister_output_validator.py
+│   │   │   │   └── minister_synthesizer.py
+│   │   │   ├── war_aware_rag_retriever.py
+│   │   │   ├── war_rag_bias.py
+│   │   │   └── war_rag_selector.py
+│   │   ├── llm
+│   │   │   ├── __init__.py
+│   │   │   ├── gateway.py
+│   │   │   ├── guardrails.py
+│   │   │   ├── ollama_client.py
+│   │   │   └── profiles.py
+│   │   ├── memory
+│   │   │   ├── __init__.py
+│   │   │   ├── confidence_adjuster.py
+│   │   │   ├── database.py
+│   │   │   ├── event_log.py
+│   │   │   ├── memory_store.py
+│   │   │   ├── outcome_tracker.py
+│   │   │   ├── override_tracker.py
+│   │   │   ├── pattern_engine.py
+│   │   │   └── post_mortem.py
+│   │   ├── ministers.py
+│   │   ├── n
+│   │   │   ├── __init__.py
+│   │   │   ├── action_posture.py
+│   │   │   ├── illusion_detector.py
+│   │   │   ├── n_engine.py
+│   │   │   ├── question_gate.py
+│   │   │   ├── trajectory_check.py
+│   │   │   ├── verdict.py
+│   │   │   └── weighting.py
+│   │   ├── orchestration
+│   │   ├── orchestrator
+│   │   │   ├── __init__.py
+│   │   │   ├── engine.py
+│   │   │   ├── mode_policy.py
+│   │   │   ├── quick_verdict.py
+│   │   │   ├── reentry_engine.py
+│   │   │   ├── reentry_rules.py
+│   │   │   ├── reentry_states.py
+│   │   │   ├── router.py
+│   │   │   ├── truth_audit.py
+│   │   │   ├── war_escalation.py
+│   │   │   ├── war_minister_bias.py
+│   │   │   ├── war_minister_selector.py
+│   │   │   ├── war_mode.py
+│   │   │   ├── war_mode_debate_wrapper.py
+│   │   │   ├── war_speech_filter.py
+│   │   │   └── war_speech_rules.py
+│   │   ├── orchestrator.py
+│   │   ├── prime_confidant.py
+│   │   ├── prompt_builder.py
+│   │   ├── prompt_context_builder.py
+│   │   ├── prompt_darbar.py
+│   │   ├── query_mode.py
+│   │   ├── rag
+│   │   │   ├── affinity.yaml
+│   │   │   ├── citation_conflicts.py
+│   │   │   ├── confident_retriever.py
+│   │   │   ├── conflict_severity.py
+│   │   │   ├── conflict_triggers.py
+│   │   │   ├── index.py
+│   │   │   ├── ingest_principles.py
+│   │   │   ├── principle_library.py
+│   │   │   ├── principle_store.py
+│   │   │   ├── scorer.py
+│   │   │   ├── scoring.py
+│   │   │   ├── shelves.py
+│   │   │   ├── trace.py
+│   │   │   ├── vector_store.py
+│   │   │   └── war_retriever.py
+│   │   ├── read_only.py
+│   │   ├── selection
+│   │   │   ├── contribution_matrix.py
+│   │   │   ├── gating.py
+│   │   │   └── minister_registry.py
+│   │   ├── silence_rules.py
+│   │   ├── state_machine.py
+│   │   ├── synthesizer.py
+│   │   ├── telemetry
+│   │   │   ├── __init__.py
+│   │   │   ├── event_types.py
+│   │   │   ├── hooks.py
+│   │   │   ├── ids.py
+│   │   │   ├── logger.py
+│   │   │   ├── models.py
+│   │   │   └── store.py
+│   │   ├── tribunal_engine.py
+│   │   ├── tribunal_rules.py
+│   │   ├── tribunal_weights.py
+│   │   ├── validator.py
+│   │   └── war
+│   │       ├── __init__.py
+│   │       ├── counter_simulator.py
+│   │       ├── damage_envelope.py
+│   │       ├── move_generator.py
+│   │       ├── opponent_model.py
+│   │       ├── war_calibration.py
+│   │       ├── war_engine.py
+│   │       ├── war_logger.py
+│   │       ├── war_memory.py
+│   │       ├── war_policy.py
+│   │       └── war_verdict.py
+│   ├── darbar
+│   │   ├── n.py
+│   │   ├── selector.py
+│   │   └── tribunal.py
+│   ├── data
+│   │   ├── affinity
+│   │   │   ├── 01-11-2020-084536surrounded_by_idiots_-_thomas_erikson.json
+│   │   │   ├── 20150211-a5.json
+│   │   │   ├── the-art-of-seduction-robert-greene.json
+│   │   │   ├── the_48_laws_of_power_06.json
+│   │   │   ├── the_laws_of_human_nature.json
+│   │   │   └── the_psychology_of_persuasion.json
+│   │   ├── books
+│   │   ├── doctrine_units.json
+│   │   ├── embedded_hashes.json
+│   │   ├── memory
+│   │   │   └── schema.sql
+│   │   ├── principles
+│   │   │   ├── 01-11-2020-084536surrounded_by_idiots_-_thomas_erikson.json
+│   │   │   ├── 20150211-a5.json
+│   │   │   ├── the-art-of-seduction-robert-greene.json
+│   │   │   ├── the_48_laws_of_power_06.json
+│   │   │   ├── the_laws_of_human_nature.json
+│   │   │   └── the_psychology_of_persuasion.json
+│   │   ├── raw_text
+│   │   │   ├── 01-11-2020-084536surrounded_by_idiots_-_thomas_erikson.json
+│   │   │   ├── 20150211-a5.json
+│   │   │   ├── the-art-of-seduction-robert-greene.json
+│   │   │   ├── the-art-of-thinking-clearly.json
+│   │   │   ├── the-psychology-of-money-by-morgan-housel_05.json
+│   │   │   ├── the_48_laws_of_power_06.json
+│   │   │   ├── the_art_of_war.json
+│   │   │   ├── the_laws_of_human_nature.json
+│   │   │   └── the_psychology_of_persuasion.json
+│   │   ├── semantic
+│   │   │   ├── 01-11-2020-084536surrounded_by_idiots_-_thomas_erikson.json
+│   │   │   ├── 20150211-a5.json
+│   │   │   ├── the-art-of-seduction-robert-greene.json
+│   │   │   ├── the_48_laws_of_power_06.json
+│   │   │   ├── the_laws_of_human_nature.json
+│   │   │   └── the_psychology_of_persuasion.json
+│   │   └── structural
+│   │       ├── 01-11-2020-084536surrounded_by_idiots_-_thomas_erikson.json
+│   │       ├── 20150211-a5.json
+│   │       ├── the-art-of-seduction-robert-greene.json
+│   │       ├── the-art-of-thinking-clearly.json
+│   │       ├── the-psychology-of-money-by-morgan-housel_05.json
+│   │       ├── the_48_laws_of_power_06.json
+│   │       ├── the_art_of_war.json
+│   │       ├── the_laws_of_human_nature.json
+│   │       └── the_psychology_of_persuasion.json
+│   ├── debate
+│   │   ├── debate_engine.py
+│   │   ├── knowledge_debate_engine.py
+│   │   └── verdicts.py
+│   ├── decision
+│   │   ├── __init__.py
+│   │   ├── phase1_analyzer.py
+│   │   └── phase3_enforcer.py
+│   ├── docker-compose.yml
+│   ├── docs
+│   ├── doctrine
+│   │   ├── __init__.py
+│   │   ├── doctrine_loader.py
+│   │   ├── locked
+│   │   │   ├── adaptation.yaml
+│   │   │   ├── conflict.yaml
+│   │   │   ├── data.yaml
+│   │   │   ├── diplomacy.yaml
+│   │   │   ├── discipline.yaml
+│   │   │   ├── grand_strategist.yaml
+│   │   │   ├── intelligence.yaml
+│   │   │   ├── legitimacy.yaml
+│   │   │   ├── n.yaml
+│   │   │   ├── narrative.yaml
+│   │   │   ├── optionality.yaml
+│   │   │   ├── power.yaml
+│   │   │   ├── psychology.yaml
+│   │   │   ├── risk_resources.yaml
+│   │   │   ├── sovereign.yaml
+│   │   │   ├── technology.yaml
+│   │   │   ├── timing.yaml
+│   │   │   ├── tribunal.yaml
+│   │   │   ├── truth.yaml
+│   │   │   └── war_mode.yaml
+│   │   ├── README.md
+│   │   ├── registry.py
+│   │   ├── schema.py
+│   │   ├── schema.yaml
+│   │   └── selector.py
+│   ├── embedding
+│   │   ├── __init__.py
+│   │   ├── core
+│   │   ├── domain_vector_manager.py
+│   │   ├── embedding_gatekeeper.py
+│   │   ├── guards
+│   │   ├── hash_registry.py
+│   │   ├── scripts
+│   │   └── vector_store
+│   ├── ingest
+│   │   ├── __init__.py
+│   │   ├── audit
+│   │   │   ├── __init__.py
+│   │   │   ├── detect.py
+│   │   │   ├── normalize.py
+│   │   │   ├── pairwise.py
+│   │   │   └── report.py
+│   │   ├── chunkers
+│   │   ├── core
+│   │   │   ├── __init__.py
+│   │   │   ├── book_aggregator.py
+│   │   │   ├── chapter_builder.py
+│   │   │   ├── cli.py
+│   │   │   ├── demo.py
+│   │   │   ├── domain_classifier.py
+│   │   │   ├── ingest.py
+│   │   │   ├── ingest_v2.py
+│   │   │   ├── INGESTION_V2.md
+│   │   │   ├── llm_client.py
+│   │   │   ├── llm_domains.py
+│   │   │   ├── llm_memory.py
+│   │   │   ├── llm_utils.py
+│   │   │   ├── memory_extractor.py
+│   │   │   ├── model_map.py
+│   │   │   ├── pdf_parser.py
+│   │   │   ├── pdf_reader.py
+│   │   │   ├── persist_book.py
+│   │   │   ├── phase1_structure.py
+│   │   │   ├── phase2_doctrine.py
+│   │   │   ├── principle_extractor.py
+│   │   │   ├── progress.py
+│   │   │   ├── progress_v2.py
+│   │   │   ├── prompts.py
+│   │   │   ├── prompts_v2.py
+│   │   │   ├── retry_controller.py
+│   │   │   ├── schemas.py
+│   │   │   ├── storage.py
+│   │   │   ├── Untitled-1.txt
+│   │   │   ├── validators.py
+│   │   │   ├── validators_v2.py
+│   │   │   └── yaml_schema.py
+│   │   ├── extractors
+│   │   ├── legacy
+│   │   │   ├── chunkers
+│   │   │   ├── core
+│   │   │   └── extractors
+│   │   ├── persist
+│   │   ├── scripts
+│   │   │   ├── __init__.py
+│   │   │   ├── audit_doctrine_embeddings.py
+│   │   │   ├── check_ch10.py
+│   │   │   ├── check_extraction.py
+│   │   │   ├── cold.py
+│   │   │   ├── cold_outcome.py
+│   │   │   ├── connect_darbar.py
+│   │   │   ├── create_doctrine_embeddings.py
+│   │   │   ├── darbar_smoke.py
+│   │   │   ├── darbar_stress.py
+│   │   │   ├── doctrine_embedding_audit.py
+│   │   │   ├── doctrine_federation.py
+│   │   │   ├── embed_all_doctrine.py
+│   │   │   ├── embed_doctrine.py
+│   │   │   ├── federation_stats.py
+│   │   │   ├── generate_telemetry_smoke.py
+│   │   │   ├── ingest_all_books.py
+│   │   │   ├── ingest_art_of_war.py
+│   │   │   ├── ingest_book.py
+│   │   │   ├── ingest_books.py
+│   │   │   ├── ingest_pipeline.py
+│   │   │   ├── interactive_test.py
+│   │   │   ├── minister_contracts.py
+│   │   │   ├── post_ingest_validation.py
+│   │   │   ├── run_debate_smoke.py
+│   │   │   ├── run_decide_from_input.py
+│   │   │   ├── run_decision_with_fake_llm.py
+│   │   │   ├── run_decision_with_ollama.py
+│   │   │   ├── run_ingestion.py
+│   │   │   ├── run_phase2_with_ollama.py
+│   │   │   ├── sovereign_cli.py
+│   │   │   ├── telemetry_smoke.py
+│   │   │   └── tribunal_silence.py
+│   │   ├── storage
+│   │   │   └── books
+│   │   │       └── art_of_war
+│   │   │           ├── doctrine_chapters
+│   │   │           │   ├── 01.json
+│   │   │           │   ├── 02.json
+│   │   │           │   ├── 03.json
+│   │   │           │   ├── 04.json
+│   │   │           │   ├── 05.json
+│   │   │           │   ├── 06.json
+│   │   │           │   ├── 07.json
+│   │   │           │   ├── 08.json
+│   │   │           │   ├── 09.json
+│   │   │           │   ├── 10.json
+│   │   │           │   ├── 11.json
+│   │   │           │   ├── 12.json
+│   │   │           │   ├── 13.json
+│   │   │           │   ├── 14.json
+│   │   │           │   ├── 15.json
+│   │   │           │   ├── 16.json
+│   │   │           │   ├── 17.json
+│   │   │           │   ├── 18.json
+│   │   │           │   ├── 19.json
+│   │   │           │   ├── 20.json
+│   │   │           │   ├── 21.json
+│   │   │           │   ├── 22.json
+│   │   │           │   ├── 23.json
+│   │   │           │   ├── 24.json
+│   │   │           │   ├── 25.json
+│   │   │           │   ├── 26.json
+│   │   │           │   ├── 27.json
+│   │   │           │   ├── 28.json
+│   │   │           │   ├── 29.json
+│   │   │           │   ├── 30.json
+│   │   │           │   ├── 31.json
+│   │   │           │   ├── 32.json
+│   │   │           │   ├── 33.json
+│   │   │           │   ├── 34.json
+│   │   │           │   └── 35.json
+│   │   │           └── raw_chapters
+│   │   │               ├── 01.txt
+│   │   │               ├── 02.txt
+│   │   │               ├── 03.txt
+│   │   │               ├── 04.txt
+│   │   │               ├── 05.txt
+│   │   │               ├── 06.txt
+│   │   │               ├── 07.txt
+│   │   │               ├── 08.txt
+│   │   │               ├── 09.txt
+│   │   │               ├── 10.txt
+│   │   │               ├── 11.txt
+│   │   │               ├── 12.txt
+│   │   │               ├── 13.txt
+│   │   │               ├── 14.txt
+│   │   │               ├── 15.txt
+│   │   │               ├── 16.txt
+│   │   │               ├── 17.txt
+│   │   │               ├── 18.txt
+│   │   │               ├── 19.txt
+│   │   │               ├── 20.txt
+│   │   │               ├── 21.txt
+│   │   │               ├── 22.txt
+│   │   │               ├── 23.txt
+│   │   │               ├── 24.txt
+│   │   │               ├── 25.txt
+│   │   │               ├── 26.txt
+│   │   │               ├── 27.txt
+│   │   │               ├── 28.txt
+│   │   │               ├── 29.txt
+│   │   │               ├── 30.txt
+│   │   │               ├── 31.txt
+│   │   │               ├── 32.txt
+│   │   │               ├── 33.txt
+│   │   │               ├── 34.txt
+│   │   │               └── 35.txt
+│   │   ├── taggers
+│   │   └── v1
+│   │       ├── __init__.py
+│   │       ├── assembler.py
+│   │       ├── chapter_detector.py
+│   │       ├── chapter_model.py
+│   │       ├── chapter_processor.py
+│   │       ├── ingest.py
+│   │       ├── llm_client.py
+│   │       ├── llm_client_mock.py
+│   │       ├── parallel_ingest.py
+│   │       ├── pdf_reader.py
+│   │       ├── phase2_extract.py
+│   │       ├── phase2_guard.py
+│   │       ├── progress.py
+│   │       ├── recovery.py
+│   │       ├── storage.py
+│   │       ├── throughput_test.py
+│   │       └── validator.py
+│   ├── ingest_run_output.txt
+│   ├── knowledge
+│   │   ├── books
+│   │   │   ├── extracted
+│   │   │   │   ├── 01-11-2020-084536Surrounded by Idiots - Thomas Erikson.txt
+│   │   │   │   ├── 20150211-a5.txt
+│   │   │   │   ├── THE 48 LAWS OF POWER 06.txt
+│   │   │   │   ├── The Laws of Human Nature.txt
+│   │   │   │   ├── The Psychology of Persuasion.txt
+│   │   │   │   ├── the-art-of-seduction-robert-greene.txt
+│   │   │   │   ├── The-Art-of-Thinking-Clearly.txt
+│   │   │   │   ├── the-psychology-of-money-by-morgan-housel 05.txt
+│   │   │   │   ├── The_Art_Of_War.txt
+│   │   │   │   └── white-nights-fiodor-dostoievski.txt
+│   │   │   ├── raw
+│   │   │   │   ├── 01-11-2020-084536Surrounded by Idiots - Thomas Erikson.pdf
+│   │   │   │   ├── 20150211-a5.pdf
+│   │   │   │   ├── sample_book.pdf
+│   │   │   │   ├── THE 48 LAWS OF POWER 06.pdf
+│   │   │   │   ├── The Laws of Human Nature.pdf
+│   │   │   │   ├── The Psychology of Persuasion.pdf
+│   │   │   │   ├── the-art-of-seduction-robert-greene.pdf
+│   │   │   │   ├── The-Art-of-Thinking-Clearly.pdf
+│   │   │   │   ├── the-psychology-of-money-by-morgan-housel 05.pdf
+│   │   │   │   ├── The_Art_Of_War.pdf
+│   │   │   │   └── white-nights-fiodor-dostoievski.pdf
+│   │   │   ├── semantic
+│   │   │   │   ├── 01-11-2020-084536Surrounded by Idiots - Thomas Erikson
+│   │   │   │   │   ├── section_000.txt
+│   │   │   │   │   └── section_001.txt
+│   │   │   │   ├── 20150211-a5
+│   │   │   │   │   └── section_000.txt
+│   │   │   │   ├── THE 48 LAWS OF POWER 06
+│   │   │   │   │   └── section_000.txt
+│   │   │   │   ├── The Laws of Human Nature
+│   │   │   │   │   ├── section_000.txt
+│   │   │   │   │   ├── section_001.txt
+│   │   │   │   │   ├── section_002.txt
+│   │   │   │   │   ├── section_003.txt
+│   │   │   │   │   ├── section_004.txt
+│   │   │   │   │   ├── section_005.txt
+│   │   │   │   │   ├── section_006.txt
+│   │   │   │   │   ├── section_007.txt
+│   │   │   │   │   ├── section_008.txt
+│   │   │   │   │   ├── section_009.txt
+│   │   │   │   │   └── section_010.txt
+│   │   │   │   ├── The Psychology of Persuasion
+│   │   │   │   │   ├── section_000.txt
+│   │   │   │   │   ├── section_001.txt
+│   │   │   │   │   ├── section_002.txt
+│   │   │   │   │   ├── section_003.txt
+│   │   │   │   │   ├── section_004.txt
+│   │   │   │   │   ├── section_005.txt
+│   │   │   │   │   ├── section_006.txt
+│   │   │   │   │   ├── section_007.txt
+│   │   │   │   │   ├── section_008.txt
+│   │   │   │   │   ├── section_009.txt
+│   │   │   │   │   ├── section_010.txt
+│   │   │   │   │   ├── section_011.txt
+│   │   │   │   │   ├── section_012.txt
+│   │   │   │   │   ├── section_013.txt
+│   │   │   │   │   ├── section_014.txt
+│   │   │   │   │   └── section_015.txt
+│   │   │   │   ├── the-art-of-seduction-robert-greene
+│   │   │   │   │   └── section_000.txt
+│   │   │   │   ├── The-Art-of-Thinking-Clearly
+│   │   │   │   │   ├── section_000.txt
+│   │   │   │   │   ├── section_001.txt
+│   │   │   │   │   └── section_002.txt
+│   │   │   │   ├── the-psychology-of-money-by-morgan-housel 05
+│   │   │   │   │   ├── section_000.txt
+│   │   │   │   │   ├── section_001.txt
+│   │   │   │   │   └── section_002.txt
+│   │   │   │   ├── The_Art_Of_War
+│   │   │   │   │   └── section_000.txt
+│   │   │   │   └── white-nights-fiodor-dostoievski
+│   │   │   │       └── section_000.txt
+│   │   │   └── structured
+│   │   │       ├── 01-11-2020-084536Surrounded by Idiots - Thomas Erikson
+│   │   │       │   ├── section_000.txt
+│   │   │       │   └── section_001.txt
+│   │   │       ├── 20150211-a5
+│   │   │       │   └── section_000.txt
+│   │   │       ├── THE 48 LAWS OF POWER 06
+│   │   │       │   └── section_000.txt
+│   │   │       ├── The Laws of Human Nature
+│   │   │       │   ├── section_000.txt
+│   │   │       │   ├── section_001.txt
+│   │   │       │   ├── section_002.txt
+│   │   │       │   ├── section_003.txt
+│   │   │       │   ├── section_004.txt
+│   │   │       │   ├── section_005.txt
+│   │   │       │   ├── section_006.txt
+│   │   │       │   ├── section_007.txt
+│   │   │       │   ├── section_008.txt
+│   │   │       │   ├── section_009.txt
+│   │   │       │   └── section_010.txt
+│   │   │       ├── The Psychology of Persuasion
+│   │   │       │   ├── section_000.txt
+│   │   │       │   ├── section_001.txt
+│   │   │       │   ├── section_002.txt
+│   │   │       │   ├── section_003.txt
+│   │   │       │   ├── section_004.txt
+│   │   │       │   ├── section_005.txt
+│   │   │       │   ├── section_006.txt
+│   │   │       │   ├── section_007.txt
+│   │   │       │   ├── section_008.txt
+│   │   │       │   ├── section_009.txt
+│   │   │       │   ├── section_010.txt
+│   │   │       │   ├── section_011.txt
+│   │   │       │   ├── section_012.txt
+│   │   │       │   ├── section_013.txt
+│   │   │       │   ├── section_014.txt
+│   │   │       │   └── section_015.txt
+│   │   │       ├── the-art-of-seduction-robert-greene
+│   │   │       │   └── section_000.txt
+│   │   │       ├── The-Art-of-Thinking-Clearly
+│   │   │       │   ├── section_000.txt
+│   │   │       │   ├── section_001.txt
+│   │   │       │   └── section_002.txt
+│   │   │       ├── the-psychology-of-money-by-morgan-housel 05
+│   │   │       │   ├── section_000.txt
+│   │   │       │   ├── section_001.txt
+│   │   │       │   └── section_002.txt
+│   │   │       ├── The_Art_Of_War
+│   │   │       │   └── section_000.txt
+│   │   │       └── white-nights-fiodor-dostoievski
+│   │   │           └── section_000.txt
+│   │   ├── ingest
+│   │   │   ├── build_shelves.py
+│   │   │   ├── extract_pdf.py
+│   │   │   ├── ingest_books.py
+│   │   │   ├── schema.py
+│   │   │   ├── semantic_slicer.py
+│   │   │   └── structural_chunker.py
+│   │   └── shelves
+│   │       ├── optionality.yaml
+│   │       ├── power.yaml
+│   │       └── psychology.yaml
+│   ├── legacy
+│   ├── llm
+│   │   ├── interface.py
+│   │   └── local_llm.py
+│   ├── memory
+│   │   ├── event_store.py
+│   │   ├── events.log
+│   │   ├── ministers.log
+│   │   ├── outcome_store.py
+│   │   ├── outcomes.log
+│   │   ├── overrides.log
+│   │   ├── pattern_store.py
+│   │   └── rag_trace.log
+│   ├── minister_constraints
+│   │   ├── conflict.json
+│   │   ├── data_signals.json
+│   │   ├── diplomacy.json
+│   │   ├── operations.json
+│   │   ├── optionality.json
+│   │   ├── power.json
+│   │   ├── psychology.json
+│   │   ├── risk.json
+│   │   ├── strategy.json
+│   │   ├── technology.json
+│   │   ├── timing.json
+│   │   └── truth.json
+│   ├── ministers
+│   │   ├── __init__.py
+│   │   ├── adaptation.py
+│   │   ├── base.py
+│   │   ├── conflict.py
+│   │   ├── data.py
+│   │   ├── diplomacy.py
+│   │   ├── discipline.py
+│   │   ├── executor.py
+│   │   ├── legitimacy.py
+│   │   ├── optionality.py
+│   │   ├── power.py
+│   │   ├── psychology.py
+│   │   ├── risk.py
+│   │   ├── strategy.py
+│   │   ├── technology.py
+│   │   ├── timing.py
+│   │   └── truth.py
+│   ├── models
+│   │   ├── __init__.py
+│   │   └── embedding_client.py
+│   ├── phase1
+│   ├── prompts
+│   ├── query
+│   │   ├── __init__.py
+│   │   ├── abstain.py
+│   │   ├── answer.py
+│   │   ├── confidence.py
+│   │   ├── engine
+│   │   ├── formatter.py
+│   │   ├── modes.py
+│   │   ├── provenance.py
+│   │   └── query_engine.py
+│   ├── quick
+│   │   └── quick_engine.py
+│   ├── rag
+│   │   ├── __init__.py
+│   │   ├── books
+│   │   │   ├── 48_laws_of_power
+│   │   │   │   ├── meta.yaml
+│   │   │   │   └── raw.txt
+│   │   │   └── art_of_seduction
+│   │   │       ├── meta.yaml
+│   │   │       └── raw.txt
+│   │   ├── index.py
+│   │   ├── ingest.py
+│   │   ├── retrieve.py
+│   │   ├── schema.py
+│   │   └── trace.py
+│   ├── retrieval
+│   │   ├── __init__.py
+│   │   ├── council_runner.py
+│   │   ├── debate_synthesizer.py
+│   │   ├── minister_retriever.py
+│   │   └── tribunal.py
+│   ├── scripts
+│   │   ├── __init__.py
+│   │   ├── audit_doctrine_embeddings.py
+│   │   ├── check_ch10.py
+│   │   ├── check_extraction.py
+│   │   ├── cold.py
+│   │   ├── cold_outcome.py
+│   │   ├── connect_darbar.py
+│   │   ├── create_doctrine_embeddings.py
+│   │   ├── darbar_smoke.py
+│   │   ├── darbar_stress.py
+│   │   ├── doctrine_embedding_audit.py
+│   │   ├── doctrine_federation.py
+│   │   ├── embed_all_doctrine.py
+│   │   ├── embed_doctrine.py
+│   │   ├── federation_stats.py
+│   │   ├── generate_telemetry_smoke.py
+│   │   ├── ingest_all_books.py
+│   │   ├── ingest_art_of_war.py
+│   │   ├── ingest_book.py
+│   │   ├── ingest_books.py
+│   │   ├── ingest_pipeline.py
+│   │   ├── interactive_test.py
+│   │   ├── minister_contracts.py
+│   │   ├── post_ingest_validation.py
+│   │   ├── run_debate_smoke.py
+│   │   ├── run_decide_from_input.py
+│   │   ├── run_decision_with_fake_llm.py
+│   │   ├── run_decision_with_ollama.py
+│   │   ├── run_ingestion.py
+│   │   ├── run_phase2_with_ollama.py
+│   │   ├── sovereign_cli.py
+│   │   ├── telemetry_smoke.py
+│   │   └── tribunal_silence.py
+│   ├── state
+│   │   ├── book_progress.json
+│   │   └── ingest_metrics.json
+│   ├── tests
+│   ├── tmp
+│   │   └── test_signal_chapter.txt
+│   ├── utils
+│   │   ├── book_metrics.py
+│   │   ├── embed_logger.py
+│   │   ├── embedding_guard.py
+│   │   ├── eta.py
+│   │   ├── guards.py
+│   │   ├── hash.py
+│   │   ├── metrics.py
+│   │   ├── monitor_progress.ps1
+│   │   ├── monitor_progress.py
+│   │   ├── progress.py
+│   │   ├── progress_core.py
+│   │   ├── progress_display.py
+│   │   ├── snapshot.py
+│   │   └── sovereign_logging.py
+│   ├── vector_store
+│   │   ├── conflict.index
+│   │   ├── conflict.meta.json
+│   │   ├── data.index
+│   │   ├── data.meta.json
+│   │   ├── diplomacy.index
+│   │   ├── diplomacy.meta.json
+│   │   ├── optionality.index
+│   │   ├── optionality.meta.json
+│   │   ├── power.index
+│   │   ├── power.meta.json
+│   │   ├── psychology.index
+│   │   ├── psychology.meta.json
+│   │   ├── risk.index
+│   │   ├── risk.meta.json
+│   │   ├── strategy.index
+│   │   ├── strategy.meta.json
+│   │   ├── timing.index
+│   │   ├── timing.meta.json
+│   │   ├── truth.index
+│   │   └── truth.meta.json
+│   └── workspace
+│       ├── 01-11-2020-084536Surrounded by Idiots - Thomas Erikson
+│       │   ├── 00_raw_text.txt
+│       │   ├── 01_chapters.json
+│       │   ├── 02_principles.json
+│       │   ├── embeddings
+│       │   │   └── doctrine_vectors.db
+│       │   ├── phase1_state.json
+│       │   └── phase2_state.json
+│       ├── 20150211-a5
+│       │   ├── 00_raw_text.txt
+│       │   ├── 01_chapters.json
+│       │   ├── 02_principles.json
+│       │   ├── embeddings
+│       │   │   └── doctrine_vectors.db
+│       │   ├── phase1_state.json
+│       │   └── phase2_state.json
+│       ├── THE 48 LAWS OF POWER 06
+│       │   ├── 00_raw_text.txt
+│       │   ├── 01_chapters.json
+│       │   ├── 02_principles.json
+│       │   ├── embeddings
+│       │   │   └── doctrine_vectors.db
+│       │   ├── phase1_state.json
+│       │   └── phase2_state.json
+│       ├── The Laws of Human Nature
+│       │   ├── 00_raw_text.txt
+│       │   ├── 01_chapters.json
+│       │   ├── 02_principles.json
+│       │   ├── embeddings
+│       │   │   ├── doctrine_vectors.db
+│       │   │   └── doctrine_vectors.db.autofix.bak
+│       │   ├── phase1_state.json
+│       │   └── phase2_state.json
+│       ├── The Psychology of Persuasion
+│       │   ├── 00_raw_text.txt
+│       │   ├── 01_chapters.json
+│       │   ├── 02_principles.json
+│       │   ├── embeddings
+│       │   │   └── doctrine_vectors.db
+│       │   ├── phase1_state.json
+│       │   └── phase2_state.json
+│       ├── the-art-of-seduction-robert-greene
+│       │   ├── 00_raw_text.txt
+│       │   ├── 01_chapters.json
+│       │   ├── 02_principles.json
+│       │   ├── embeddings
+│       │   │   └── doctrine_vectors.db
+│       │   ├── phase1_state.json
+│       │   └── phase2_state.json
+│       ├── The-Art-of-Thinking-Clearly
+│       │   ├── 00_raw_text.txt
+│       │   ├── 01_chapters.json
+│       │   ├── 02_principles.json
+│       │   ├── embeddings
+│       │   │   └── doctrine_vectors.db
+│       │   ├── phase1_state.json
+│       │   └── phase2_state.json
+│       ├── the-psychology-of-money-by-morgan-housel 05
+│       │   ├── 00_raw_text.txt
+│       │   ├── 01_chapters.json
+│       │   ├── 02_principles.json
+│       │   ├── embeddings
+│       │   │   └── doctrine_vectors.db
+│       │   ├── phase1_state.json
+│       │   └── phase2_state.json
+│       └── The_Art_Of_War
+│           ├── 00_raw_text.txt
+│           ├── 01_chapters.json
+│           ├── 02_principles.json
+│           ├── embeddings
+│           │   └── doctrine_vectors.db
+│           ├── phase1_state.json
+│           ├── phase2_state.json
+│           └── test_atomic.txt
+├── data
+│   ├── affinity
+│   │   ├── 01-11-2020-084536surrounded_by_idiots_-_thomas_erikson.json
+│   │   ├── 20150211-a5.json
+│   │   ├── the_48_laws_of_power_06.json
+│   │   ├── the_laws_of_human_nature.json
+│   │   └── the_psychology_of_persuasion.json
+│   ├── books
+│   │   └── art_of_seduction.md
+│   ├── ingest_v2
+│   │   └── books
+│   │       ├── art_of_war
+│   │       │   ├── 02.json
+│   │       │   ├── 03.json
+│   │       │   ├── 04.json
+│   │       │   ├── 06.json
+│   │       │   ├── 08.json
+│   │       │   ├── 09.json
+│   │       │   ├── 11.json
+│   │       │   ├── 12.json
+│   │       │   └── structure.json
+│   │       ├── art_of_war.yaml
+│   │       ├── art_of_war_test.yaml
+│   │       └── test_book.yaml
+│   ├── memory
+│   │   └── schema.sql
+│   ├── principles
+│   │   ├── 01-11-2020-084536surrounded_by_idiots_-_thomas_erikson.json
+│   │   ├── 20150211-a5.json
+│   │   ├── the_48_laws_of_power_06.json
+│   │   ├── the_laws_of_human_nature.json
+│   │   └── the_psychology_of_persuasion.json
+│   ├── raw_text
+│   │   ├── 01-11-2020-084536surrounded_by_idiots_-_thomas_erikson.json
+│   │   ├── 20150211-a5.json
+│   │   ├── sample_book.json
+│   │   ├── the_48_laws_of_power_06.json
+│   │   ├── the_laws_of_human_nature.json
+│   │   └── the_psychology_of_persuasion.json
+│   ├── semantic
+│   │   ├── 01-11-2020-084536surrounded_by_idiots_-_thomas_erikson.json
+│   │   ├── 20150211-a5.json
+│   │   ├── the_48_laws_of_power_06.json
+│   │   ├── the_laws_of_human_nature.json
+│   │   └── the_psychology_of_persuasion.json
+│   ├── structural
+│   │   ├── 01-11-2020-084536surrounded_by_idiots_-_thomas_erikson.json
+│   │   ├── 20150211-a5.json
+│   │   ├── sample_book.json
+│   │   ├── the_48_laws_of_power_06.json
+│   │   ├── the_laws_of_human_nature.json
+│   │   └── the_psychology_of_persuasion.json
+│   └── telemetry
+│       ├── decision_events.jsonl
+│       ├── minister_events.jsonl
+│       ├── outcome_events.jsonl
+│       ├── override_events.jsonl
+│       └── rag_traces.jsonl
+├── debate_output.txt
+├── docs
+│   └── markdown
+│       ├── ARCHITECTURE.md
+│       ├── art_of_seduction.md
+│       ├── CLEANUP_COMPLETED.md
+│       ├── COMPLETION_CHECKLIST.md
+│       ├── FINAL_CLEANUP_SUMMARY.md
+│       ├── FINAL_INDEX.md
+│       ├── FLOW_DIAGRAM.md
+│       ├── HARDENING_COMPLETION.md
+│       ├── IMMEDIATE_TODO.md
+│       ├── IMPLEMENTATION_SUMMARY.md
+│       ├── INGEST_PIPELINE_COMPLETE.md
+│       ├── INGEST_RUN_SUMMARY.md
+│       ├── INGESTION_END_TO_END_MAP.md
+│       ├── INGESTION_SUCCESS.md
+│       ├── MASTER_TEST_INVENTORY_COMPLETE.md
+│       ├── MASTER_TEST_INVENTORY_STATUS.md
+│       ├── MASTER_TEST_QUICK_REFERENCE.md
+│       ├── NAMING_CONFLICT_ANALYSIS.md
+│       ├── PROGRESS_MONITORING.md
+│       ├── PROJECT_STATUS.md
+│       ├── QUICKSTART.md
+│       ├── QUICKSTART_INGEST.md
+│       ├── README.md
+│       ├── README_TESTS.md
+│       ├── README_V2.md
+│       ├── SESSION_COMPLETION_SUMMARY.md
+│       ├── SESSION_SUMMARY.md
+│       ├── SOVEREIGN_CLI_USER_MANUAL.md
+│       ├── SOVEREIGN_STRUCTURE.md
+│       ├── START_OLLAMA.md
+│       ├── SYSTEM_OVERVIEW.md
+│       ├── TECHNICAL_SPEC.md
+│       ├── WAR_MODE_ARCHITECTURE.md
+│       ├── WAR_MODE_COMPLETION_CHECKLIST.md
+│       ├── WAR_MODE_DESIGN.md
+│       ├── WAR_MODE_FINAL_STATUS.md
+│       ├── WAR_MODE_IMPLEMENTATION_SUMMARY.md
+│       ├── WAR_MODE_INTEGRATION.md
+│       ├── WAR_MODE_RAG_IMPLEMENTATION.md
+│       ├── WAR_MODE_SELECTION.md
+│       ├── WAR_MODE_STATUS.md
+│       └── WAR_RAG_COMPLETION_STATUS.md
+├── export_architecture.py
+├── ingest_batch_report.json
+├── ingest_book.py
+├── ingest_diag.log
+├── ingest_force.log
+├── ingest_run2.log
+├── ingest_run3.log
+├── LICENSE
+├── pyproject.toml
+├── rag_store
+│   └── raw_text
+│       └── sample_book.json
+├── requirements.txt
+├── run_ingestion.py
+├── scripts
+│   ├── darbar_activation_smoke.py
+│   ├── darbar_cli.py
+│   ├── darbar_interactive_smoke.py
+│   ├── darbar_real_flow.py
+│   └── run_ingest_art_of_war.py
+├── sovereign
+│   ├── embedding
+│   └── retrieval
+├── tatus
+├── TEST FILES
+│   ├── test_clean.py
+│   ├── test_clean2.py
+│   ├── test_clean3.py
+│   ├── test_debug_clean.py
+│   ├── test_detect.py
+│   ├── test_detect2.py
+│   ├── test_hardening_fixes.py
+│   ├── test_hardening_units.py
+│   ├── test_new_clean.py
+│   ├── test_pdfplumber.py
+│   ├── test_pypdfium2.py
+│   ├── test_real_clean.py
+│   └── test_smart_clean.py
+├── tests
+│   ├── conftest.py
+│   ├── contributing_test_files.txt
+│   ├── debate
+│   │   └── test_minister_isolation.py
+│   ├── e2e
+│   │   └── test_integration.py
+│   ├── memory
+│   │   └── test_memory_authority.py
+│   ├── modes
+│   │   └── test_war_mode.py
+│   ├── run_all_layers.py
+│   ├── run_l1.py
+│   ├── run_l2.py
+│   ├── run_l3.py
+│   ├── run_l4.py
+│   ├── run_l5.py
+│   ├── test_assembly_master.py
+│   ├── test_b1_no_duplicate_embeddings.py
+│   ├── test_b2_embedding_stability.py
+│   ├── test_c1_cross_reference_integrity.py
+│   ├── test_c2_assembly_reversibility.py
+│   ├── test_cli_api_master.py
+│   ├── test_d1_query_result_stability.py
+│   ├── test_d2_threshold_enforcement.py
+│   ├── test_e1_jurisdiction_boundaries.py
+│   ├── test_e2_minister_isolation.py
+│   ├── test_embedding_master.py
+│   ├── test_f1_mandatory_escalation.py
+│   ├── test_f2_silence_validity.py
+│   ├── test_failure_modes_master.py
+│   ├── test_g1_temperature_determinism.py
+│   ├── test_g2_structured_output.py
+│   ├── test_gatekeeper_hard_allow.py
+│   ├── test_gatekeeper_hard_reject.py
+│   ├── test_h1_dry_run_no_mutation.py
+│   ├── test_h2_api_context_required.py
+│   ├── test_i1_partial_ingest_recovery.py
+│   ├── test_i2_invalid_doctrine_defense.py
+│   ├── test_ingestion_master.py
+│   ├── test_ingestion_v2.py
+│   ├── test_interactive_flow_success.py
+│   ├── test_interactive_flow_termination.py
+│   ├── test_invariants_master.py
+│   ├── test_j1_sovereign_authority_final.py
+│   ├── test_j2_regression_prevention.py
+│   ├── test_llm_guards_master.py
+│   ├── test_master_runner.py
+│   ├── test_ministers_master.py
+│   ├── test_orchestrator_phase1_integration.py
+│   ├── test_phase1_end_to_end.py
+│   ├── test_phase1_examples_contract.py
+│   ├── test_phase3_pipeline_integration.py
+│   ├── test_query_master.py
+│   ├── test_tribunal_master.py
+│   └── unit
+│       ├── test_debug_clean.py
+│       ├── test_detect2.py
+│       ├── test_indexing.py
+│       ├── test_retriever.py
+│       ├── test_similarity.py
+│       └── test_validator.py
+├── tic ingestion with atomic commits
+├── tmp
+│   └── corrupted_backup
+│       └── cold_strategist
+│           └── core
+│               └── memory
+│                   └── pattern_engine.py
+└── trash
+    └── art_of_war
+        └── raw_text.json

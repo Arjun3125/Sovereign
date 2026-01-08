@@ -1,3 +1,18 @@
+"""Canonical ingest package.
+
+Public API (single authoritative surface):
+- `pipeline.ingest`
+- `pdf.extract_pdf`
+- `chapters.detect_chapters`
+- `extract.extract_principles`
+- `validate.*`
+- `persist.*`
+"""
+
+from .pipeline import ingest
+from . import pdf, chapters, extract, validate, persist
+
+__all__ = ["ingest", "pdf", "chapters", "extract", "validate", "persist"]
 """
 Unified Ingestion Module
 
